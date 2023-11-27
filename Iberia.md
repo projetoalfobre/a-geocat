@@ -2,6 +2,7 @@
 layout: page
 permalink: /iberia/
 title: Iberia
+cover-img: /assets/img/Cantino_planisphere_(1502)~3.jpg
 ---
 
 
