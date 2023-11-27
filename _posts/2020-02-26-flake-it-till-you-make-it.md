@@ -2,7 +2,7 @@
 layout: post
 title: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
 subtitle: Site list from UNESCO World Heritage website
-cover-img: 
+cover-img: /assets/img/path.jpg
 thumbnail-img: 
 share-img: 
 tags: [wfs, gpkg, csv]
