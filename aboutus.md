@@ -2,6 +2,7 @@
 layout: page
 title: About us
 subtitle: Alfobre GeoData Catalog
+cover-img: /assets/img/Cantino_planisphere_(1502)~3.jpg
 ---
 
 # Open geodata catalog
