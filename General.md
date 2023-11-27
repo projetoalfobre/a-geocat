@@ -2,6 +2,7 @@
 layout: page
 permalink: /general/
 title: General
+cover-img: /assets/img/general.jpg
 ---
 
 
