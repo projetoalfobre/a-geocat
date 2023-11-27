@@ -2,6 +2,7 @@
 layout: page
 permalink: /portugal/
 title: Portugal
+cover-img: /assets/img/Cantino_planisphere_(1502)~3.jpg
 ---
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
