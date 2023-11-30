@@ -23,6 +23,7 @@ navbar-links:
   About Us: "aboutus"
   Categories:
     - General: "/general"
+    - Africa: "/africa"    
     - Iberia: "/iberia"
     - Portugal: "/portugal"
     - Spain: "/spain"        
