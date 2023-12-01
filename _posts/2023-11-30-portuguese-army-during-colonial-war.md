@@ -8,6 +8,8 @@ share-img:
 tags: [gpkg, wfs, portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
 author: 
 categories: [Africa]
+published: true
+status: wip
 ---
 
 ## Description
