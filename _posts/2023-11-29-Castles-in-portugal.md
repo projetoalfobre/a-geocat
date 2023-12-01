@@ -5,7 +5,7 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, portugal, medieval, osm]
+tags: [gpkg, portugal, medieval]
 author: 
 categories: [Portugal]
 ---
