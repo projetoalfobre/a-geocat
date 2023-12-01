@@ -44,7 +44,11 @@
                 Last updated {{ page.last-updated | date: date_format }}
               </span>
             {% endif %}
-            {% if page.readtime %}
+{% if page.status %}
+              STATUS <strong>{{ page.status | strip_html }}</strong><br>
+            {% endif%}
+          
+          {% if page.readtime %}
               {% include readtime.html %}
             {% endif %}
           {% endif %}
