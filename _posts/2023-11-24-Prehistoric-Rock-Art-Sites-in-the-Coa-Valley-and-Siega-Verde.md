@@ -5,9 +5,9 @@ subtitle: Site list from UNESCO World Heritage website
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [wfs, gpkg, csv]
+tags: [wfs, gpkg, csv, archaeology, portugal, spain, iberia, art, prehistory, unesco]
 author: 
-categories: [Portugal, Spain, Iberia]
+categories: [Iberia]
 ---
 
 ## Description
