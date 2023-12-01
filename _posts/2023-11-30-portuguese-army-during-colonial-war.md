@@ -9,7 +9,7 @@ tags: [gpkg, portugal, xx, contemporary, africa, colonialism, guinea-bissau, ang
 author: 
 categories: [Africa]
 published: true
-status: wip
+status: WIP
 last-updated:
 ---
 
@@ -36,4 +36,4 @@ Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeo
 ## License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
-For more information, please check [aboutus](../aboutus/)
+For more information, please check the [License and copyright text](../aboutus/).
