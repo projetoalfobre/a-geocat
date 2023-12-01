@@ -5,7 +5,7 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, wfs, portugal, africa, colonialism, guinea-bissau, angola, mozambique]
+tags: [gpkg, wfs, portugal, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
 author: 
 categories: [Africa]
 ---
