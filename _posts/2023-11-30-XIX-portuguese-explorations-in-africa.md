@@ -5,7 +5,7 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, portugal, colonialism, africa, angola, mozambique, xix]
+tags: [gpkg, portugal, routes, modern era, colonialism, africa, angola, mozambique, xix]
 author: 
 categories: [Africa]
 ---
