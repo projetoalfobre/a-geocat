@@ -1,17 +1,22 @@
 ---
 layout: post
-title: Santiago routes
-subtitle: Site list from OpenStreetMap
+title: Camino de Santiago
+subtitle: Several pilgrimage route to Santiago de Compostela
 cover-img: 
 thumbnail-img: 
 share-img: 
 tags: [gpkg, portugal, spain, iberia, routes, medieval, modern era, contemporary, religion]
 author: 
 categories: [Iberia]
+published: true
+status: done
+last-updated:
 ---
 
 ## Description
-This is a dataset with elements from OpenStreetMap tagged with *historic=archaeological_site in Iberia*.
+The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain. 
+Tradition says that the remains of the apostle Saint James are buried there.
+Dataset includes 4 pilgrimage route.
 
 ## Data
 
@@ -22,10 +27,10 @@ This is a dataset with elements from OpenStreetMap tagged with *historic=archaeo
 
 ## Harvesting
 ### Source
-[OpenStreetMap](https://www.openstreetmap.org/)
+[VagaMundos.pt](https://www.vagamundos.pt/) 
 
 ### Method
-Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeological_site in Iberia* from [OpenStreetMap](https://www.openstreetmap.org/)
+KML download - https://www.vagamundos.pt/mapas-do-caminho-de-santiago/
 
 ### Date
 9/11/2023
@@ -33,8 +38,6 @@ Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeo
 ## License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
-According to [OpenStreetMap Copyright and License](https://www.openstreetmap.org/copyright/en): 
+For more information, please check the [License and copyright text](../aboutus/).
 
- OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).
-
-You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors. If you alter or build upon our data, you may distribute the result only under the same licence.
+Original dataset by [VagaMundos.pt](https://www.vagamundos.pt/) 
