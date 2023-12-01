@@ -5,9 +5,9 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg]
+tags: [gpkg, portugal, colonialism, africa, angola, mozambique, xix]
 author: 
-categories: [Portugal, Africa]
+categories: [Africa]
 ---
 
 ## Description
