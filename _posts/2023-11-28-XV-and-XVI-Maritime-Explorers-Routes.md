@@ -1,13 +1,13 @@
 ---
 layout: post
-title: XV and XVI Maritime Explorers' Routes
+title: XV and XVI Explorers' Routes
 subtitle: Portuguese borders since roman times
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg]
+tags: [gpkg, routes, xvi, xv, history, modern age, portugal, world]
 author: 
-categories: [General, Portugal]
+categories: [General]
 ---
 
 ## Description
