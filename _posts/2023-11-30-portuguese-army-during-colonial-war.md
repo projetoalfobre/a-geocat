@@ -1,27 +1,27 @@
 ---
 layout: post
-title: Portuguese army bases in africa during colonial war
-subtitle: Site list from OpenStreetMap
+title: Portuguese militar bases during colonial war
+subtitle: Portuguese military bases in Guinea-Bissau, Angola, Mozambique during colonial war.
 cover-img: 
 thumbnail-img: 
 share-img:
-tags: [gpkg, wfs, portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
+tags: [gpkg, portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
 author: 
 categories: [Africa]
 published: true
 status: wip
-last-updated: 12-12-2023
+last-updated:
 ---
 
 ## Description
-This is a dataset with elements from OpenStreetMap tagged with *historic=archaeological_site in Iberia*.
+Location of portuguese military bases in Guinea-Bissau, Angola, Mozambique during colonial war.
 
 ## Data
 
 | Type | Link |
 | :------ |:--- |
-| Download | [geoJSON](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.geojson) [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.gpkg) |
-| Services | [WFS](https://qgiscloud.com/alfobre/OSM_historic_archaeological_site_in_Iberia/wms?SERVICE=WMS&REQUEST=GetCapabilities) |
+| Download | [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/contemporary/colonial_war/guerra_africa.gpkg) |
+| Services | none |
 
 ## Harvesting
 ### Source
@@ -36,8 +36,4 @@ Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeo
 ## License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
-According to [OpenStreetMap Copyright and License](https://www.openstreetmap.org/copyright/en): 
-
- OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).
-
-You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors. If you alter or build upon our data, you may distribute the result only under the same licence.
+For more information, please check [aboutus](../aboutus/)
