@@ -9,7 +9,7 @@ tags: [gpkg, portugal, xx, contemporary, africa, colonialism, guinea-bissau, ang
 author: 
 categories: [Africa]
 published: true
-status: WIP
+status: done
 last-updated:
 ---
 
@@ -25,13 +25,10 @@ Location of portuguese military bases in Guinea-Bissau, Angola, Mozambique durin
 
 ## Harvesting
 ### Source
-[OpenStreetMap](https://www.openstreetmap.org/)
-
-### Method
-Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeological_site in Iberia* from [OpenStreetMap](https://www.openstreetmap.org/)
+matos gomes
 
 ### Date
-9/11/2023
+2/12/2023
 
 ## License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
