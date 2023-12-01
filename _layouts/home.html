@@ -56,12 +56,12 @@ subtitle: Alfobre GeoData Catalog
         {{ post.date | date: date_format }}
       </p>
       <p class="post-meta">
-            {% if page.last-updated %}
-                Last updated {{ page.last-updated | date: date_format }}
+            {% if post.last-updated %}
+                Last updated {{ post.last-updated | date: date_format }}
               </span>
             {% endif %}
-            {% if page.status %}
-            <br><span class="post-meta">STATUS {{ page.status | strip_html }}</span>
+            {% if post.status %}
+            <br><span class="post-meta">STATUS {{ post.status | strip_html }}</span>
             {% endif%}
       </p>
       
