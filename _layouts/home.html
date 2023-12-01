@@ -55,7 +55,16 @@ subtitle: Alfobre GeoData Catalog
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         {{ post.date | date: date_format }}
       </p>
-
+      <p class="post-meta">
+            {% if page.last-updated %}
+                Last updated {{ page.last-updated | date: date_format }}
+              </span>
+            {% endif %}
+            {% if page.status %}
+            <br><span class="post-meta">STATUS {{ page.status | strip_html }}</span>
+            {% endif%}
+      </p>
+      
       {% if thumbnail != "" %}
       <div class="post-image post-image-small">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
