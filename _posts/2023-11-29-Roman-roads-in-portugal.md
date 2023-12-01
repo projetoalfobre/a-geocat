@@ -5,7 +5,7 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, wfs]
+tags: [gpkg, wfs, roman, portugal]
 author: 
 categories: [Portugal]
 ---
