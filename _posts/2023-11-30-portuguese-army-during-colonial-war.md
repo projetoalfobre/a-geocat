@@ -4,12 +4,13 @@ title: Portuguese army bases in africa during colonial war
 subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
-share-img: 
+share-img:
 tags: [gpkg, wfs, portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
 author: 
 categories: [Africa]
 published: true
 status: wip
+last-updated: 12-12-2023
 ---
 
 ## Description
