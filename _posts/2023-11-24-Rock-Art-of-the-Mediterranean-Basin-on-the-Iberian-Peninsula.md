@@ -5,7 +5,7 @@ subtitle: Site list from UNESCO World Heritage website
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [wfs, gpkg, csv]
+tags: [wfs, gpkg, csv, prehistory, archaeology, art, spain, unesco]
 author: 
 categories: [Spain]
 ---
