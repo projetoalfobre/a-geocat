@@ -5,9 +5,9 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [geojson, gpkg]
+tags: [geojson, gpkg, prehistory, archaeology, megalithic, portugal, spain, osm]
 author: 
-categories: [Portugal, Spain, Iberia]
+categories: [Iberia]
 ---
 
 ## Description
