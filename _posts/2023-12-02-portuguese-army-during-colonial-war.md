@@ -10,7 +10,7 @@ author:
 categories: [Africa]
 published: true
 status: done
-last-updated:2-12-2023
+last-updated: 2-12-2023
 ---
 
 ## Description
