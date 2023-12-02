@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portuguese explorations in Africa
+title: Portuguese XIX explorations in Africa
 subtitle: Routes of the 19th century explorations
 cover-img: 
 thumbnail-img: 
