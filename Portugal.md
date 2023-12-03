@@ -25,11 +25,11 @@ cover-img: /assets/img/portugal.jpg
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags d-flex justify-content-end">
-        <span>Tags:</span>
+        
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
-          <li class="list-inline-item">
+          <li class="list-in-line-item badge">
             <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
           </li>
           {% endfor %}
