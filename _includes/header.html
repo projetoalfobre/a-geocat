@@ -42,12 +42,12 @@
           {% endif %}
 -->
           {% if include.type == "page" %}
-          <hr class="small">
-<h2>{% if page.subtitle %}{{ page.subtitle | strip_html }}{% else %}<br/>{% endif %}</h2>
+          <hr class="small" style="color: white;">
+<h2 class="{{ include.type }}-subheading">{% if page.subtitle %}{{ page.subtitle | strip_html }}{% else %}<br/>{% endif %}</h2>
   {% endif %}
          
 {% if include.type == "post" %} 
-<h3>{% if page.subtitle %}{{ page.subtitle | strip_html }}{% else %}<br/>{% endif %}</h3>
+<h3 class="{{ include.type }}-subheading">{% if page.subtitle %}{{ page.subtitle | strip_html }}{% else %}<br/>{% endif %}</h3>
           {% endif %}        
   
           {% if include.type == "post" %} 
