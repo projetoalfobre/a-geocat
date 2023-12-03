@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Camino de Santiago
-subtitle: Several pilgrimage route to Santiago de Compostela
+title: Caminos de Santiago
+subtitle: Pilgrimage routes to Santiago de Compostela
 cover-img: 
 thumbnail-img: 
 share-img: 
@@ -10,13 +10,19 @@ author:
 categories: [Iberia]
 published: true
 status: done
-last-updated:
+last-updated: 4-12-2023
 ---
 
 ## Description
 The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain. 
-Tradition says that the remains of the apostle Saint James are buried there.
-Dataset includes 4 pilgrimage route.
+Dataset includes several pilgrimage routes:
+
+* French way (the most well-known and the most followed)
+* Portuguese way
+* Portuguese Coastal Way
+* Primitive Way
+* English Way
+
 
 ## Data
 
@@ -27,10 +33,15 @@ Dataset includes 4 pilgrimage route.
 
 ## Harvesting
 ### Source
-[VagaMundos.pt](https://www.vagamundos.pt/) 
 
 ### Method
-KML download - https://www.vagamundos.pt/mapas-do-caminho-de-santiago/
+**KML download**
+* https://www.caminodesantiago.gal/en/make-plans/the-ways/portuguese-coastal-way
+* https://www.caminodesantiago.gal/en/make-plans/the-ways/primitive-way
+* https://www.caminodesantiago.gal/en/make-plans/the-ways/french-way
+* https://www.caminodesantiago.gal/en/make-plans/the-ways/portuguese-way
+* https://www.caminodesantiago.gal/en/make-plans/the-ways/english-way
+
 
 ### Date
 9/11/2023
@@ -40,4 +51,3 @@ This dataset is licensed under the Open Data Commons Open Database License (ODbL
 
 For more information, please check the [License and copyright text](../aboutus/).
 
-Original dataset by [VagaMundos.pt](https://www.vagamundos.pt/) 
