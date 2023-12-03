@@ -29,9 +29,8 @@ text-transform: uppercase;
 }
 .badge:hover {
   background-color: #ebebec;
-color: #404040;
+color: #007bff;
 }
-
 
 .blog-tags a:hover {
    border: 1px solid transparent;
