@@ -33,14 +33,16 @@ Dataset includes several pilgrimage routes:
 
 ## Harvesting
 ### Source
+[Abert@s: Portal Open Data da Xunta de Galicia](https://abertos.xunta.gal/)
+
 
 ### Method
-**KML download**
-* https://www.caminodesantiago.gal/en/make-plans/the-ways/portuguese-coastal-way
-* https://www.caminodesantiago.gal/en/make-plans/the-ways/primitive-way
-* https://www.caminodesantiago.gal/en/make-plans/the-ways/french-way
-* https://www.caminodesantiago.gal/en/make-plans/the-ways/portuguese-way
-* https://www.caminodesantiago.gal/en/make-plans/the-ways/english-way
+**KMZ download**
+* https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0076/ruta-camino-primitivo
+* https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0391/ruta-camino-portugues-costa
+* https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0049/ruta-camino-ingles
+* https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0256/ruta-camino-portugues
+* https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0004/ruta-camino-frances
 
 
 ### Date
@@ -50,4 +52,6 @@ Dataset includes several pilgrimage routes:
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
 For more information, please check the [License and copyright text](../aboutus/).
+
+Original datasets are shared by [Turismo de Galicia](https://www.turismo.gal/) under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/)
 
