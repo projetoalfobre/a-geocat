@@ -13,3 +13,17 @@
 h1 {font-size: 1.5rem;}
 h2 {font-size: 1.2rem;}
 h3 {font-size: 1rem;}
+
+.badge {
+         color: #fff;
+  background-color: #6c757d;
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+}
