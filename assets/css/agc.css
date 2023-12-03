@@ -15,8 +15,8 @@ h2 {font-size: 1.2rem;}
 h3 {font-size: 1rem;}
 
 .badge {
-         color: #fff;
-  background-color: #6c757d;
+text-transform: uppercase;
+  background-color: #dbdee1;
   display: inline-block;
   padding: .25em .4em;
   font-size: 75%;
@@ -26,4 +26,13 @@ h3 {font-size: 1rem;}
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25rem;
+}
+.badge:hover {
+  background-color: #ebebec;
+color: #404040;
+}
+
+
+.blog-tags a:hover {
+   border: 0px solid transparent;
 }
