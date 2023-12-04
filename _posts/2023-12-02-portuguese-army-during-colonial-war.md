@@ -13,18 +13,21 @@ status: done
 last-updated: 2-12-2023
 ---
 
+
+
 ### Description
 Locations of portuguese military bases, including air force, in Guinea-Bissau, Angola, Mozambique during colonial war. 
 
 Released as done, for now. There might be some additions in the future.
 
 
-### Data
 
+### Data
 | Type | Link |
 | :------ |:--- |
 | Download | [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/contemporary/colonial_war/guerra_africa.gpkg) |
 | Services | none |
+
 
 
 ### Harvesting
