@@ -5,7 +5,7 @@ subtitle: Pilgrimage routes to Santiago de Compostela
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, portugal, spain, iberia, routes, medieval, modern era, contemporary, religion]
+tags: [portugal, spain, iberia, routes, medieval, modern era, contemporary, religion]
 author: 
 categories: [Iberia]
 published: true
@@ -31,8 +31,11 @@ Dataset includes several pilgrimage routes:
 
 | Type | Link |
 | :------ |:--- |
-| Download | [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.gpkg) |
-| Services | [WFS](https://qgiscloud.com/alfobre/OSM_historic_archaeological_site_in_Iberia/wms?SERVICE=WMS&REQUEST=GetCapabilities) |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
+| Services | <a href="https://qgiscloud.com/alfobre/OSM_historic_archaeological_site_in_Iberia/wms?SERVICE=WMS&REQUEST=GetCapabilities" class="btn btn-primary tag-btn">WFS</a> |
+
+
+
 
 
 <br/>
@@ -40,7 +43,7 @@ Dataset includes several pilgrimage routes:
 ##### Date
 3/12/2023
 
-##### Source
+##### Sources
 [Abert@s: Portal Open Data da Xunta de Galicia](https://abertos.xunta.gal/)
 
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0076/ruta-camino-primitivo

@@ -8,7 +8,7 @@
 .tag-btn{text-transform: uppercase;
          font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
-/*
+/* 
 .page-heading h2{font-size: 3rem;}
 h1 {font-size: 1.5rem;}
 h2 {font-size: 1.2rem;}
@@ -45,3 +45,34 @@ font-weight: 400;
 font-weight: 300!important;
 font-size: 1.2rem!important;
 }
+
+td a {
+  text-transform: uppercase;
+    background-color: #dbdee1;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+  }
+
+
+  td a:hover {
+    background-color: #ebebec;
+  color: #007bff;
+  }
+  
+
+  body {
+    font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+  }
+
+  .post-preview .post-meta, .post-heading .post-meta {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9375rem;
+  }

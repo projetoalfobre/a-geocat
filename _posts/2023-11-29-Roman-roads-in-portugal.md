@@ -1,40 +1,49 @@
 ---
 layout: post
 title: Roman roads in Portugal 
-subtitle: Site list from OpenStreetMap
+subtitle: Roman road system in present-day Portugal
 cover-img: 
 thumbnail-img: 
 share-img: 
 tags: [gpkg, wfs, roman, portugal, routes]
 author: 
 categories: [Portugal]
+status: done
+last-updated: 04-12-2023
 ---
 
 ## Description
-This is a dataset with elements from OpenStreetMap tagged with *historic=archaeological_site in Iberia*.
+Road network used in the Roman period. Dataset includes routes but also information about milestones, bridges, vici, villae, etc.
 
-## Data
+
+
+<br />
+### Data
 
 | Type | Link |
 | :------ |:--- |
-| Download | [geoJSON](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.geojson) [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.gpkg) |
-| Services | [WFS](https://qgiscloud.com/alfobre/OSM_historic_archaeological_site_in_Iberia/wms?SERVICE=WMS&REQUEST=GetCapabilities) |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/roman/roads/viasromanas/xxx.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
+| Services | none |
 
-## Harvesting
-### Source
-[OpenStreetMap](https://www.openstreetmap.org/)
+<br />
+### Harvesting
+##### Date
+12/4/2019
 
-### Method
-Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeological_site in Iberia* from [OpenStreetMap](https://www.openstreetmap.org/)
+NOTE This data was collected a while ago. Meanwhile, the original data has been updated several times.
 
-### Date
-9/11/2023
 
-## License and copyright
+
+##### Sources
+Original data was harvested from website [Vias Romanas em Portugal (Portuguese roman ways)](https://viasromanas.pt/)
+
+
+<br />
+### License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
-According to [OpenStreetMap Copyright and License](https://www.openstreetmap.org/copyright/en): 
+For more information, please check the [License and copyright text](../aboutus/).
 
- OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).
+According to [Vias Romanas em Portugal (Portuguese roman ways)](https://viasromanas.pt/vrhist.html), please cite original source as...
 
-You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors. If you alter or build upon our data, you may distribute the result only under the same licence.
+Soutinho, P. (2019), Vias Romanas em Portugal; available at www.viasromanas.pt (Retrieved 12-04-2019)

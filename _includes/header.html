@@ -58,11 +58,11 @@
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
-                Last updated {{ page.last-updated | date: date_format }}
+                Last updated on {{ page.last-updated | date: date_format }}
               </span>
             {% endif %}
             {% if page.status %}
-            <br><span class="post-meta">STATUS {{ page.status | strip_html }}</span><br>
+            <br><span class="post-meta">Status: {{ page.status | strip_html }}</span><br>
             {% endif%}
           
           {% if page.readtime %}

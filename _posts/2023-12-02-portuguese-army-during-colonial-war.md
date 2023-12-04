@@ -5,7 +5,7 @@ subtitle: Portuguese military bases in Guinea-Bissau, Angola and Mozambique duri
 cover-img: 
 thumbnail-img: 
 share-img:
-tags: [gpkg, portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
+tags: [portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
 author: 
 categories: [Africa]
 published: true
@@ -26,14 +26,18 @@ Released as done, for now. There might be some additions in the future.
 
 | Type | Link |
 | :------ |:--- |
-| Download | [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/contemporary/colonial_war/guerra_africa.gpkg) |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/modern/africa_explorations_xix/pinto_ivens_capelo/exploracoes_africanas.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
 | Services | none |
+
+ 
 
 
 <br/>
 ### Harvesting
+
 ##### Date
 2/12/2023
+
 ##### Sources
 AFONSO, Aniceto & GOMES, Carlos Matos (2000). Guerra Colonial. Lisboa: Editorial Notícias.
 

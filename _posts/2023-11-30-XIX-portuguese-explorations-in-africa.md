@@ -5,7 +5,7 @@ subtitle: Routes of 19th century portuguese explorations in Africa
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, portugal, routes, modern era, colonialism, africa, angola, mozambique, xix]
+tags: [portugal, routes, modern era, colonialism, africa, angola, mozambique, xix]
 author: 
 categories: [Africa]
 published: true
@@ -23,8 +23,10 @@ Routes taken by Serpa Pinto and Capelo and Ivens expeditions, portuguese explore
 
 | Type | Link |
 | :------ |:--- |
-| Download | [GPKG](httpsic_archaeological_site_in_Iberia.gpkg) |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/modern_era/xxx/xxx.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
 | Services | none |
+
+
 
 
 <br/>
@@ -32,8 +34,10 @@ Routes taken by Serpa Pinto and Capelo and Ivens expeditions, portuguese explore
 ##### Date
 30/11/2023
 
-##### Source
+##### Sources
+Esboço das Principais viagens de penetração e exploração do continente Africano Feitas pelos portugueses no século XIX. In Baião, A., Cidade, H. & Murias, M. (Eds.) (1940). História da Expansão Portuguesa no Mundo. Vol. III (p. 332). Lisboa : Editorial Atica. Disponível em https://www2.senado.leg.br/bdsf/handle/id/220524
 
+Taquelim, M. (2008). Desenhando em viagem - Os cadernos de África de Roberto Ivens. Mestrado em Desenho. Lisboa: Faculdade de Belas-Artes da Universidade de Lisboa. Disponível em https://core.ac.uk/download/pdf/12423224.pdf
 
 <br/>
 ### License and copyright

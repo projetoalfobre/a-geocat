@@ -2,6 +2,7 @@
 layout: page
 permalink: /spain/
 title: Spain
+subtitle: Datasets related to Spain or spanish context
 cover-img: /assets/img/spain.jpg
 ---
 
@@ -22,7 +23,14 @@ cover-img: /assets/img/spain.jpg
             <div class="entry-date post-meta">
                 <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
             </div>
-
+     <div class="post-meta">
+            {% if post.last-updated %}
+                Last updated: {{ post.last-updated | date: date_format }}
+            {% endif %}
+            {% if post.status %}
+            <br><span class="post-meta">Status: {{ post.status | strip_html }}</span>
+            {% endif%}
+      </div>
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags d-flex justify-content-end">

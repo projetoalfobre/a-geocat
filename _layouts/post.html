@@ -7,7 +7,7 @@ layout: base
 <div class="row" style="margin-top: -2em;">
 <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
     <div class="post-categories blog-tags" style="margin-bottom: -1.5em;">
-        <span>Categories:</span>
+        <span>Category:</span>
         {% if post %}
           {% assign categories = post.categories %}
         {% else %}
@@ -20,16 +20,23 @@ layout: base
       </div>
 
       {% if page.tags.size > 0 %}
-        <div class="blog-tags">
-                  <span>Tags:</span>
+      <div class="blog-tags d-flex justify-content-end">
+        <span>Tags: &nbsp;</span>
+        <ul class="d-inline list-inline" role="list">
           {% for tag in page.tags %}
-            <a class="badge" href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          <li class="list-inline-item badge">
+            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+          </li>
           {% endfor %}
-        </div>
+        </ul>
+      </div>
       {% endif %}
 </div>
 </div>
 </div>
+
+
+
 
 
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">

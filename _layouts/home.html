@@ -8,7 +8,7 @@ subtitle: Alfobre GeoData Catalog
 
 {% assign posts = paginator.posts | default: site.posts %}
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+<!-- role="list" needed so that `list-style: none` in  Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <li class="post-preview  card shadow-sm p-3 mb-5">
@@ -57,14 +57,13 @@ subtitle: Alfobre GeoData Catalog
       </p>
       <p class="post-meta">
             {% if post.last-updated %}
-                Last updated {{ post.last-updated | date: date_format }}
+            <span>Last updated: {{ post.last-updated | date: date_format }}
               </span>
             {% endif %}
             {% if post.status %}
-            <br><span class="post-meta">STATUS {{ post.status | strip_html }}</span>
+            <br><span class="post-meta">Status: {{ post.status | strip_html }}</span>
             {% endif%}
       </p>
-      
       {% if thumbnail != "" %}
       <div class="post-image post-image-small">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
@@ -81,7 +80,7 @@ subtitle: Alfobre GeoData Catalog
         </a>
       </div>
       {% endif %}
-<!--
+
       <div class="post-entry">
         {% assign excerpt_length = site.excerpt_length | default: 50 %}
         {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
@@ -90,7 +89,7 @@ subtitle: Alfobre GeoData Catalog
           <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
       </div>
--->
+
       {% endunless %}
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}

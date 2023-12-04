@@ -2,6 +2,7 @@
 layout: page
 permalink: /africa/
 title: Africa
+subtitle: Datasets related to the African continent
 cover-img: /assets/img/africa.jpg
 ---
 
@@ -13,7 +14,6 @@ cover-img: /assets/img/africa.jpg
     <div class="tag-entry post-preview card shadow-sm p-3 mb-5">
               <a href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
-
         {% if post.subtitle %}
           <h3 class="post-subtitle">
           {{ post.subtitle | strip_html }}
@@ -23,8 +23,14 @@ cover-img: /assets/img/africa.jpg
             <div class="entry-date post-meta">
                 <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
             </div>
-
-
+     <div class="post-meta">
+            {% if post.last-updated %}
+                Last updated: {{ post.last-updated | date: date_format }}
+            {% endif %}
+            {% if post.status %}
+            <br><span class="post-meta">Status: {{ post.status | strip_html }}</span>
+            {% endif%}
+      </div>
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags d-flex justify-content-end">
               <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
@@ -37,9 +43,6 @@ cover-img: /assets/img/africa.jpg
         </ul>
       </div>
       {% endif %}
-        
-        
-        
         </div>
     {%- endfor -%}
 </div>
