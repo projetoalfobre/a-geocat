@@ -21,7 +21,7 @@ layout: base
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
-          
+                  <span>Tags:</span>
           {% for tag in page.tags %}
             <a class="badge" href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
