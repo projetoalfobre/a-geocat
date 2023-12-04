@@ -32,7 +32,7 @@ cover-img: /assets/img/portugal.jpg
             {% endif%}
       </div>
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
-      <div class="blog-tags d-flex justify-content-end">
+      <div class="blog-tags d-flex">
         
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
