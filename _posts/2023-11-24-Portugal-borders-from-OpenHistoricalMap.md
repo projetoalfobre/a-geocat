@@ -5,9 +5,12 @@ subtitle: Portuguese borders since roman times
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [wfs, gpkg, geojson, portugal, spain, iberia, borders, medieval, roman, ohm]
+tags: [portugal, spain, iberia, borders, medieval, roman, ohm]
 author: 
 categories: [Portugal]
+published: false
+status: done
+last-updated: 4-12-2023
 ---
 
 ## Description

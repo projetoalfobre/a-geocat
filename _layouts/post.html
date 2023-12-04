@@ -2,6 +2,7 @@
 layout: base
 ---
 
+<div class="header-post">
 {% include header.html type="post" %}
 <div class="container-md">
 <div class="row" style="margin-top: -2em;">
@@ -20,7 +21,7 @@ layout: base
       </div>
 
       {% if page.tags.size > 0 %}
-      <div class="blog-tags d-flex justify-content-end">
+      <div class="blog-tags d-flex">
         <span>Tags: &nbsp;</span>
         <ul class="d-inline list-inline" role="list">
           {% for tag in page.tags %}
@@ -31,6 +32,7 @@ layout: base
         </ul>
       </div>
       {% endif %}
+</div>
 </div>
 </div>
 </div>

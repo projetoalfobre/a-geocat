@@ -5,38 +5,43 @@ subtitle: Site list from UNESCO World Heritage website
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [wfs, gpkg, csv, prehistory, archaeology, art, spain, unesco]
+tags: [prehistory, archaeology, art, spain, unesco]
 author: 
 categories: [Spain]
+published: true
+status: done
+last-updated: 04-12-2023
 ---
 
 ## Description
 List of Rock Art Sites of the Mediterranean Basin on the Iberian Peninsula from UNESCO World Heritage website.
-
+ 
 
 ## Data
 
 | Type | Link |
 | :------ |:--- |
-| Download | [CSV](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/prehistory/rock_art/Rock_Art_of_the_Mediterranean_Basin_on_the_Iberian_Peninsula.csv) [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/prehistory/rock_art/Rock_Art_of_the_Mediterranean_Basin_on_the_Iberian_Peninsula.gpkg) |
-| Services | [WFS](https://qgiscloud.com/alfobre/Rock_Art_of_the_Mediterranean__Basin_on_the_Iberian_Peninsula/wms?SERVICE=WMS&REQUEST=GetCapabilities) |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Spain/prehistory/rock_art/Rock_Art_of_the_Mediterranean_Basin_on_the_Iberian_Peninsula.csv" class="btn btn-primary tag-btn">CSV</a> <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Spain/prehistory/rock_art/Rock_Art_of_the_Mediterranean_Basin_on_the_Iberian_Peninsula.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
+| Services | <a href="https://qgiscloud.com/alfobre/Rock_Art_of_the_Mediterranean__Basin_on_the_Iberian_Peninsula/wms?SERVICE=WMS&REQUEST=GetCapabilities" class="btn btn-primary tag-btn">WFS</a> |
 
 
 
-## Harvesting
-### Source
-UNESCO World Heritage website:  [Rock Art of the Mediterranean Basin on the Iberian Peninsula](https://whc.unesco.org/en/list/874/maps/)
+<br />
 
-### Method
-Web scrapping. Copy/paste from website.
-
-### Date
+### Harvesting
+##### Date
 22/11/2023
 
-## License and copyright
+##### Source
+Web scrapping. Copy/paste from UNESCO World Heritage website:  [Rock Art of the Mediterranean Basin on the Iberian Peninsula](https://whc.unesco.org/en/list/874/maps/)
+
+<br />
+
+### License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
-Original data from [UNESCO’s World Heritage Centre](https://whc.unesco.org/)
+For more information, please check the [License and copyright text](../aboutus/).
 
-* [UNESCO - World Heritage Online Map Platform](https://whc.unesco.org/en/list/) 
-* [UNESCO’s World Heritage Centre - Terms / Policies](https://whc.unesco.org/en/disclaimer/) 
+Original data from [UNESCO’s World Heritage Centre](https://whc.unesco.org/) - [UNESCO - World Heritage Online Map Platform](https://whc.unesco.org/en/list/). 
+
+[UNESCO’s World Heritage Centre - Terms / Policies](https://whc.unesco.org/en/disclaimer/) 

@@ -31,8 +31,8 @@ Dataset includes several pilgrimage routes:
 
 | Type | Link |
 | :------ |:--- |
-| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
-| Services | <a href="https://qgiscloud.com/alfobre/OSM_historic_archaeological_site_in_Iberia/wms?SERVICE=WMS&REQUEST=GetCapabilities" class="btn btn-primary tag-btn">WFS</a> |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/Santiago-pilgrimage-route/caminos_santiago.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
+| Services | none |
 
 
 
@@ -53,11 +53,17 @@ Dataset includes several pilgrimage routes:
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0004/ruta-camino-frances
 
 
+[VagaMundos.pt](https://www.vagamundos.pt/) 
+* https://www.vagamundos.pt/mapas-do-caminho-de-santiago/ (Caminho Francês de Santiago, Caminho Português de Santiago, Caminho Português da Costa e Caminho de Santiago Primitivo)
+
+
+
 <br/>
 ### License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
 For more information, please check the [License and copyright text](../aboutus/).
 
-Original datasets are shared by [Turismo de Galicia](https://www.turismo.gal/) under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/)
+Original datasets shared by [Turismo de Galicia](https://www.turismo.gal/) under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/)
 
+Original datasets shared by [VagaMundos.pt](https://www.vagamundos.pt/) 

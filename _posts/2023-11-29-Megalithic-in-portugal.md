@@ -5,9 +5,12 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, wfs, megalithic, prehistory, portugal, archaeology]
+tags: [megalithic, prehistory, portugal, archaeology]
 author: 
 categories: [Portugal]
+published: false
+status: done
+last-updated: 4-12-2023
 ---
 
 ## Description

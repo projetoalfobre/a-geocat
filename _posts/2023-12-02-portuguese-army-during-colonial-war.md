@@ -26,7 +26,7 @@ Released as done, for now. There might be some additions in the future.
 
 | Type | Link |
 | :------ |:--- |
-| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/modern/africa_explorations_xix/pinto_ivens_capelo/exploracoes_africanas.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/contemporary/colonial_war/guerra_africa.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
 | Services | none |
 
  

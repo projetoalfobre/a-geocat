@@ -5,9 +5,12 @@ subtitle: Portuguese borders since roman times
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, wfs, routes, xvi, xv, medieval, modern era, portugal, world]
+tags: [routes, xvi, xv, medieval, modern era, portugal, world]
 author: 
 categories: [General]
+published: false
+status: done
+last-updated: 4-12-2023
 ---
 
 ## Description

@@ -5,9 +5,12 @@ subtitle: Site list from OpenStreetMap
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [gpkg, medieval, portugal, archaeology, burial]
+tags: [medieval, portugal, archaeology, burial]
 author: 
 categories: [Portugal]
+published: false
+status: done
+last-updated: 4-12-2023
 ---
 
 ## Description

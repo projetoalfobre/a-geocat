@@ -23,7 +23,7 @@ Routes taken by Serpa Pinto and Capelo and Ivens expeditions, portuguese explore
 
 | Type | Link |
 | :------ |:--- |
-| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/modern_era/xxx/xxx.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
+| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/modern/africa_explorations_xix/pinto_ivens_capelo/exploracoes_africanas.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
 | Services | none |
 
 

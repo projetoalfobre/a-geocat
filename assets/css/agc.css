@@ -76,3 +76,23 @@ td a {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 0.9375rem;
   }
+
+
+  table tr td :first-child, table tr td :last-child {
+    margin-bottom: 0.3125rem!important;
+  }
+
+
+  .blog-post :first-child {
+    margin-top: 0.3125rem;
+  }
+
+table tr td :first-child {
+    margin-top: 0.3125rem;
+  }
+
+.header-post {
+  background-color: #ebebec;
+
+
+}
