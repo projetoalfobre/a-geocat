@@ -13,30 +13,33 @@ status: done
 last-updated: 4-12-2023
 ---
 
-## Description
+### Description
 The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain. 
 Dataset includes several pilgrimage routes:
 
-* French way (the most well-known and the most followed)
+* French way
 * Portuguese way
 * Portuguese Coastal Way
 * Primitive Way
 * English Way
 
 
-## Data
+### Data
 
 | Type | Link |
 | :------ |:--- |
-| Download | [geoJSON](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.geojson) [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.gpkg) |
+| Download | [GPKG](https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/archaeological/openstreetmap/OSM_historic_archaeological_site_in_Iberia.gpkg) |
 | Services | [WFS](https://qgiscloud.com/alfobre/OSM_historic_archaeological_site_in_Iberia/wms?SERVICE=WMS&REQUEST=GetCapabilities) |
 
-## Harvesting
-### Source
+
+### Harvesting
+##### Date
+3/12/2023
+
+##### Source
 [Abert@s: Portal Open Data da Xunta de Galicia](https://abertos.xunta.gal/)
 
-
-### Method
+##### Method
 **KMZ download**
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0076/ruta-camino-primitivo
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0391/ruta-camino-portugues-costa
@@ -44,9 +47,6 @@ Dataset includes several pilgrimage routes:
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0256/ruta-camino-portugues
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0004/ruta-camino-frances
 
-
-### Date
-9/11/2023
 
 ## License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
