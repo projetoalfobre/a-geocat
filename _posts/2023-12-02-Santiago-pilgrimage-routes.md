@@ -13,6 +13,8 @@ status: done
 last-updated: 4-12-2023
 ---
 
+
+<br/>
 ### Description
 The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain. 
 Dataset includes several pilgrimage routes:
@@ -24,6 +26,7 @@ Dataset includes several pilgrimage routes:
 * English Way
 
 
+<br/>
 ### Data
 
 | Type | Link |
@@ -32,6 +35,7 @@ Dataset includes several pilgrimage routes:
 | Services | [WFS](https://qgiscloud.com/alfobre/OSM_historic_archaeological_site_in_Iberia/wms?SERVICE=WMS&REQUEST=GetCapabilities) |
 
 
+<br/>
 ### Harvesting
 ##### Date
 3/12/2023
@@ -39,8 +43,6 @@ Dataset includes several pilgrimage routes:
 ##### Source
 [Abert@s: Portal Open Data da Xunta de Galicia](https://abertos.xunta.gal/)
 
-##### Method
-**KMZ download**
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0076/ruta-camino-primitivo
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0391/ruta-camino-portugues-costa
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0049/ruta-camino-ingles
@@ -48,7 +50,8 @@ Dataset includes several pilgrimage routes:
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0004/ruta-camino-frances
 
 
-## License and copyright
+<br/>
+### License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
 
 For more information, please check the [License and copyright text](../aboutus/).
