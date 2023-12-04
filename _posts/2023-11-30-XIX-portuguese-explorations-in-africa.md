@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Portuguese XIX explorations in Africa
-subtitle: Routes of the 19th century explorations
+title: Expeditions of Serpa Pinto and Capelo and Ivens  
+subtitle: Exploration routes of the 19th century portuguese expeditions in Africa 
 cover-img: 
 thumbnail-img: 
 share-img: 
@@ -10,25 +10,28 @@ author:
 categories: [Africa]
 published: true
 status: done
-last-updated:
+last-updated: 04-12-2023
 ---
 
-## Description
-Routes taken by portuguese explorers of the 19th century to cross Central Africa from coast to coast.
+### Description
+Routes taken by Serpa Pinto and Capelo and Ivens expeditions. Portuguese explorers of the 19th century that crossed Central Africa from coast to coast, from Angola to Mozambique.
 
-## Data
+
+### Data
 
 | Type | Link |
 | :------ |:--- |
 | Download | [GPKG](httpsic_archaeological_site_in_Iberia.gpkg) |
 | Services | none |
 
-## Harvesting
-### Source
+
+### Harvesting
+##### Date
+30/11/2023
+
+##### Source
 
 
-### Date
-9/11/2023
 
 ## License and copyright
 This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
