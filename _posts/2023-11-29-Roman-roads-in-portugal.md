@@ -41,9 +41,7 @@ Original data was harvested from website [Vias Romanas em Portugal (Portuguese r
 
 <br />
 ### License and copyright
-This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
-
-For more information, please check the [License and copyright text](../aboutus/).
+{% include license.html %}
 
 According to [Vias Romanas em Portugal (Portuguese roman ways)](https://viasromanas.pt/vrhist.html), please cite original source as...
 
