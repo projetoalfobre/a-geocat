@@ -64,4 +64,4 @@ table tr td :first-child {margin-top: 0.3125rem;}
 .blog-post h3 {text-transform: uppercase;}
 
 .filter-svg{filter: invert(24%) sepia(0%) saturate(0%) hue-rotate(178deg) brightness(96%) contrast(90%);}
-.filter-svg:hover{filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(268deg) brightness(97%) contrast(107%);}
+.filter-svg:hover{filter: invert(29%) sepia(75%) saturate(3215%) hue-rotate(202deg) brightness(105%) contrast(107%);}
