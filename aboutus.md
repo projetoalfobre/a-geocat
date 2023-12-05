@@ -5,8 +5,7 @@ subtitle: An open geospatial data catalog
 cover-img: /assets/img/aboutus.jpg
 ---
 
-## A-GeoCat
-<img class="aboutus_logo" src="{{ "/assets/img/geocat.svg" | relative_url }}">
+## <img class="aboutus_logo" src="{{ "/assets/img/geocat.svg" | relative_url }}"> A-GeoCat
 A-GeoCat (Alfobre GeoData Catalog) is an open geospatial data catalog. It's a project from [Alfobre](http://alfobre.com). Our datasets are licensed under the Open Data Commons Open Database License (ODbL) by Alfobre.com
 
 ### Alfobre
