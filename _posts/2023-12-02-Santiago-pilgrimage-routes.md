@@ -60,10 +60,10 @@ Dataset includes several pilgrimage routes:
 
 <br/>
 ### License and copyright
-This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
-
-For more information, please check the [License and copyright text](../aboutus/).
 
 Original datasets shared by [Turismo de Galicia](https://www.turismo.gal/) under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/)
 
 Original datasets shared by [VagaMundos.pt](https://www.vagamundos.pt/) 
+
+{% include license.html %}
+[Turismo de Galicia](https://www.turismo.gal/), [VagaMundos.pt](https://www.vagamundos.pt/) 
