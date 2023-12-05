@@ -20,13 +20,11 @@ Unless otherwise indicated, these datasets are available under <a href="http://c
 
 You are free to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes, as long as you give credit to the creator(s).
 
-PLEASE NOTE that some datasets are a derivative work, this means that they are build upon data originally created or made available by others. This CC licence applies only to our original contributions and does not supersede any rights retained by the authors ofthe original data.
+**PLEASE NOTE** Some datasets are a derivative work, this means that they are build upon data originally created or made available by others. This CC licence applies only to our original contributions and does not supersede any rights retained by the authors of the original data.
 
 ### Attribution text
 
-Please check for the attribution text in each dataset page.
-
-We recommend:
+Please check for the attribution text in each dataset page. We recommend:
 
 *name of dataset* by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/
 
