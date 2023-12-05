@@ -60,6 +60,8 @@ table tr td :first-child {margin-top: 0.3125rem;}
 .btn-sq-sm {width: 50px !important; height: 50px !important; font-size: 10px;}
 .btn-sq-xs {width: 25px !important; height: 25px !important; padding:2px;}
 
+.filter-svg{filter: invert(24%) sepia(0%) saturate(0%) hue-rotate(178deg) brightness(96%) contrast(90%);}
+
 .btn-sq:hover {color: #007bff!important; background-color: #e2e6ea!important;}
 
 .blog-post h3 {text-transform: uppercase;}
