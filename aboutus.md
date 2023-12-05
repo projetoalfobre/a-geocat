@@ -32,7 +32,7 @@ If possible, you might also use the URLs as links like this:
 
 *name of dataset* by [A-GeoCat](https://projetoalfobre.github.io/a-geocat/) (Alfobre.com), available under a Creative Commons [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0)
 
-When applicable, derivative work, please also credit original data sources.
+When applicable, derivative work, please also credit original data sources by adding "This work is based on... "
 
 ### Copyright infringement
 If you believe that copyrighted material has been inappropriately added to these datasets or this site, please contact us.
