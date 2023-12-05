@@ -9,7 +9,7 @@ cover-img: /assets/img/aboutus.jpg
 A-GeoCat (Alfobre GeoData Catalog) is an open geospatial data catalog. It's a project from [Alfobre](http://alfobre.com). Our datasets are licensed under the Open Data Commons Open Database License (ODbL) by Alfobre.com
 
 ### Alfobre
-[Alfobre](http://alfobre.com) (pt for seedbed) is a collective devoted to the creation or development of projects, strategies and products in the Heritage field.
+[Alfobre](http://alfobre.com) (pt for seedbed) is a collective devoted to the creation and development of projects, strategies and products in the Heritage field.
 
  
 
