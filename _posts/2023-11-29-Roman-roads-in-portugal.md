@@ -43,6 +43,8 @@ Original data was harvested from website [Vias Romanas em Portugal (Portuguese r
 ### License and copyright
 {% include license.html %}
 
+This work is based on....
+
 According to [Vias Romanas em Portugal (Portuguese roman ways)](https://viasromanas.pt/vrhist.html), please cite original source as...
 
 Soutinho, P. (2019), Vias Romanas em Portugal; available at www.viasromanas.pt (Retrieved 12-04-2019)
