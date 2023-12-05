@@ -46,6 +46,4 @@ Bases aéreas portuguesas no Ultramar. (2017-01-22). In Wikipedia. [https://pt.w
 
 <br/>
 ### License and copyright
-This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
-
-For more information, please check the [License and copyright text](../aboutus/).
+{% include home_cat.html %}
