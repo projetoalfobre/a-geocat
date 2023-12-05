@@ -43,7 +43,7 @@ Original data was harvested from website [Vias Romanas em Portugal (Portuguese r
 ### License and copyright
 {% include license.html %}
 
-Original datasets by Soutinho, P. (2019), Vias Romanas em Portugal; available at [www.viasromanas.pt)](https://viasromanas.pt/) (Retrieved 12-04-2019)
+Original datasets by Soutinho, P. (2019), Vias Romanas em Portugal; available at [www.viasromanas.pt](https://viasromanas.pt/) (Retrieved 12-04-2019)
 
 ##### Attribution text
-*{{ page.title | strip_html }}* by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/. This work is based on data by Soutinho, P. (2019), Vias Romanas em Portugal; available at [www.viasromanas.pt)](https://viasromanas.pt/) 
+*{{ page.title | strip_html }}* by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/. This work is based on data by Soutinho, P. (2019), Vias Romanas em Portugal; available at [www.viasromanas.pt](https://viasromanas.pt/) 
