@@ -5,15 +5,7 @@
 
 .blog-tags{text-transform: uppercase;}
 .linked-section{text-transform: uppercase;}
-.tag-btn{text-transform: uppercase;
-         font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        }
-/* 
-.page-heading h2{font-size: 3rem;}
-h1 {font-size: 1.5rem;}
-h2 {font-size: 1.2rem;}
-h3 {font-size: 1rem;}
-*/
+.tag-btn{text-transform: uppercase; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 
 .badge {
 text-transform: uppercase;
@@ -28,23 +20,15 @@ text-transform: uppercase;
   vertical-align: baseline;
   border-radius: .25rem;
 }
-.badge:hover {
-  background-color: #ebebec;
-color: #007bff;
-}
+.badge:hover {background-color: #ebebec; color: #007bff;}
 
 .blog-tags a:hover {
    border: 1px solid transparent;
 border-color: #ebebec;
 color: #007bff;
 }
-.page-subheading {
-font-weight: 400;
-}
-.post-subheading {
-font-weight: 300!important;
-font-size: 1.2rem!important;
-}
+.page-subheading {font-weight: 400;}
+.post-subheading {font-weight: 300!important; font-size: 1.2rem!important;}
 
 td a {
   text-transform: uppercase;
@@ -61,38 +45,16 @@ td a {
   }
 
 
-  td a:hover {
-    background-color: #ebebec;
-  color: #007bff;
-  }
-  
+td a:hover {background-color: #ebebec; color: #007bff;}
+body {font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1rem;}
+.post-preview .post-meta, .post-heading .post-meta {font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 0.9375rem;}
+table tr td :first-child, table tr td :last-child {margin-bottom: 0.3125rem!important;}
+.blog-post :first-child {margin-top: 0.3125rem;}
+table tr td :first-child {margin-top: 0.3125rem;}
+.header-post {background-color: #ebebec;}
 
-  body {
-    font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1rem;
-  }
+.btn-sq-lg {width: 150px !important; height: 150px !important;}
+.btn-sq {width: 100px !important; height: 100px !important; font-size: 10px;}
+.btn-sq-sm {width: 50px !important; height: 50px !important; font-size: 10px;}
+.btn-sq-xs {width: 25px !important; height: 25px !important; padding:2px;}
 
-  .post-preview .post-meta, .post-heading .post-meta {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 0.9375rem;
-  }
-
-
-  table tr td :first-child, table tr td :last-child {
-    margin-bottom: 0.3125rem!important;
-  }
-
-
-  .blog-post :first-child {
-    margin-top: 0.3125rem;
-  }
-
-table tr td :first-child {
-    margin-top: 0.3125rem;
-  }
-
-.header-post {
-  background-color: #ebebec;
-
-
-}
