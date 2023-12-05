@@ -46,4 +46,5 @@ Bases aéreas portuguesas no Ultramar. (2017-01-22). In Wikipedia. [https://pt.w
 
 <br/>
 ### License and copyright
-{% include home_cat.html %}
+
+{% include license.html %}
