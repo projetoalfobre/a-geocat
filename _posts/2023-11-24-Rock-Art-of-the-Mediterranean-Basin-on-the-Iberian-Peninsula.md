@@ -38,9 +38,7 @@ Web scrapping. Copy/paste from UNESCO World Heritage website:  [Rock Art of the 
 <br />
 
 ### License and copyright
-This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
-
-For more information, please check the [License and copyright text](../aboutus/).
+{% include license.html %}
 
 Original data from [UNESCO’s World Heritage Centre](https://whc.unesco.org/) - [UNESCO - World Heritage Online Map Platform](https://whc.unesco.org/en/list/). 
 
