@@ -3,7 +3,7 @@ layout: post
 title: Portuguese bases during colonial war
 subtitle: Portuguese military bases in Guinea-Bissau, Angola and Mozambique during colonial war.
 cover-img: 
-thumbnail-img: 
+thumbnail-img: /assets/img/path.jpg
 share-img:
 tags: [portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
 author: 
