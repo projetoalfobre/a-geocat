@@ -41,6 +41,4 @@ Taquelim, M. (2008). Desenhando em viagem - Os cadernos de África de Roberto Iv
 
 <br/>
 ### License and copyright
-This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
-
-For more information, please check the [License and copyright text](../aboutus/).
+{% include license.html %}
