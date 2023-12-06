@@ -33,11 +33,13 @@ Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeo
 ### Date
 9/11/2023
 
-## License and copyright
-This dataset is licensed under the Open Data Commons Open Database License (ODbL) by A-GeoCat (Alfobre.com).
+<br/>
 
-According to [OpenStreetMap Copyright and License](https://www.openstreetmap.org/copyright/en): 
+### License and copyright
 
- OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).
+{% include license.html %}
 
-You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors. If you alter or build upon our data, you may distribute the result only under the same licence.
+Original datasets by © [OpenStreetMap](https://www.openstreetmap.org/), licensed under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) (ODbL) by the [OpenStreetMap Foundation](https://osmfoundation.org/) (OSMF).
+
+##### Attribution text
+*{{ page.title | strip_html }}* by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/. This work is based on data by © [OpenStreetMap](https://www.openstreetmap.org/) - openstreetmap.org/copyright

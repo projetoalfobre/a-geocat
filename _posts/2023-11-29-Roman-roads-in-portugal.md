@@ -9,16 +9,19 @@ tags: [roman, portugal, routes]
 author: 
 categories: [Portugal]
 published: true
-status: done
+status: closed
 last-updated: 04-12-2023
 ---
+
 <br />
+
 ### Description
 Road network used in the Roman period. Dataset includes routes but also information about milestones, bridges, vici, villae, etc.
 
 
 
 <br />
+
 ### Data
 
 | Type | Link |
@@ -27,19 +30,19 @@ Road network used in the Roman period. Dataset includes routes but also informat
 | Services | none |
 
 <br />
+
 ### Harvesting
 ##### Date
 12/4/2019
 
 NOTE This data was collected a while ago. Meanwhile, the original data has been updated several times.
 
-
-
 ##### Sources
 Original data was harvested from website [Vias Romanas em Portugal (Portuguese roman ways)](https://viasromanas.pt/)
 
 
 <br />
+
 ### License and copyright
 {% include license.html %}
 

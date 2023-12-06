@@ -9,14 +9,16 @@ tags: [portugal, spain, iberia, routes, medieval, modern era, contemporary, reli
 author: 
 categories: [Iberia]
 published: true
-status: done
+status: closed
 last-updated: 4-12-2023
 ---
 
 
 <br/>
+
 ### Description
 The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain. 
+
 Dataset includes several pilgrimage routes:
 
 * French way
@@ -27,6 +29,7 @@ Dataset includes several pilgrimage routes:
 
 
 <br/>
+
 ### Data
 
 | Type | Link |
@@ -39,6 +42,7 @@ Dataset includes several pilgrimage routes:
 
 
 <br/>
+
 ### Harvesting
 ##### Date
 3/12/2023
@@ -59,13 +63,12 @@ Dataset includes several pilgrimage routes:
 
 
 <br/>
+
 ### License and copyright
 {% include license.html %}
 
-Original datasets by [Turismo de Galicia](https://www.turismo.gal/) under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/)
-
-Original datasets by [VagaMundos.pt](https://www.vagamundos.pt/) 
+Original datasets by [Turismo de Galicia](https://www.turismo.gal/) under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/) & by [VagaMundos.pt](https://www.vagamundos.pt/) 
 
 ##### Attribution text
-*{{ page.title | strip_html }}* by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/. This work is based on data by [Turismo de Galicia](https://www.turismo.gal/) shared under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/) & [VagaMundos.pt](https://www.vagamundos.pt/) 
+*{{ page.title | strip_html }}* by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/. This work is based on data by [Turismo de Galicia](https://www.turismo.gal/) shared under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/) & by [VagaMundos.pt](https://www.vagamundos.pt/) 
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Portuguese military bases in Africa during colonial war
-subtitle: Portuguese military bases in Guinea-Bissau, Angola and Mozambique during colonial war.
+title: African ports of the transatlantic slave trade
+subtitle: Ports that exported enslaved people from Africa to America
 cover-img: 
 thumbnail-img: 
 share-img:
-tags: [portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
+tags: [africa, colonialism, xvi, xvii, xviii, xix, routes, modern era, north america, south america]
 author: 
 categories: [Africa]
-published: true
+published: false
 status: done
 last-updated: 2-12-2023
 ---
