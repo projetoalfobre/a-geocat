@@ -15,6 +15,7 @@ last-updated: 2-12-2023
 
 
 <br/>
+
 ### Description
 Locations of portuguese military bases, including air force, in Guinea-Bissau, Angola, Mozambique during colonial war. 
 
@@ -22,6 +23,7 @@ Released as done, for now. There might be some additions in the future.
 
 
 <br/>
+
 ### Data
 
 | Type | Link |
@@ -29,22 +31,23 @@ Released as done, for now. There might be some additions in the future.
 | Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/contemporary/colonial_war/guerra_africa.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
 | Services | none |
 
- 
 
 
 <br/>
+
 ### Harvesting
 
 ##### Date
 2/12/2023
 
 ##### Sources
-AFONSO, Aniceto & GOMES, Carlos Matos (2000). Guerra Colonial. Lisboa: Editorial Notícias.
 
-Bases aéreas portuguesas no Ultramar. (2017-01-22). In Wikipedia. [https://pt.wikipedia.org/wiki/Bases_aéreas_portuguesas_no_Ultramar](https://pt.wikipedia.org/wiki/Bases_a%C3%A9reas_portuguesas_no_Ultramar)
+[Slave Voyages - Trans-Atlantic slave trade database](https://www.slavevoyages.org/)
+
 
 
 <br/>
+
 ### License and copyright
 
 {% include license.html %}

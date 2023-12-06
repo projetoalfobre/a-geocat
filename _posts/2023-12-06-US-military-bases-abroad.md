@@ -39,9 +39,9 @@ Released as done, for now. There might be some additions in the future.
 2/12/2023
 
 ##### Sources
-AFONSO, Aniceto & GOMES, Carlos Matos (2000). Guerra Colonial. Lisboa: Editorial Notícias.
 
-Bases aéreas portuguesas no Ultramar. (2017-01-22). In Wikipedia. [https://pt.wikipedia.org/wiki/Bases_aéreas_portuguesas_no_Ultramar](https://pt.wikipedia.org/wiki/Bases_a%C3%A9reas_portuguesas_no_Ultramar)
+https://aura.american.edu/articles/online_resource/Lists_of_U_S_Military_Bases_Abroad_1776-2021/23857422
+
 
 
 <br/>
