@@ -2,6 +2,7 @@
 layout: post
 title: US military bases overseas
 subtitle: US military bases around the world
+date: 06-12-2023
 cover-img: 
 thumbnail-img: 
 share-img:
@@ -10,7 +11,7 @@ author:
 categories: [General]
 published: false
 status: done
-last-updated: 2-12-2023
+last-updated: 06-12-2023
 ---
 
 
