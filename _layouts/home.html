@@ -12,7 +12,7 @@ subtitle: Alfobre GeoData Catalog
 <!--{% assign posts = paginator.posts | default: site.posts %}-->
 
 
-{% assign posts = paginator.posts | sort: last-updated %}
+{% assign posts = paginator.posts | sort: "last-updated" %}
 
 
 <!-- role="list" needed so that `list-style: none` in  Safari doesn't remove the list semantics -->
