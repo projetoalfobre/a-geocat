@@ -2,6 +2,7 @@
 layout: post
 title: Southwest Script inscriptions
 subtitle: Sites where southwest script inscriptions have been found
+date: 06-12-2023
 cover-img: 
 thumbnail-img: 
 share-img:
@@ -10,7 +11,7 @@ author:
 categories: [Iberia]
 published: false
 status: wip
-last-updated: 2-12-2023
+last-updated: 06-12-2023
 ---
 
 
