@@ -66,3 +66,6 @@ table tr td :first-child {margin-top: 0.3125rem;}
 .filter-svg{filter: invert(24%) sepia(0%) saturate(0%) hue-rotate(178deg) brightness(96%) contrast(90%);}
 .filter-svg:hover{filter: invert(29%) sepia(75%) saturate(3215%) hue-rotate(202deg) brightness(105%) contrast(107%);}
 .aboutus_logo{width: 2em}
+
+
+#nav-search-input{border-radius: .5rem;}
