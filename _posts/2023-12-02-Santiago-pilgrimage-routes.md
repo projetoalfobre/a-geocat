@@ -2,6 +2,7 @@
 layout: post
 title: Caminos de Santiago
 subtitle: Pilgrimage routes to Santiago de Compostela
+date: 02-12-2023
 cover-img: 
 thumbnail-img: 
 share-img: 
