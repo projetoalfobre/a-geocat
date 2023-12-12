@@ -2,7 +2,7 @@
 layout: post
 title: Expeditions of Serpa Pinto and Capelo and Ivens  
 subtitle: Routes of 19th century portuguese explorations in Africa 
-date:30-11-2023
+date: 30-11-2023
 cover-img: 
 thumbnail-img: 
 share-img: 
