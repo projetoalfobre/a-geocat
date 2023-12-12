@@ -2,6 +2,7 @@
 layout: post
 title: Megalithic in Portugal
 subtitle: Site list from OpenStreetMap
+date: 29-11-2023
 cover-img: 
 thumbnail-img: 
 share-img: 
@@ -10,7 +11,7 @@ author:
 categories: [Portugal]
 published: false
 status: done
-last-updated: 4-12-2023
+last-updated: 04-12-2023
 ---
 
 ## Description
