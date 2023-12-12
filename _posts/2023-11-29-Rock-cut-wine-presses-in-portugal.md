@@ -2,7 +2,7 @@
 layout: post
 title: Rock-cut wine presses in Portugal
 subtitle: Site list from OpenStreetMap
-date:29-11-2023
+date: 29-11-2023
 cover-img: 
 thumbnail-img: 
 share-img: 
