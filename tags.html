@@ -47,6 +47,9 @@ cover-img: /assets/img/tags.jpg
                 {% if post.status %}
                 <br><span class="post-meta">Status: {{ post.status | strip_html }}</span>
                 {% endif%}
+                {% if post.version %}
+                <br><span class="post-meta">Version: {{ post.version | strip_html }}</span>
+                {% endif%}             
           </div>
             </div>
         {%- endfor -%}
