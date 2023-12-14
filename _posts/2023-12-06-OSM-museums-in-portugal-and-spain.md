@@ -3,7 +3,6 @@ layout: post
 title: OpenStreetMap - Museums in Portugal and Spain
 subtitle: Site list from OpenStreetMap
 date: 06-12-2023
-version: 0.1
 cover-img: 
 thumbnail-img: 
 share-img:
@@ -11,6 +10,7 @@ tags: [portugal, spain, contemporary, xxi, art, archaeology]
 author: 
 categories: [Iberia]
 published: true
+version: 0.1
 status: cleanup and fixing needed
 last-updated: 6-12-2023
 ---
