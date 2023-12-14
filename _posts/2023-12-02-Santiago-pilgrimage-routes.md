@@ -10,6 +10,7 @@ tags: [portugal, spain, iberia, routes, medieval, modern era, contemporary, reli
 author: 
 categories: [Iberia]
 published: true
+version: 1.0
 status: closed
 last-updated: 4-12-2023
 ---
