@@ -10,6 +10,7 @@ tags: [roman, portugal, routes]
 author: 
 categories: [Portugal]
 published: true
+version: 1.0
 status: closed
 last-updated: 04-12-2023
 ---
