@@ -65,7 +65,7 @@
             <br><span class="post-meta">Status: {{ page.status | strip_html }}</span><br>
             {% endif%}
             {% if page.version %}
-            <br><span class="post-meta">Version: {{ page.version | strip_html }}</span><br>
+            <span class="post-meta">Version: {{ page.version | strip_html }}</span><br>
             {% endif%}          
           {% if page.readtime %}
               {% include readtime.html %}
