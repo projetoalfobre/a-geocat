@@ -3,6 +3,7 @@ layout: post
 title: OpenStreetMap - Museums in Portugal and Spain
 subtitle: Site list from OpenStreetMap
 date: 06-12-2023
+version: 0.1
 cover-img: 
 thumbnail-img: 
 share-img:
