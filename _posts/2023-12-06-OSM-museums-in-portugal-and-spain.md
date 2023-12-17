@@ -6,10 +6,11 @@ date: 06-12-2023
 cover-img: 
 thumbnail-img: 
 share-img:
-tags: [portugal, spain, contemporary, xxi, art, archaeology]
+tags: [portugal, spain, iberia, contemporary, xxi, art, archaeology]
 author: 
 categories: [Iberia]
 published: true
+version: 0.1
 status: cleanup and fixing needed
 last-updated: 6-12-2023
 ---

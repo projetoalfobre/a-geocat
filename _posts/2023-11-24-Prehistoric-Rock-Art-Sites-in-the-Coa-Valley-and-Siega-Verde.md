@@ -10,6 +10,7 @@ tags: [archaeology, portugal, spain, iberia, art, prehistory, unesco]
 author: 
 categories: [Iberia]
 published: true
+version: 1.0
 status: closed
 last-updated: 04-12-2023
 ---

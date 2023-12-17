@@ -66,6 +66,9 @@ subtitle: Alfobre GeoData Catalog
             {% if post.status %}
             <br><span class="post-meta">Status: {{ post.status | strip_html }}</span>
             {% endif%}
+            {% if post.version %}
+            <br><span class="post-meta">Version: {{ post.version | strip_html }}</span>
+            {% endif%}        
       </p>
       {% if thumbnail != "" %}
       <div class="post-image post-image-small">

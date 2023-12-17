@@ -10,6 +10,7 @@ tags: [portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, m
 author: 
 categories: [Africa]
 published: true
+version: 0.1
 status: open, updates when possible
 last-updated: 11-12-2023
 ---
