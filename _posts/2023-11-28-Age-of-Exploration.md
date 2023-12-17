@@ -1,7 +1,7 @@
 ---
 layout: post
-title: XV and XVI Explorers' Routes
-subtitle: Portuguese borders since roman times
+title: Age of Exploration
+subtitle: XV and XVI Explorers' Routes
 date: 29-11-2023
 cover-img: 
 thumbnail-img: 
@@ -15,8 +15,8 @@ last-updated: 04-12-2023
 ---
 
 ## Description
-Portuguese borders since roman times.
-
+Age of Exploration
+XV and XVI Explorers' Routes
 ## Data
  
 | Type | Link |
