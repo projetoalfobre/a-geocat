@@ -21,7 +21,6 @@ Unless otherwise indicated, these datasets are available under <a href="http://c
 **PLEASE NOTE** Some datasets are a derivative work, this means that they are build upon data originally created or made available by others. This CC licence applies only to our original contributions and does not supersede any rights retained by the authors of the original data.
 
 ### Attribution text
-
 Please check for the attribution text in each dataset page. We recommend:
 
 *name of dataset* by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/
@@ -36,3 +35,6 @@ When applicable, derivative work, please also credit original data sources by ad
 
 ### Copyright infringement
 If you believe that copyrighted material has been inappropriately added to these datasets or this site, please contact us.
+
+## Additional info 
+A-GeoCat website is powered by GitHub Pages, Jekyll and a customized version of Beautiful Jekyll.
