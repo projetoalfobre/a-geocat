@@ -8,7 +8,7 @@ cover-img: /assets/img/aboutus.jpg
 ## <img class="aboutus_logo" src="{{ "/assets/img/geocat.svg" | relative_url }}"> A-GeoCat
 A-GeoCat (Alfobre GeoData Catalog) is an open geospatial data catalog and it's a project from [Alfobre](http://alfobre.com). 
 
-Our datasets are licensed by by Alfobre.com under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>.
+Our datasets are licensed by Alfobre.com under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>.
 
 ### Alfobre
 [Alfobre](http://alfobre.com) (pt for seedbed) is a collective devoted to the creation and development of projects, strategies and products in the Heritage field.
