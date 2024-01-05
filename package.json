@@ -1,0 +1,31 @@
+{
+  "name": "jkan",
+  "description": "A lightweight, backend-free open data portal, powered by Jekyll",
+  "scripts": {
+    "watch": "parcel watch scripts/src/index.js --dist-dir _site/scripts/dist",
+    "build": "parcel build scripts/src/index.js --dist-dir scripts/dist"
+  },
+  "targets": {
+    "modern": {
+      "engines": {
+        "browsers": "defaults"
+      }
+    }
+  },
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/timwis/jkan/issues"
+  },
+  "homepage": "https://github.com/timwis/jkan",
+  "devDependencies": {
+    "core-js": "^3.29.0",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.11"
+  }
+}

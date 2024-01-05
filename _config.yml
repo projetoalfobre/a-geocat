@@ -1,0 +1,108 @@
+title: JKAN
+greeting: Welcome to JKAN
+description: A lightweight, backend-free open data portal, powered by Jekyll.
+logo: /img/jkan.png
+hero_image: /img/homepage-hero.jpg
+strict_front_matter: true
+
+# Site theme
+jkan_theme: Default
+
+# Dataset schema
+schema: default
+
+# Nav bar
+navigation:
+  - title: Datasets
+    url: /datasets/
+  - title: Organizations
+    url: /organizations/
+  - title: Categories
+    url: /categories/
+
+# Collections
+collections:
+  datasets:
+    output: true
+    permalink: /datasets/:path/
+  organizations:
+    output: true
+    permalink: /organizations/:path/
+  dataset_categories:
+    output: true
+    permalink: /categories/:path/
+
+# Collections (cont'd)
+defaults:
+  - scope:
+      path: ""
+      type: dataset_categories
+    values:
+      layout: category
+  - scope:
+      path: ""
+      type: datasets
+    values:
+      layout: dataset
+      category: Uncategorized
+      organization: N/A
+  - scope:
+      path: ""
+      type: organizations
+    values:
+      layout: organization
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Google Analytics
+google_analytics:
+  enabled: false
+  code: "UA-XXXXXX-1"
+
+# US Digital Analytics Program - https://analytics.usa.gov
+digital_analytics_program:
+  enabled: false
+  agency: ""
+  subagency: ""
+
+# Hypothesis.io - Annotator
+hypothesis:
+  enabled: false
+
+# Twitter
+twittercard:
+  enabled: false
+  username: "@"
+
+# Open Graph
+opengraph:
+  enabled: true
+
+# Plugins
+plugins:
+  - "jekyll-github-metadata"
+  - "jekyll-relative-links"
+  - "jekyll-paginate-v2"
+  - "jekyll-titles-from-headings"
+
+# Exclude these files from the build
+exclude:
+  - CONTRIBUTING.md
+  - Dockerfile
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - scripts/src
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE
+  - netlify
+  - netlify.toml
+  - .parcel-cache
+  - docs
