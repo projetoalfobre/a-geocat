@@ -1,0 +1,94 @@
+input[data-hook=search-query] {
+  display: none;
+}
+
+.js input[data-hook=search-query] {
+  display: block;
+}
+
+.js .js-hidden { display: none; }
+.js-shown { display: none; }
+.js .js-shown { display: block; }
+
+.organization-thumbnail img,
+.category-thumbnail img {
+  width: 64px;
+}
+
+dataset {
+  display: block;
+  border-bottom: 1px #d6d6d6 solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.list-group-item-truncate {
+  display: inline-block;
+  line-height: 1;
+  width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.resource-description {
+  font-size: 90%;
+}
+
+.datasets-count {
+  display: inline-block;
+}
+
+.resource-details,
+.show-resource-details {
+  display: none;
+}
+
+.show-resource-details {
+  font-size: 80%;
+}
+
+.card-grid {
+  text-align: justify;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+}
+
+.card-grid-organizations {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.card-grid .card-grid-item:hover {
+  background-color: #abccfb;
+}
+
+.card-grid .card-grid-item {
+  min-width: 150px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-grid .card-grid-item img {
+  height: 80px;
+  margin: auto;
+}
+
+.card-grid a {
+  color: #000;
+}
+
+.view-code-link {
+  margin: 1em;
+}
+
+.breadcrumb {
+  background-color: #e9ecef;
+  padding: .75rem 1rem;
+  border-radius: .25rem;
+}
