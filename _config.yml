@@ -1,6 +1,6 @@
-title: Portada
-greeting: Bem-vind@s ao Portada
-description: PORTAl de Dados Abertos
+title: PORTADA
+greeting: Bem-vind@s ao PORTADA
+description: Um protótipo de <b>PORTA</b>l de <b>D</b>ados <b>A</b>bertos
 logo: /img/jkan.png
 hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
@@ -13,7 +13,7 @@ schema: default
 
 # Nav bar
 navigation:
-  - title: Datasets
+  - title: Dados
     url: /datasets/
   - title: Organizações
     url: /organizations/
