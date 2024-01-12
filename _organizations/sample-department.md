@@ -1,5 +1,5 @@
 ---
-title: Sample Department
-description: This is an example department provided with a new installation of JKAN
-logo: https://i.imgur.com/mrC5xVT.png
+title: Instituto de Investigação A
+description: Texto descritivo do Instituto de Investigação A
+logo: img/organizations/iia.jpg
 ---
