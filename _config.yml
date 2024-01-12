@@ -1,8 +1,8 @@
 title: Portada
 greeting: Bem-vind@s ao Portada
 description: PORTAl de Dados Abertos
-logo: /img/jkan.png
-hero_image: /img/homepage-hero.jpg
+logo: img/jkan.png
+hero_image: img/homepage-hero.jpg
 strict_front_matter: true
 
 # Site theme
