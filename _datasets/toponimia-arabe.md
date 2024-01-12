@@ -1,7 +1,7 @@
 ---
 schema: default
-title: Sample dataset
-organization: Sample Department
+title: Toponímia Árabe
+organization: Instituto de Investigação A
 notes: This is an example dataset that comes with a new installation of JKAN
 resources:
   - name: Air Monitoring Stations CSV
