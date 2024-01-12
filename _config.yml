@@ -6,7 +6,7 @@ hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
 
 # Site theme
-jkan_theme: Default
+jkan_theme: Lumen
 
 # Dataset schema
 schema: Flatly
