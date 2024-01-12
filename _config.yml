@@ -9,7 +9,7 @@ strict_front_matter: true
 jkan_theme: Default
 
 # Dataset schema
-schema: default
+schema: Flatly
 
 # Nav bar
 navigation:
