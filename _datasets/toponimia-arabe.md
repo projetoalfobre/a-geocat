@@ -2,7 +2,9 @@
 schema: default
 title: Toponímia Árabe
 organization: Instituto de Investigação A
-notes: This is an example dataset that comes with a new installation of JKAN [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)](https://doi.org/10.5281/zenodo.10535242)
+notes: This is an example dataset that comes with a new installation of JKA
+doiurl: https://doi.org/10.5281/zenodo.10535242
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
 resources:
   - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
     url: 'https://doi.org/10.5281/zenodo.10535242'
