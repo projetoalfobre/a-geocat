@@ -19,6 +19,8 @@ navigation:
     url: /regions/
   - title: Categories
     url: /categories/
+  - title: About Us
+    url: /aboutus/    
 
 # Collections
 collections:
