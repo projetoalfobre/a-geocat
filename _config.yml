@@ -1,15 +1,15 @@
 title: A-GeoCat
 greeting: Bem-vind@s ao PORTADA
 description: Um protótipo de <b>PORTA</b>l de <b>D</b>ados <b>A</b>bertos
-logo: /img/jkan.png
+logo: /img/geocat.svg
 hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
 
 # Site theme
-jkan_theme: Darkly
+jkan_theme: Default
 
 # Dataset schema
-schema: Darkly
+schema: Default
 
 # Nav bar
 navigation:
