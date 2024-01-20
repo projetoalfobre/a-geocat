@@ -1,5 +1,5 @@
 ---
-title: Departamento de Investigação B
+title: Africa
 description: Texto descritivo do Departamento de Investigação B
-logo: img/organizations/dib.jpg
+logo: img/África.svg
 ---
