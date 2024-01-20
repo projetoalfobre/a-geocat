@@ -15,8 +15,8 @@ schema: Default
 navigation:
   - title: Data
     url: /datasets/
-  - title:
-    url:
+  - title: Regions
+    url: /organizations/
   - title: Categories
     url: /categories/
 
