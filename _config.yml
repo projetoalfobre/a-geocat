@@ -1,4 +1,4 @@
-title: PORTADA
+title: A-GeoCat
 greeting: Bem-vind@s ao PORTADA
 description: Um protótipo de <b>PORTA</b>l de <b>D</b>ados <b>A</b>bertos
 logo: /img/jkan.png
@@ -13,11 +13,11 @@ schema: Flatly
 
 # Nav bar
 navigation:
-  - title: Dados
+  - title: Data
     url: /datasets/
-  - title: Organizações
-    url: /organizations/
-  - title: Categorias
+  - title:
+    url:
+  - title: Categories
     url: /categories/
 
 # Collections
