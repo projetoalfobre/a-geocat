@@ -6,10 +6,10 @@ hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
 
 # Site theme
-jkan_theme: Lumen
+jkan_theme: Darkly
 
 # Dataset schema
-schema: Flatly
+schema: Darkly
 
 # Nav bar
 navigation:
