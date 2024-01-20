@@ -44,6 +44,14 @@ resource_fields:
       - kmz
       - shp
       - xml
+      - gpkg
+      - wfs
+      - wms
+      - webmap
+      - geotiff
+      - gml
+      - jpg
+      
 
 organization_fields:
   - field_name: title
