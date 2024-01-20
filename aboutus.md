@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About us
 subtitle: An open geospatial data catalog
 cover-img: /assets/img/aboutus.jpg
