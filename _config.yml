@@ -16,7 +16,7 @@ navigation:
   - title: Data
     url: /datasets/
   - title: Regions
-    url: /organizations/
+    url: /regions/
   - title: Categories
     url: /categories/
 
