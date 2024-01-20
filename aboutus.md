@@ -1,8 +1,10 @@
 ---
 layout: default
 title: About us
-subtitle: An open geospatial data catalog
+subtitle: An open geospatial data cata
 cover-img: /assets/img/aboutus.jpg
+layout: default
+permalink: /aboutus/
 ---
 
 ### <img class="aboutus_logo" src="{{ "/assets/img/geocat.svg" | relative_url }}"> A-GeoCat
