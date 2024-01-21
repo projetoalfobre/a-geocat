@@ -1,5 +1,5 @@
 ---
 title: Africa
-description: Texto descritivo do Departamento de Investigação B
+description: 
 logo: img/regions/africa.svg
 ---
