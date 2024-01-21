@@ -12,7 +12,7 @@ resources:
     format: gpkg
 license: 'http://creativecommons.org/licenses/by/4.0'
 category:
-  - Education
+  - Modern
   - Economy
 maintainer: Tim Wisniewski
 maintainer_email: tim@timwis.com
