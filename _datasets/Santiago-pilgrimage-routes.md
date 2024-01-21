@@ -7,7 +7,7 @@ doiurl: https://doi.org/10.5281/zenodo.10547237
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547237.svg
 resources:
   - name: caminos_santiago.gpkg
-    url: 
+    url: ''
     format: gpkg
 license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'category:
   - Routes
