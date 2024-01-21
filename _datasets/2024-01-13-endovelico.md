@@ -1,38 +1,24 @@
 ---
-layout: post
+schema: default
 title: Portuguese Archaeology Database
-subtitle: Georeferenced archaeological sites in Portugal
-date: 13-01-2024
-cover-img: 
-thumbnail-img: 
-share-img:
-tags: [portugal, archaeology, contemporary, medieval, modern era, prehistory, roman, islam, art]
-author: 
-categories: [Portugal]
+organization: Portugal
+notes: Georeferenced archaeological sites in Endovelico, the Portuguese Archaeology Database.
+date: 10-01-2024
+doiurl: https://doi.org/10.5281/zenodo.10535242
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+resources:
+  - name: Alfobre endovelico
+    url: '[https://doi.org/10.5281/zenodo.10535242](https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/endovelico_dgpc.gpkg)'
+    format: gpkg
+license: 'http://creativecommons.org/licenses/by/4.0'
+category:
+  - Education
+  - Economy
+maintainer: Tim Wisniewski
+maintainer_email: tim@timwis.com
 published: true
-status: done
-last-updated: 13-01-2024
 ---
 
-
-<br/>
-### Description
-Locations available at Endovelico - Portuguese Archaeology Database.
-
-<br/>
-### Data
-
-| Type | Link |
-| :------ |:--- |
-| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/endovelico_dgpc.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
-| Services | none |
-
-
-<br/>
-### Harvesting
-
-##### Date
-13/01/2024
 
 ##### Sources
 
