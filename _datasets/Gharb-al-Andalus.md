@@ -1,24 +1,31 @@
 ---
-layout: post
-title: Al-Gharb
-subtitle: Islam heritage in Portugal
-date: 13-01-2024
-cover-img: 
-thumbnail-img: 
-share-img:
-tags: [portugal, viii,ix,x,xi,xii,xiii,xiv,xv, medieval, islam]
-author: 
-categories: [Portugal]
-published: true
-status: done
-last-updated: 13-01-2024
+schema: default
+title: Gharb al-Andalus - Islam heritage in Portugal
+region: Portugal
+notes: Georeferenced toponym list from Galician-Portuguese 'Cancioneiros'
+doiurl: https://doi.org/10.5281/zenodo.10535242
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+resources:
+  - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+    url: 'https://doi.org/10.5281/zenodo.10535242'
+    format: jpg
+  - name: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)
+    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
+    format: shp
+  - name: Air Monitoring Stations GeoService
+    url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
+    format: gpkg
+license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
+category:
+  - Political
+  - Medieval
+  - Islam
+maintainer: Nelson Gonçalves (nafergo)
+maintainer_email: tim@timwis.com
+published: false
 ---
 
-
-<br/>
-### Description
 Islamic archaeological heritage in Portugal. Portuguese toponyms of Arabic origin.  Toponyms during islamic period. 
-
 
 
 <br/>
