@@ -6,12 +6,12 @@ layout: default
   <div class="col-lg-6 justify-content-center">
     <h1 class="display-5">{{ site.greeting }}</h1>
     <p class="col-md-8 fs-4 mb-4">{{ site.description }}</p>
-    <a href="{{ "/datasets" | relative_url }}" class="btn btn-primary btn-lg" role="button">Explorar dados disponíveis</a>
+    <a href="{{ "/datasets" | relative_url }}" class="btn btn-primary btn-lg" role="button">Browse available open data</a>
   </div>
   <img alt="Example homepage hero image" class="d-none d-md-block img-responsive rounded-circle" src="{{ site.baseurl }}{{ site.hero_image }}" style="max-height: 300px" />
 </div>
 
-<h3>Explorar por Categoria</h3>
+<h3>Browse by Category</h3>
 <div class="card-grid">
 {% for category in site.dataset_categories %}
   {% if category.featured == true %}
