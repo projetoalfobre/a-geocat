@@ -1,19 +1,30 @@
 ---
-layout: post
+schema: default
 title: Portuguese colonial war military bases in Africa
-subtitle: Portuguese military bases in Guinea-Bissau, Angola and Mozambique during colonial war
-date: 01-12-2023
-cover-img: 
-thumbnail-img: 
-share-img:
-tags: [portugal, xx, contemporary, africa, colonialism, guinea-bissau, angola, mozambique]
-author: 
-categories: [Africa]
-published: true
-version: 0.1
-status: open, updates when possible
-last-updated: 11-12-2023
+region: Africa
+notes: Portuguese military bases in Guinea-Bissau, Angola and Mozambique during colonial war
+doiurl: https://doi.org/10.5281/zenodo.10535242
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+resources:
+  - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+    url: 'https://doi.org/10.5281/zenodo.10535242'
+    format: jpg
+  - name: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)
+    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
+    format: shp
+  - name: Air Monitoring Stations GeoService
+    url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
+    format: gpkg
+license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
+category:
+  - Military
+  - Contemporary
+maintainer: Nelson Gonçalves (nafergo)
+maintainer_email: tim@timwis.com
+published: false
 ---
+
+
 
 
 <br/>
