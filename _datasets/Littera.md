@@ -36,7 +36,7 @@ Data was downloaded from the [Mapa das Cantigas Medievais Galego-Portuguesas(Map
 <br />
 
 ### License and copyright
-{% include license.html %}
+
 
 Original dataset by [Map of Cantigas)](http://u.osmfr.org/m/551707/) as part of [Project Littera](https://cantigas.fcsh.unl.pt/), a reseach projet developed by Instituto de Estudos Medievais of the Faculdade de Ciências Sociais e Humanas of Universidade Nova de Lisboa.
 
