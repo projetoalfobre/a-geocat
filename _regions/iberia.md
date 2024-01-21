@@ -1,5 +1,5 @@
 ---
 title: Iberia
-description: Texto descritivo do Departamento de Investigação B
+description: 
 logo: img/regions/iberia.svg
 ---
