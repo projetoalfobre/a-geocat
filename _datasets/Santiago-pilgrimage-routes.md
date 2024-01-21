@@ -18,15 +18,15 @@ category:
 maintainer: Nelson Gonçalves (nafergo)
 maintainer_email: nafergo@gmail.com
 ---
-
-## Additional Info 
+<br>
+### Notes
 Dataset includes several pilgrimage routes:
 * French way
 * Portuguese way
 * Portuguese Coastal Way
 * Primitive Way
 * English Way
-
+<br>
 ### Original sources
 [Abert@s: Portal Open Data da Xunta de Galicia](https://abertos.xunta.gal/)
 * https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0076/ruta-camino-primitivo
@@ -37,7 +37,7 @@ Dataset includes several pilgrimage routes:
 
 [VagaMundos.pt](https://www.vagamundos.pt/) 
 * https://www.vagamundos.pt/mapas-do-caminho-de-santiago/ (Caminho Francês de Santiago, Caminho Português de Santiago, Caminho Português da Costa e Caminho de Santiago Primitivo)
-
+<br>
 ### Attribution text
-*{{ page.title | strip_html }}* by nelson gonçalves (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/. This work is based on data by [Turismo de Galicia](https://www.turismo.gal/) shared under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/) & by [VagaMundos.pt](https://www.vagamundos.pt/) 
+*{{ page.title | strip_html }}* by Nelson Gonçalves (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at A-GeoCat (https://projetoalfobre.github.io/a-geocat/). This work is based on data by [Turismo de Galicia](https://www.turismo.gal/) shared under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/) & by [VagaMundos.pt](https://www.vagamundos.pt/) 
 
