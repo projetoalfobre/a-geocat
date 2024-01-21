@@ -1,20 +1,27 @@
 ---
-layout: post
+schema: default
 title: Littera
-subtitle: Georeferenced toponym list from Galician-Portuguese 'Cancioneiros'
-date: 28-11-2023
-cover-img: 
-thumbnail-img: 
-share-img: 
-tags: [medieval, literature, art, portugal, spain, iberia]
-author: 
-categories: [General]
-published: true
-version: 1.0
-status: closed
-last-updated: 04-12-2023
+region: Iberia
+notes: Georeferenced toponym list from Galician-Portuguese 'Cancioneiros'
+doiurl: https://doi.org/10.5281/zenodo.10535242
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+resources:
+  - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+    url: 'https://doi.org/10.5281/zenodo.10535242'
+    format: jpg
+  - name: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)
+    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
+    format: shp
+  - name: Air Monitoring Stations GeoService
+    url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
+    format: gpkg
+license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
+category:
+  - Arts
+  - Medieval
+maintainer: Nelson Gonçalves (nafergo)
+maintainer_email: tim@timwis.com
 ---
-<br />
 
 ### Description
 Georeferenced toponymy from the [project Littera](https://cantigas.fcsh.unl.pt/) database.
@@ -22,18 +29,6 @@ Georeferenced toponymy from the [project Littera](https://cantigas.fcsh.unl.pt/)
 From the project's website: database includes "all the 'cantigas' (songs) contained in the medieval Galician-Portuguese 'Cancioneiros' (songbooks), the manuscripts' images and also the music (either medieval or the contemporary versions or original compositions which take the texts of medieval songs as a starting point).The DB also includes brief information about all the authors included in it, of the characters and places mentioned in the songs, as well as the "Arte de Trovar", the little poetic treaty on troubadours’ art that opens the “Cancioneiro” of the Portugal National Library."
 <br />
 
-### Data
-
-| Type | Link |
-| :------ |:--- |
-| Download | <a href="https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/medieval/Littera/mapa_das_cantigas_medievais_galego_portuguesas.gpkg" class="btn btn-primary tag-btn">GPKG</a> |
-| Services | none |
-
-<br />
-
-### Harvesting
-##### Date
-9/11/2023
 
 ##### Source
 Data was downloaded from the [Mapa das Cantigas Medievais Galego-Portuguesas(Map of Cantigas)](http://u.osmfr.org/m/551707/), a map created by Manuel Magán Abollo as part of the [Project Littera](https://cantigas.fcsh.unl.pt/).
