@@ -8,7 +8,7 @@ doiurl: https://doi.org/10.5281/zenodo.10535242
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
 resources:
   - name: Alfobre endovelico
-    url: '[https://doi.org/10.5281/zenodo.10535242](https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/endovelico_dgpc.gpkg)'
+    url: 'https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/endovelico_dgpc.gpkg'
     format: gpkg
 license: 'http://creativecommons.org/licenses/by/4.0'
 category:
