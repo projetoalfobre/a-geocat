@@ -1,6 +1,6 @@
 title: A-GeoCat
-greeting: Bem-vind@s ao PORTADA
-description: Um protótipo de <b>PORTA</b>l de <b>D</b>ados <b>A</b>bertos
+greeting: Welcome to A-GeoCat
+description: Alfobre GEOdata CATalog
 logo: /img/geocat.svg
 hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
