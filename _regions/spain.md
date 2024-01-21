@@ -1,5 +1,5 @@
 ---
 title: Spain
-description: Texto descritivo do Departamento de Investigação B
+description: 
 logo: img/regions/spain.svg
 ---
