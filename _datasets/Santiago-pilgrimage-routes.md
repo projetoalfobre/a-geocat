@@ -1,25 +1,37 @@
 ---
-layout: post
-title: Caminos de Santiago
-subtitle: Pilgrimage routes to Santiago de Compostela
-date: 02-12-2023
-cover-img: 
-thumbnail-img: 
-share-img: 
-tags: [portugal, spain, iberia, routes, medieval, modern era, contemporary, religion]
-author: 
-categories: [Iberia]
-published: true
-version: 1.0
-status: closed
-last-updated: 4-12-2023
+schema: default
+title: Saint James' Way to Santiago de Compostela
+region: Iberia
+notes: The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain.
+doiurl: https://doi.org/10.5281/zenodo.10535242
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+resources:
+  - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+    url: 'https://doi.org/10.5281/zenodo.10535242'
+    format: jpg
+  - name: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)
+    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
+    format: shp
+  - name: Air Monitoring Stations GeoService
+    url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
+    format: gpkg
+license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
+category:
+  - Routes
+  - Medieval
+  - Modern
+  - Contemporary
+maintainer: Nelson Gonçalves (nafergo)
+maintainer_email: tim@timwis.com
 ---
+
+
 
 
 <br/>
 
 ### Description
-The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain. 
+ 
 
 Dataset includes several pilgrimage routes:
 
