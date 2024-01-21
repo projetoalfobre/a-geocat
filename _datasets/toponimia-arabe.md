@@ -8,13 +8,13 @@ doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
 resources:
   - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
     url: 'https://doi.org/10.5281/zenodo.10535242'
-    format: csv
+    format: jpg
   - name: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)
     url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
     format: shp
   - name: Air Monitoring Stations GeoService
     url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
-    format: DOI
+    format: gpkg
 license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
 category:
   - Education
@@ -22,3 +22,6 @@ category:
 maintainer: Tim Wisniewski
 maintainer_email: tim@timwis.com
 ---
+
+
+e aqui texto vario
