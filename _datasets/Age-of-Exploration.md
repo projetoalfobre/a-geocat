@@ -2,7 +2,7 @@
 schema: default
 title: Age of Exploration
 region: Global
-notes: Georeferenced toponym list from Galician-Portuguese 'Cancioneiros'
+notes: European exploration journeys in the Fifteenth and Sixteenth Centuries
 doiurl: https://doi.org/10.5281/zenodo.10535242
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
 resources:
@@ -17,7 +17,7 @@ resources:
     format: gpkg
 license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
 category:
-  - Political
+  - Routes
   - Modern
 maintainer: Nelson Gonçalves (nafergo)
 maintainer_email: tim@timwis.com
@@ -25,12 +25,6 @@ published: false
 ---
 
 
-
-
-## Description
-Age of Exploration
-XV and XVI Explorers' Routes
-## Data
  
 | Type | Link |
 | :------ |:--- |
