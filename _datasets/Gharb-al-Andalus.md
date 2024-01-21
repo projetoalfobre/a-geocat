@@ -53,7 +53,6 @@ Islamic archaeological heritage in Portugal. Portuguese toponyms of Arabic origi
 <br/>
 ### License and copyright
 
-{% include license.html %}
 
 Original data by [Rei, António (2005). O Gharb al-Andalus em dois geógrafos árabes do século VII/XIII: Yâqût al-Hamâwî e Ibn Sa‘îd al-Maghribî. Medievalista, 1.](https://medievalista.iem.fcsh.unl.pt/index.php/medievalista/article/view/419), [Direção-Geral do Património Cultural - Portal do Arqueólogo](https://arqueologia.patrimoniocultural.pt/) & [Wikipedia](https://pt.wikipedia.org/wiki/Top%C3%B3nimos_%C3%A1rabes_em_Portugal) 
 
