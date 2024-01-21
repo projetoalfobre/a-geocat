@@ -17,7 +17,7 @@ resources:
     format: gpkg
 license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
 category:
-  - Education
+  - Medieval
   - Economy
 maintainer: Tim Wisniewski
 maintainer_email: tim@timwis.com
