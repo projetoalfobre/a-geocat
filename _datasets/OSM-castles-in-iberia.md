@@ -51,7 +51,6 @@ Used [Over-pass turbo](https://overpass-turbo.eu/) to download *historic=archaeo
 
 ### License and copyright
 
-{% include license.html %}
 
 Original datasets by © [OpenStreetMap](https://www.openstreetmap.org/), licensed under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) (ODbL) by the [OpenStreetMap Foundation](https://osmfoundation.org/) (OSMF).
 
