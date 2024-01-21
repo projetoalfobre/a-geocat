@@ -9,7 +9,8 @@ resources:
   - name: caminos_santiago.gpkg
     url: ''
     format: gpkg
-license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'category:
+license: 'https://creativecommons.org/licenses/by/4.0/'
+category:
   - Routes
   - Medieval
   - Modern
