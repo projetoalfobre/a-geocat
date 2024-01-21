@@ -1,19 +1,29 @@
 ---
-layout: post
-title: Roman roads in Portugal 
-subtitle: Roman road system in present-day Portugal
-date: 29-11-2023
-cover-img: 
-thumbnail-img: 
-share-img: 
-tags: [roman, portugal, routes]
-author: 
-categories: [Portugal]
-published: true
-version: 1.0
-status: closed
-last-updated: 04-12-2023
+schema: default
+title: Roman roads in Portugal
+region: Portugal
+notes: Roman road system in present-day Portugal
+doiurl: https://doi.org/10.5281/zenodo.10535242
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+resources:
+  - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+    url: 'https://doi.org/10.5281/zenodo.10535242'
+    format: jpg
+  - name: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)
+    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
+    format: shp
+  - name: Air Monitoring Stations GeoService
+    url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
+    format: gpkg
+license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
+category:
+  - Ancient
+  - Political
+maintainer: Nelson Gonçalves (nafergo)
+maintainer_email: tim@timwis.com
+published: false
 ---
+
 
 <br />
 
