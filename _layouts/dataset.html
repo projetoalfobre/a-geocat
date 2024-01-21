@@ -46,9 +46,6 @@ layout: default
         </h1>
         <p style="text-align: justify; overflow-wrap: break-word;"><a href="{{ page.doiurl }}"><img src="{{ page.doiimg }}"></a></p>
         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{ page.notes }}</p>
-        <div class="post-content">
-        {{ content }}
-        </div>
 
         <h2>Resources</h2>
         <ul>
@@ -109,6 +106,12 @@ layout: default
           {% endfor %}
 
         </table>
+
+        <h2>Attribution text</h2>
+        <div class="post-content">
+        {{ content }}
+        </div>
+        
       </div>
     </div>
   </div>
