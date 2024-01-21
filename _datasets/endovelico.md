@@ -1,7 +1,7 @@
 ---
 schema: default
 title: Portuguese Archaeology Database
-organization: Portugal
+region: Portugal
 notes: Georeferenced archaeological sites in Endovelico, the Portuguese Archaeology Database
 date: 10-01-2024
 doiurl: https://doi.org/10.5281/zenodo.10535242
@@ -14,6 +14,10 @@ license: 'http://creativecommons.org/licenses/by/4.0'
 category:
   - Modern
   - Economy
+  - Medieval
+  - Prehistory
+  - Islam
+
 maintainer: Tim Wisniewski
 maintainer_email: tim@timwis.com
 published: true

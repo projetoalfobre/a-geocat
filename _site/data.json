@@ -1,0 +1,69 @@
+{
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "dataset": [
+    {
+      "title": "OpenStreetMap - Museums in Portugal and Spain",
+      "description": "Museums in Portugal and Spain. Dataset with elements from OpenStreetMap.",
+      "category": ["Contemporary","Military"],
+      "contactPoint": {
+        "fn": "Tim Wisniewski",
+        "hasEmail": "tim@timwis.com"
+      },
+      "license": "http://creativecommons.org/licenses/by/4.0"
+      ,
+      "distribution": [
+        {
+          "title": "Alfobre endovelico",
+          "downloadURL": "https://projetoalfobre.github.io/alfobre-gis-repository/Iberian_Peninsula/museums/museums_in_portugal_and_spain.gpkg",
+          "format": "gpkg"
+        }
+      ]
+    },
+    {
+      "title": "Portuguese Archaeology Database",
+      "description": "Georeferenced archaeological sites in Endovelico, the Portuguese Archaeology Database",
+      "category": ["Modern","Economy","Medieval","Prehistory","Islam"],
+      "contactPoint": {
+        "fn": "Tim Wisniewski",
+        "hasEmail": "tim@timwis.com"
+      },
+      "license": "http://creativecommons.org/licenses/by/4.0"
+      ,
+      "distribution": [
+        {
+          "title": "Alfobre endovelico",
+          "downloadURL": "https://projetoalfobre.github.io/alfobre-gis-repository/Portugal/endovelico_dgpc.gpkg",
+          "format": "gpkg"
+        }
+      ]
+    },
+    {
+      "title": "Toponímia Árabe",
+      "description": "This is an example dataset that comes with a new installation of JKA",
+      "category": ["Economy","Medieval"],
+      "contactPoint": {
+        "fn": "Tim Wisniewski",
+        "hasEmail": "tim@timwis.com"
+      },
+      "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      ,
+      "distribution": [
+        {
+          "title": "https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg",
+          "downloadURL": "https://doi.org/10.5281/zenodo.10535242",
+          "format": "jpg"
+        },
+        {
+          "title": null,
+          "downloadURL": "http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip",
+          "format": "shp"
+        },
+        {
+          "title": "Air Monitoring Stations GeoService",
+          "downloadURL": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query",
+          "format": "gpkg"
+        }
+      ]
+    }
+  ]
+}

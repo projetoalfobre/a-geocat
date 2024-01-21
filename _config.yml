@@ -1,6 +1,6 @@
 title: A-GeoCat
 greeting: Welcome to A-GeoCat
-description: Alfobre GEOdata CATalog
+description: Alfobre Geodata Catalog
 logo: /img/geocat.svg
 hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
@@ -15,10 +15,10 @@ schema: Default
 navigation:
   - title: Data
     url: /datasets/
-  - title: Regions
-    url: /regions/
   - title: Categories
     url: /categories/
+  - title: Regions
+    url: /regions/
   - title: About Us
     url: /aboutus/    
 
@@ -27,9 +27,9 @@ collections:
   datasets:
     output: true
     permalink: /datasets/:path/
-  organizations:
+  regions:
     output: true
-    permalink: /organizations/:path/
+    permalink: /regions/:path/
   dataset_categories:
     output: true
     permalink: /categories/:path/
@@ -47,12 +47,12 @@ defaults:
     values:
       layout: dataset
       category: Uncategorized
-      organization: N/A
+      region: N/A
   - scope:
       path: ""
-      type: organizations
+      type: regions
     values:
-      layout: organization
+      layout: region
 
 # Markdown settings
 markdown: kramdown

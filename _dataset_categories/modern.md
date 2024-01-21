@@ -1,6 +1,6 @@
 ---
 name: Modern
-logo: "/img/categories/education.svg"
-logo_credit: Sergey Patutin from the Noun Project
+logo: "/img/era/modern.svg"
+logo_credit: 
 featured: true
 ---

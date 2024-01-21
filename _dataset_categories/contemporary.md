@@ -1,5 +1,6 @@
 ---
 name: Contemporary
-logo: "/img/categories/arts-culture-history.svg"
+logo: "/img/era/contemporary.svg"
+logo_credit: 
 featured: true
 ---

@@ -1,6 +1,6 @@
 ---
 name: Political
-logo: "/img/categories/food.svg"
-logo_credit: Creative Stall from the Noun Project
+logo: "/img/categories/political.svg"
+logo_credit: 
 featured: true
 ---

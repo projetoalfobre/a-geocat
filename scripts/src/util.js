@@ -25,8 +25,8 @@ export function slugify (text) {
 export function createDatasetFilters (filters) {
   return function (dataset) {
     const conditions = []
-    if (filters.organization) {
-      conditions.push(dataset.organization && slugify(dataset.organization) === filters.organization)
+    if (filters.region) {
+      conditions.push(dataset.region && slugify(dataset.region) === filters.region)
     }
     if (filters.category) {
       conditions.push(dataset.category && slugify(dataset.category).indexOf(filters.category) !== -1)

@@ -1,5 +1,5 @@
 ---
-title: Dados
+title: Datasets
 layout: default
 permalink: /datasets/
 ---
@@ -8,7 +8,7 @@ permalink: /datasets/
 
 <div class="row">
   <div class="col-sm-4">
-    <h3>Categorias</h3>
+    <h3>Categories</h3>
     <div class="list-group js-shown" data-component="categories-filter" data-show="5"></div>
     <div class="list-group js-hidden">
       {% for category in site.dataset_categories %}
@@ -20,13 +20,13 @@ permalink: /datasets/
       {% endfor %}
     </div>
     <br/>
-    <h3>Organizações</h3>
-    <div class="list-group js-shown" data-component="organizations-filter" data-show="15"></div>
+    <h3>Regions</h3>
+    <div class="list-group js-shown" data-component="regions-filter" data-show="15"></div>
     <div class="list-group js-hidden">
-      {% for organization in site.organizations %}
-      {% assign count = site.datasets | where: "organization", organization.title | size %}
-      <a href="{{ site.baseurl}}{{ organization.url }}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-        {{ organization.title }}
+      {% for region in site.regions %}
+      {% assign count = site.datasets | where: "region", region.title | size %}
+      <a href="{{ site.baseurl}}{{ region.url }}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        {{ region.title }}
         <span class="badge bg-primary rounded-pill">{{ count }}</span>
       </a>
       {% endfor %}
@@ -34,7 +34,7 @@ permalink: /datasets/
   </div>
   <div class="col-sm-8" data-component="datasets-list">
     <h3 class="datasets-count" data-hook="datasets-count">{{ datasets_count }}
-      {% if datasets_count == 1 %}conjunto de dados{% else %}conjuntos de dados{% endif %}</h3>
+      {% if datasets_count == 1 %}dataset{% else %}datasets{% endif %}</h3>
     <input type="text" data-hook="search-query" placeholder="Pesquisar..." class="form-control mb-3">
     <div data-hook="datasets-items">
       {% for dataset in site.datasets %}

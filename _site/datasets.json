@@ -1,0 +1,23 @@
+[
+  {
+    "title": "OpenStreetMap - Museums in Portugal and Spain",
+    "region": "Iberia",
+    "notes": "Museums in Portugal and Spain. Dataset with elements from OpenStreetMap.",
+    "category": ["Contemporary","Military"],
+    "url": "/datasets/osm-museums-iberia/"
+  },
+  {
+    "title": "Portuguese Archaeology Database",
+    "region": "Portugal",
+    "notes": "Georeferenced archaeological sites in Endovelico, the Portuguese Archaeology Database",
+    "category": ["Modern","Economy","Medieval","Prehistory","Islam"],
+    "url": "/datasets/endovelico/"
+  },
+  {
+    "title": "Toponímia Árabe",
+    "region": "Portugal",
+    "notes": "This is an example dataset that comes with a new installation of JKA",
+    "category": ["Economy","Medieval"],
+    "url": "/datasets/toponimia-arabe/"
+  }
+]

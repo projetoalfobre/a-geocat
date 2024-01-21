@@ -1,6 +1,6 @@
 ---
 name: Military
-logo: "/img/categories/elections-politics.svg"
-logo_credit: Jean Soo from the Noun Project
+logo: "/img/categories/military.svg"
+logo_credit: 
 featured: true
 ---

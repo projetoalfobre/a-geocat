@@ -4,8 +4,8 @@ dataset_fields:
   - field_name: title
     label: Title
     datajson: title
-  - field_name: organization
-    label: Organization
+  - field_name: region
+    label: Region
     datajson: publisher.name
   - field_name: notes
     label: Description
@@ -23,6 +23,7 @@ dataset_fields:
   - field_name: maintainer_email
     label: Maintainer Email
     datajson: contactPoint.hasEmail
+
 
 resource_fields:
   - field_name: name
@@ -53,13 +54,14 @@ resource_fields:
       - jpg
       
 
-organization_fields:
+region_fields:
   - field_name: title
     label: Title
   - field_name: description
     label: Description
   - field_name: logo
     label: Logo
+
 
 category_fields:
   - field_name: name

@@ -1,7 +1,7 @@
 ---
 schema: default
 title: OpenStreetMap - Museums in Portugal and Spain
-organization: Iberia
+region: Iberia
 notes: Museums in Portugal and Spain. Dataset with elements from OpenStreetMap. 
 date: 06-12-2023
 doiurl: https://doi.org/10.5281/zenodo.10535242
@@ -12,8 +12,8 @@ resources:
     format: gpkg
 license: 'http://creativecommons.org/licenses/by/4.0'
 category:
-  - Contemporary
-  - Culture
+  - Contemporary 
+  - Military
 maintainer: Tim Wisniewski
 maintainer_email: tim@timwis.com
 published: true

@@ -4,32 +4,32 @@ layout: default
 {% include breadcrumbs.html parent="Datasets" %}
 {% assign schema = page.schema | default: site.schema %}
 {% assign dataset_fields = site.data.schemas[schema].dataset_fields %}
-{% assign dataset_system_fields = "title|organization|notes|license" | split: "|" %}
+{% assign dataset_system_fields = "title|region|notes|license" | split: "|" %}
 {% assign resource_fields = site.data.schemas[schema].resource_fields %}
 {% assign resource_system_fields = "name|url|format|description" | split: "|" %}
 
-{% assign organization = site.organizations | where:"title",page.organization | first %}
-{% capture organization_url %}{{ site.baseurl }}{{ organization.url }}{% endcapture %}
+{% assign region = site.regions | where:"title",page.region | first %}
+{% capture region_url %}{{ site.baseurl }}{{ region.url }}{% endcapture %}
   <div class="container">
   <div data-component="dataset-display" typeof="dcat:Dataset" resource="{{ page.url }}">
     <div class="row">
-        {% if organization %}
-        <div class="col-md-3" property="dct:publisher" resource="{{ organization_url }}">
+        {% if region %}
+        <div class="col-md-3" property="dct:publisher" resource="{{ region_url }}">
           <div class="card mb-3">
             <div class="card-img-top">
-              {% if organization.logo and organization.logo != empty %}
-              <a href="{{ organization_url }}"><img src="{{ organization.logo | relative_url }}" alt="{{ organization.title }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
+              {% if region.logo and region.logo != empty %}
+              <a href="{{ region_url }}"><img src="{{ region.logo | relative_url }}" alt="{{ region.title }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
               {% endif %}
                         </div>
                         <div class="card-header">
                           <h3 style="word-wrap: break-word">
-                            <a href="{{ organization_url }}" about="{{ organization_url }}" property="foaf:homepage">
-                              <span property="foaf:name">{{ organization.title }}</span>
+                            <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
+                              <span property="foaf:name">{{ region.title }}</span>
                             </a>
                           </h3>
                             </div>
                             <div class="card-body">
-                          {{ organization.description }}
+                          {{ region.description }}
                         </div>
                         <div class="view-code-link">
                           <a href="{{site.github.repository_url}}/blob/main/{{page.path}}?plain=1"  target="_blank"><i class="fa fa-code"></i> Open in GitHub</a>

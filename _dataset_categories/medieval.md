@@ -1,6 +1,6 @@
 ---
 name: Medieval
-logo: "/img/africa.svg"
-logo_credit: Renan Ferreira Santos from the Noun Project
+logo: "/img/era/medieval.svg"
+logo_credit: 
 featured: true
 ---
