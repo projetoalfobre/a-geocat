@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About us
+permalink: /aboutus/
 ---
 
 A-GeoCat (Alfobre GeoData Catalog) is a geospatial open data catalog developed and maintained by [Alfobre](http://alfobre.com). 
