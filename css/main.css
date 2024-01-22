@@ -55,12 +55,12 @@ dataset {
   grid-gap: 1rem;
   grid-auto-flow: dense;
 }
-
+/*
 .card-grid-regions {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
 }
-
+*/
 .card-grid .card-grid-item:hover {
   background-color: #abccfb;
 }
