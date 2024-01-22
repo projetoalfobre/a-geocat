@@ -21,11 +21,18 @@
   <title>Datasets - A-GeoCat</title>
   <meta name="description" content="Alfobre Geodata Catalog">
 
+    <!-- Favicons -->
+    <link rel="icon" href="/img/geocat.svg" type="image/svg+xml">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/datasets/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;900&display=swap" rel="stylesheet">
 
   
 
@@ -62,6 +69,7 @@
 
 
   <body>
+    <div class="content">
 
     <nav class="navbar navbar-expand-sm mb-4 navbar-light bg-light" data-component="navigation">
   <div class="container">
@@ -70,22 +78,22 @@
   <span class="navbar-toggler-icon"></span>
 </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" style="margin-left: auto;">
         
           
-          <li class="nav-item"><a class="nav-link active" href="/datasets/" aria-current="page">Data</a></li>
-          
-        
-          
-          <li class="nav-item"><a class="nav-link" href="/categories/">Categories</a></li>
+          <li class="nav-item"><a class="nav-link active bg-primary text-white" href="/datasets/" aria-current="page">Data</a></li>
           
         
           
-          <li class="nav-item"><a class="nav-link" href="/regions/">Regions</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="/categories/">Categories</a></li>
           
         
           
-          <li class="nav-item"><a class="nav-link" href="/aboutus/">About Us</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="/regions/">Regions</a></li>
+          
+        
+          
+          <li class="nav-item"><a class="nav-link text-primary" href="/aboutus/">About Us</a></li>
           
         
       </ul>
@@ -109,25 +117,25 @@
 <div class="row">
   <div class="col-sm-4">
     <h3>Categories</h3>
-    <div class="list-group js-shown" data-component="categories-filter" data-show="5"></div>
+    <div class="list-group js-shown" data-component="categories-filter" data-show="100"></div>
     <div class="list-group js-hidden">
       
       
       <a href="/categories/ancient/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Ancient
-        <span class="badge bg-primary rounded-pill">0</span>
+        <span class="badge bg-primary rounded-pill">1</span>
       </a>
       
       
       <a href="/categories/archaeology/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Archaeology
-        <span class="badge bg-primary rounded-pill">0</span>
+        <span class="badge bg-primary rounded-pill">2</span>
       </a>
       
       
       <a href="/categories/arts/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Arts
-        <span class="badge bg-primary rounded-pill">0</span>
+        <span class="badge bg-primary rounded-pill">3</span>
       </a>
       
       
@@ -139,7 +147,7 @@
       
       <a href="/categories/economy/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Economy
-        <span class="badge bg-primary rounded-pill">2</span>
+        <span class="badge bg-primary rounded-pill">0</span>
       </a>
       
       
@@ -157,7 +165,7 @@
       
       <a href="/categories/islam/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Islam
-        <span class="badge bg-primary rounded-pill">1</span>
+        <span class="badge bg-primary rounded-pill">0</span>
       </a>
       
       
@@ -169,7 +177,7 @@
       
       <a href="/categories/military/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Military
-        <span class="badge bg-primary rounded-pill">1</span>
+        <span class="badge bg-primary rounded-pill">0</span>
       </a>
       
       
@@ -187,13 +195,13 @@
       
       <a href="/categories/prehistory/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Prehistory
-        <span class="badge bg-primary rounded-pill">1</span>
+        <span class="badge bg-primary rounded-pill">2</span>
       </a>
       
       
       <a href="/categories/routes/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Routes
-        <span class="badge bg-primary rounded-pill">0</span>
+        <span class="badge bg-primary rounded-pill">2</span>
       </a>
       
       
@@ -229,7 +237,7 @@
       
       <a href="/regions/iberia/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Iberia
-        <span class="badge bg-primary rounded-pill">1</span>
+        <span class="badge bg-primary rounded-pill">3</span>
       </a>
       
       
@@ -241,7 +249,7 @@
       
       <a href="/regions/portugal/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Portugal
-        <span class="badge bg-primary rounded-pill">2</span>
+        <span class="badge bg-primary rounded-pill">1</span>
       </a>
       
       
@@ -253,7 +261,7 @@
       
       <a href="/regions/spain/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         Spain
-        <span class="badge bg-primary rounded-pill">0</span>
+        <span class="badge bg-primary rounded-pill">1</span>
       </a>
       
       
@@ -265,24 +273,34 @@
     </div>
   </div>
   <div class="col-sm-8" data-component="datasets-list">
-    <h3 class="datasets-count" data-hook="datasets-count">3
+    <h3 class="datasets-count" data-hook="datasets-count">5
       datasets</h3>
-    <input type="text" data-hook="search-query" placeholder="Pesquisar..." class="form-control mb-3">
-    <div data-hook="datasets-items">
+    <input type="text" data-hook="search-query" placeholder="Search..." class="form-control mb-3">
+    <div data-hook="datasets-items" class="dataset-links">
       
       <dataset>
-        <h3><a href="/datasets/osm-museums-iberia/">OpenStreetMap - Museums in Portugal and Spain</a></h3>
-        Museums in Portugal and Spain. Dataset with elements from OpenStreetMap.
+        <h3><a href="/datasets/Georeferenced-toponym-list-from-medieval-Galician-Portuguese-songbooks/">Georeferenced toponym list from medieval Galician-Portuguese songbooks</a></h3>
+        Georeferenced toponym list from project Littera, a reseach projet developed by Instituto de Estudos Medievais of the Faculdade de Ciências Sociais e Humanas of Universidade Nova de Lisboa.
       </dataset>
       
       <dataset>
-        <h3><a href="/datasets/endovelico/">Portuguese Archaeology Database</a></h3>
-        Georeferenced archaeological sites in Endovelico, the Portuguese Archaeology Database
+        <h3><a href="/datasets/Prehistoric-Rock-Art-Sites-in-the-Coa-Valley-and-Siega-Verde/">Prehistoric Rock Art Sites in the Côa Valley and Siega Verde</a></h3>
+        List of Prehistoric Rock Art Sites in the Côa Valley and Siega Verde from UNESCO World Heritage website.
       </dataset>
       
       <dataset>
-        <h3><a href="/datasets/toponimia-arabe/">Toponímia Árabe</a></h3>
-        This is an example dataset that comes with a new installation of JKA
+        <h3><a href="/datasets/Rock-Art-of-the-Mediterranean-Basin-on-the-Iberian-Peninsula/">Rock Art of the Mediterranean Basin on the Iberian Peninsula</a></h3>
+        List of Rock Art Sites of the Mediterranean Basin on the Iberian Peninsula from UNESCO World Heritage website.
+      </dataset>
+      
+      <dataset>
+        <h3><a href="/datasets/St-james-way-to-compostela/">Saint James' Way to Santiago de Compostela</a></h3>
+        The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain.
+      </dataset>
+      
+      <dataset>
+        <h3><a href="/datasets/Roman-road-system-in-portugal/">Roman road system in Portugal</a></h3>
+        Road network used in the Roman period. Dataset includes roads/ways but also information about milestones, bridges, vici, villae, etc.
       </dataset>
       
     </div>
@@ -290,11 +308,36 @@
 </div>
 
     </section>
+  </div>
 
     <!-- general behavior -->
 <script type="module" src="/scripts/dist/index.js"></script>
 
-<footer></footer>
+<footer class="footer">
+      <div class="container">
+            <div class="row">
+                  <div class="col-sm-6 text-black-50">
+                        <a href="https://alfobre.com" target="_blank"><img src="/img/logo_alfobre.png" style="height:2em; auto;"></a>
+                        <br /><br />
+                        <p>A-GeoCat is a geospatial open data catalog developed and maintained by <a href="https://alfobre.com" class="text-black-50 footer-link" target="_blank">Alfobre</a>.</p>
+                        <p><a href="https://alfobre.com" class="text-black-50 footer-link" target="_blank">Alfobre</a> (portuguese for seedbed) is a collective devoted to the creation and development of projects, strategies and products in the Heritage field.</p>
+                  </div>
+                  <div class="col-sm-2 text-black-50">
+                  </div>
+
+                  <div class="col-sm-4 text-black-50">
+                        <h3>Contact info</h3>
+                        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> projeto.alfobre@gmail.com</p>
+                  </div>
+            </div>
+            <div class="row ">
+                  <div class="col-sm-12 text-black-50">
+                        <br>
+                        <p>2023-2024 | Alfobre.com</p>
+                  </div>
+            </div>
+      </div>
+</footer>
 
 
   </body>

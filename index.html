@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="container d-flex flex-row p-5 mb-4 bg-light rounded-3 justify-content-between">
+<div class="hero-cover container d-flex flex-row p-5 mb-4 rounded-3 justify-content-between">
   <div class="col-lg-6 justify-content-center">
-    <h1 class="display-5">{{ site.greeting }}</h1>
-    <p class="col-md-8 fs-4 mb-4">{{ site.description }}</p>
+    <h1 class="display-5 text-white" style="font-weight: 500;">{{ site.greeting }}</h1>
+    <p class="col-md-8 fs-4 mb-4 text-white">{{ site.description }}</p>
     <a href="{{ "/datasets" | relative_url }}" class="btn btn-primary btn-lg" role="button">Browse available open data</a>
   </div>
-  <img alt="Example homepage hero image" class="d-none d-md-block img-responsive rounded-circle" src="{{ site.baseurl }}{{ site.hero_image }}" style="max-height: 300px" />
+  <!--<img alt="Example homepage hero image" class="d-none d-md-block img-responsive rounded-circle" src="{{ site.baseurl }}{{ site.hero_image }}" style="max-height: 300px" />-->
 </div>
 
 <h3>Browse by Category</h3>
@@ -25,3 +25,5 @@ layout: default
   {% endif %}
 {% endfor %}
 </div>
+
+

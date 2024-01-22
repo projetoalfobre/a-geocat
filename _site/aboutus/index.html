@@ -21,11 +21,18 @@
   <title>About us - A-GeoCat</title>
   <meta name="description" content="Alfobre Geodata Catalog">
 
+    <!-- Favicons -->
+    <link rel="icon" href="/img/geocat.svg" type="image/svg+xml">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/aboutus/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;900&display=swap" rel="stylesheet">
 
   
 
@@ -62,6 +69,7 @@
 
 
   <body>
+    <div class="content">
 
     <nav class="navbar navbar-expand-sm mb-4 navbar-light bg-light" data-component="navigation">
   <div class="container">
@@ -70,22 +78,22 @@
   <span class="navbar-toggler-icon"></span>
 </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" style="margin-left: auto;">
         
           
-          <li class="nav-item"><a class="nav-link" href="/datasets/">Data</a></li>
-          
-        
-          
-          <li class="nav-item"><a class="nav-link" href="/categories/">Categories</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="/datasets/">Data</a></li>
           
         
           
-          <li class="nav-item"><a class="nav-link" href="/regions/">Regions</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="/categories/">Categories</a></li>
           
         
           
-          <li class="nav-item"><a class="nav-link active" href="/aboutus/" aria-current="page">About Us</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="/regions/">Regions</a></li>
+          
+        
+          
+          <li class="nav-item"><a class="nav-link active bg-primary text-white" href="/aboutus/" aria-current="page">About Us</a></li>
           
         
       </ul>
@@ -96,45 +104,67 @@
 
 
     <section data-hook="main" class="container">
-      <h3 id="-a-geocat"><img class="aboutus_logo" src="/assets/img/geocat.svg" /> A-GeoCat</h3>
-<p>A-GeoCat (Alfobre GeoData Catalog) is an open geospatial data catalog and it’s a project from <a href="http://alfobre.com">Alfobre</a>.</p>
+      <div class="aboutus-cover container d-flex flex-row p-5 mb-4 rounded-3 justify-content-between">
+  <div class="col-lg-6 justify-content-center">
+    <h1 class="display-5 text-white" style="font-weight: 500;">About us</h1>
+    <p class="col-md-8 fs-4 mb-4 text-white">Alfobre Geodata Catalog</p>
+  </div>
+</div>
 
-<p>Our datasets are licensed by Alfobre.com under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a>.</p>
+<h2>About us</h2>
+<p>A-GeoCat (Alfobre GeoData Catalog) is a geospatial open data catalog developed and maintained by <a href="http://alfobre.com">Alfobre</a>.</p>
 
-<h4 id="alfobre">Alfobre</h4>
-<p><a href="http://alfobre.com">Alfobre</a> (pt for seedbed) is a collective devoted to the creation and development of projects, strategies and products in the Heritage field.</p>
+<p>Our datasets are licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a>.</p>
 
-<h3 id="license-and-copyright">License and copyright</h3>
-<p>Unless otherwise indicated, these datasets are available under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a>
-<br />You are free to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes, as long as you give credit to the creator(s).</p>
+<p><a href="http://alfobre.com">Alfobre</a> (portuguese for seedbed) is a collective devoted to the creation and development of projects, strategies and products in the Heritage field.</p>
 
-<p><strong>PLEASE NOTE</strong> Some datasets are a derivative work, this means that they are build upon data originally created or made available by others. This CC licence applies only to our original contributions and does not supersede any rights retained by the authors of the original data.</p>
+<h2>Licenses and copyright</h2>
+<p>Unless otherwise noted, the datasets are available under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a>. This means that you are free to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes, as long as you give credit to the creator(s).</p>
+
+<p><strong>PLEASE NOTE</strong> Some datasets are a derivative work, this means that they are build upon data originally created or made available by others. This CC license applies only to our original contributions and does not supersede any rights retained by the authors of the original data.</p>
 
 <h4 id="attribution-text">Attribution text</h4>
-<p>Please check for the attribution text in each dataset page. We recommend:</p>
+<p>Please check for the attribution text in each dataset page.</p>
 
-<p><em>name of dataset</em> by A-GeoCat (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at https://projetoalfobre.github.io/a-geocat/</p>
-
-<p>The attribution text must be easily readable and understandable but feel free to adapt. For instance, you might use several datasets and credit like “Datasets by A-GeoCat (Alfobre.com), available …”.</p>
-
-<p>If possible, you might also use the URLs as links like this:</p>
-
-<p><em>name of dataset</em> by <a href="https://projetoalfobre.github.io/a-geocat/">A-GeoCat</a> (Alfobre.com), available under a Creative Commons <a href="http://creativecommons.org/licenses/by/4.0">Attribution 4.0 International</a></p>
+<p>The attribution text must be easily readable and understandable but feel free to adapt. For example, you might use several datasets and prefer to credit like “Datasets by (…)” or you might prefer to use the URLs as links like <a href="https://projetoalfobre.github.io/a-geocat/">A-GeoCat</a>, <a href="https://www.alfobre.com">Alfobre</a> or Creative Commons <a href="http://creativecommons.org/licenses/by/4.0">Attribution 4.0 International</a>.</p>
 
 <p>When applicable, derivative work, please also credit original data sources by adding “This work is based on… “</p>
 
-<h3 id="copyright-infringement">Copyright infringement</h3>
-<p>If you believe that copyrighted material has been inappropriately added to these datasets or this site, please contact us.</p>
+<h2>Copyright infringement</h2>
+<p>If you believe that copyrighted material has been inappropriately added to these datasets or this site, please contact the dataset maintainer or send an email to projeto.alfobre@gmail.com</p>
 
-<h2 id="additional-info">Additional info</h2>
-<p>A-GeoCat website is powered by GitHub Pages, Jekyll and a customized version of Beautiful Jekyll.</p>
 
     </section>
+  </div>
 
     <!-- general behavior -->
 <script type="module" src="/scripts/dist/index.js"></script>
 
-<footer></footer>
+<footer class="footer">
+      <div class="container">
+            <div class="row">
+                  <div class="col-sm-6 text-black-50">
+                        <a href="https://alfobre.com" target="_blank"><img src="/img/logo_alfobre.png" style="height:2em; auto;"></a>
+                        <br /><br />
+                        <p>A-GeoCat is a geospatial open data catalog developed and maintained by <a href="https://alfobre.com" class="text-black-50 footer-link" target="_blank">Alfobre</a>.</p>
+                        <p><a href="https://alfobre.com" class="text-black-50 footer-link" target="_blank">Alfobre</a> (portuguese for seedbed) is a collective devoted to the creation and development of projects, strategies and products in the Heritage field.</p>
+                  </div>
+                  <div class="col-sm-2 text-black-50">
+                  </div>
+
+                  <div class="col-sm-4 text-black-50">
+                        <h3>Contact info</h3>
+                        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> projeto.alfobre@gmail.com</p>
+                  </div>
+            </div>
+            <div class="row ">
+                  <div class="col-sm-12 text-black-50">
+                        <br>
+                        <p>2023-2024 | Alfobre.com</p>
+                  </div>
+            </div>
+      </div>
+</footer>
 
 
   </body>

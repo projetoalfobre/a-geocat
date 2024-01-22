@@ -5,12 +5,12 @@
   <span class="navbar-toggler-icon"></span>
 </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" style="margin-left: auto;">
         {% for link in site.navigation %}
           {% if page.url contains link.url %}
-          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}{{ link.url }}" aria-current="page">{{ link.title }}</a></li>
+          <li class="nav-item"><a class="nav-link active bg-primary text-white" href="{{ site.baseurl }}{{ link.url }}" aria-current="page">{{ link.title }}</a></li>
           {% else %}
-          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

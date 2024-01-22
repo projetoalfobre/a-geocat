@@ -4,8 +4,8 @@ layout: default
 permalink: /regions/
 ---
 {% include breadcrumbs.html %}
-
-<div class="card-grid card-grid-regions">
+<!--
+<div class="card-grid card-grid-region">
   {% for region in site.regions %}
     {% assign dataset_count = site.datasets | where:"region", region.title | size %}
     {% capture logo_alt %}{{ region.name }}{% if region.logo_credit and region.logo_credit != empty %} logo by {{ region.logo_credit }}{% endif %}{% endcapture %}
@@ -26,5 +26,24 @@ permalink: /regions/
         </div>
       </div>
     </a>
+  {% endfor %}
+</div>
+-->
+
+ 
+
+<div class="card-grid card-grid-region">
+  {% for region in site.regions %}
+    {% assign dataset_count = site.datasets | where:"region", region.title | size %}
+    {% capture logo_alt %}{{ region.name }}{% if region.logo_credit and region.logo_credit != empty %} logo by {{ region.logo_credit }}{% endif %}{% endcapture %}
+    <a class="card card-grid-item border hover-overlay" href="{{ site.baseurl }}{{ region.url }}" title="{{ region.title }}">
+      <div class="d-flex flex-row justify-content-end">
+        <span class="badge bg-primary rounded-pill float-end">{{ dataset_count }}</span>
+      </div>
+        {% if region.logo and region.logo != empty %}
+            <img src="{{ region.logo | relative_url }}" alt="{{ logo_alt }}" >
+        {% endif %}
+        {{ region.title }}
+      </a>
   {% endfor %}
 </div>

@@ -92,3 +92,73 @@ dataset {
   padding: .75rem 1rem;
   border-radius: .25rem;
 }
+
+.footer {
+  background-color: #e9ecef;
+  margin-top: 5em;
+  flex-shrink: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 0.8em;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+
+.nav-item{
+text-transform: uppercase;
+margin-left: 1em;
+}
+
+.nav-item:hover{
+  background-color: #e9ecef;
+  }
+ .nav-link.active{
+  background-color: #e9ecef;
+  font-weight: bold;
+  }
+
+.dataset-links a {text-decoration: none!important;}
+.dataset-links a:hover {text-decoration: underline!important;}
+.footer-link:hover{color: #0a58ca !important;}
+
+.hero-cover{background-size: cover;background-image: url("../img/hero-cover.jpg")!important;min-height: 350px;}
+.aboutus-cover{background-size: cover;background-image: url("../img/aboutus-cover.jpg")!important;min-height: 350px;    background-position: center; }
+
+.post-date{font-size: 0.8em;}
+
+.files-link{list-style-type: none;}
+
+.api {}
+.csv {text-transform: uppercase; background-color: green!important}
+.json {text-transform: uppercase; background-color: rgb(1, 175, 255)!important}
+.geojson {text-transform: uppercase; background-color: blueviolet!important}
+.html {}
+.kml {}
+.kmz {}
+.shp {}
+.xml {}
+.gpkg {text-transform: uppercase; background-color: orangered!important}
+.wfs {text-transform: uppercase; background-color: rgba(255, 251, 0, 0.822)!important}
+.wms {text-transform: uppercase; background-color: rgb(255, 56, 165)!important}
+.webmap {}
+.geotiff {text-transform: uppercase; background-color: orange!important}
+.gml {}
+.jpg {}
+
+th, .additional-info-label {
+  font-weight: 600;
+}
+ul {list-style-type: none;}

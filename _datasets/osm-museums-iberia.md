@@ -14,9 +14,11 @@ license: 'http://creativecommons.org/licenses/by/4.0'
 category:
   - Contemporary 
   - Military
-maintainer: Tim Wisniewski
-maintainer_email: tim@timwis.com
-published: true
+maintainer: nelson gonçalves (aka nafergo)
+maintainer_email: nafergo@gmail.com
+date: 21-01-2024
+
+published: false
 ---
 
 <h2>Harvest</h2>

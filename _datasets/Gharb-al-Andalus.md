@@ -20,8 +20,9 @@ category:
   - Political
   - Medieval
   - Islam
-maintainer: Nelson Gonçalves (nafergo)
-maintainer_email: tim@timwis.com
+maintainer: nelson gonçalves (aka nafergo)
+maintainer_email: nafergo@gmail.com
+date: 21-01-2024
 published: false
 ---
 
