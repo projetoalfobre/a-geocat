@@ -94,9 +94,9 @@ dataset {
 }
 
 footer {
-  height: 4rem;
   text-align: center;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px
   font-color: #aaaaaa;
   font-size: 0.8em;
 }
