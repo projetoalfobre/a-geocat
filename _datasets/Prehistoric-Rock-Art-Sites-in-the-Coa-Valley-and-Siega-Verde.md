@@ -27,8 +27,9 @@ date: 21-01-2024
 
 
 ### Original sources
-Original data by [UNESCO’s World Heritage Centre](https://whc.unesco.org/) / [UNESCO - World Heritage Online Map Platform](https://whc.unesco.org/en/list/). 
+* https://whc.unesco.org/en/list/866
 
+Original data by [UNESCO’s World Heritage Centre](https://whc.unesco.org/) / [UNESCO - World Heritage Online Map Platform](https://whc.unesco.org/en/list/). 
 
 
 <br />
