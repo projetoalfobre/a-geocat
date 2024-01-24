@@ -89,6 +89,7 @@ plugins:
   - "jekyll-relative-links"
   - "jekyll-paginate-v2"
   - "jekyll-titles-from-headings"
+  - "jekyll-feed"
 
 # Exclude these files from the build
 exclude:
