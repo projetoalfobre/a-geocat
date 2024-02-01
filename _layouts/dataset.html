@@ -31,9 +31,9 @@ layout: default
                             <div class="card-body">
                           {{ region.description }}
                         </div>
-<!--                        <div class="view-code-link">
-                          <a href="{{site.github.repository_url}}/blob/main/{{page.path}}?plain=1"  target="_blank"><i class="fa fa-code"></i> Open in GitHub</a>
--->                        </div>
+                        <div class="view-code-link">
+                          <a href="{{site.github.repository_url}}/blob/main/{{page.path}}?plain=1"  target="_blank"></a>
+                        </div>
                       </div>
           </div>
       <div class="col">
@@ -42,7 +42,7 @@ layout: default
       {% endif %}
        <h1>
           <span property="dct:title">{{ page.title }}</span>
-<!--           <a href="{{ "/editor" | relative_url }}/#/collections/datasets/entries/{{ page.slug }}" class="pull-right btn btn-outline-secondary" data-hook="edit-dataset-btn">Edit</a> -->
+           <a href="{{ "/editor" | relative_url }}/#/collections/datasets/entries/{{ page.slug }}" class="pull-right btn btn-outline-secondary" data-hook="edit-dataset-btn"></a> 
         </h1>
         <p><span class="post-date">Last modified: {{ page.date | date: "%b %d, %Y" }}</span></p>
         <p style="text-align: justify; overflow-wrap: break-word;"><a href="{{ page.doiurl }}"><img src="{{ page.doiimg }}"></a></p>
