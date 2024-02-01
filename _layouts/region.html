@@ -10,6 +10,7 @@ layout: default
       {% if page.logo and page.logo != empty %}
       <div class="col-sm-3" style = "float: left;">
         <a href="{{ page.logo | relative_url }}" class="card-grid-item"><img class="img-thumbnail rounded mx-auto d-block" src="{{ page.logo | relative_url }}" alt="{{ page.title }} logo"></a>
+      <p>{{ page.description }}</p>
       </div>
       <div class="col-sm-9" style = "float: right;" >
       {% else %}
