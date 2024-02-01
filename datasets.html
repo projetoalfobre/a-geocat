@@ -5,7 +5,6 @@ permalink: /datasets/
 ---
 {% include breadcrumbs.html %}
 {% assign datasets_count = site.datasets  |  size  %}
-{% assign sorted = site.datasets %}
 
 <div class="row">
   <div class="col-sm-4">
@@ -38,8 +37,7 @@ permalink: /datasets/
       {% if datasets_count == 1 %}dataset{% else %}datasets{% endif %}</h3>
     <input type="text" data-hook="search-query" placeholder="Search..." class="form-control mb-3">
     <div data-hook="datasets-items" class="dataset-links">
-      {% for dataset in sorted reversed %}
-<!--      {% for dataset in site.datasets reversed %} -->
+     {% for dataset in site.datasets reversed %}
       <dataset>
         <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
         {{ dataset.notes }}
