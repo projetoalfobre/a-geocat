@@ -32,6 +32,36 @@ layout: default
                           {{ region.description }}
                         </div>
                         <div class="view-code-link">
+                          <h3>Additional Info</h3>
+        <table class="table table-striped dataset-details">
+          {% if page.license and page.license != empty %}
+            {% assign license = site.data.licenses.items | where:"url",page.license | first %}
+            <tr>
+              <th class="additional-info-label">License</th>
+              <td>
+                <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}">
+                  {{ license.name }}
+                </a>
+              </td>
+            </tr>
+          {% endif %}
+          {% for field in dataset_fields %}
+            {% unless dataset_system_fields contains field.field_name %}
+              {% assign value = page[field[field_name]] %}
+              {% if value %}
+                {% if field.display_template %}
+                  {% include {{ field.display_template }} field=field value=value %}
+                {% else %}
+                  <tr>
+                    <th class="additional-info-label">{{ field.label }}</th>
+                    <td>{{ value }}</td>
+                  </tr>
+                {% endif %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+
+        </table>
                           <a href="{{site.github.repository_url}}/blob/main/{{page.path}}?plain=1"  target="_blank"></a>
                         </div>
                       </div>
