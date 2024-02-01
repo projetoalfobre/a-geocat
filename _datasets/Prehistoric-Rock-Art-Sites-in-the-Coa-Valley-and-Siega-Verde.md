@@ -15,7 +15,7 @@ resources:
 license: 'http://creativecommons.org/licenses/by/4.0'
 category:
   - Archaeology
-  - Arts
+  - 'Arts and Culture'
   - Prehistory
 maintainer: nelson gonçalves (aka nafergo)
 maintainer_email: nafergo@gmail.com

@@ -26,7 +26,7 @@ resources:
     format: geojson
 license: 'http://creativecommons.org/licenses/by/4.0'
 category:
-  - Arts
+  - 'Arts and Culture'
   - Medieval
 maintainer: nelson gonçalves (aka nafergo)
 maintainer_email: nafergo@gmail.com
