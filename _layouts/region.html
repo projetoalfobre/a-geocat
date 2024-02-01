@@ -20,7 +20,6 @@ layout: default
           {{ page.title }}
           <a href="{{ "/editor" | relative_url }}/#/collections/regions/entries/{{ page.slug }}" class=""></a>
         </h1>
-        <p>{{ page.description }}</p>
         <div data-component="dataset-list" data-region="{{ page.title | slugify }}">
           <h3 class="datasets-count" data-hook="datasets-count">{{ datasets_count }}
               {% if datasets_count == 1 %}dataset{% else %}datasets{% endif %}</h3>
