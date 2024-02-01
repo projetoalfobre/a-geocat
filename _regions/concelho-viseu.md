@@ -1,5 +1,5 @@
 ---
-title: Concelho de Viseu
-description: Texto descritivo do Departamento de Investigação B
+title: Viseu (municipality)
+description: 
 logo: img/regions/concelho_viseu.svg
 ---
