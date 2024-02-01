@@ -16,23 +16,19 @@ layout: default
         {% if region %}
         <div class="col-md-3" property="dct:publisher" resource="{{ region_url }}">
           <div class="card mb-3">
-                        <div class="card-header">
-                          <h6 style="word-wrap: break-word">This dataset belongs to the  
-                            <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
-                              <span property="foaf:name">{{ region.title }} </span>
-                            </a>region.
-                          </h6>
-                            </div>            
             <div class="card-img-top">
               {% if region.logo and region.logo != empty %}
               <a href="{{ region_url }}"><img src="{{ region.logo | relative_url }}" alt="{{ region.title }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
               {% endif %}
                         </div>
-                            <div class="card-body">
-                          {{ region.description }}
-                        </div>
+                        <div class="card-header">
+                          <h6 style="word-wrap: break-word">REGION</h6>
+                            <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
+                              <span property="foaf:name">{{ region.title }} </span>
+                            </a>                          
+                         </div>                        
                         <div class="view-code-link post-date">
-       <h6>This dataset belongs to the following categories:</h6>
+       <h6>CATEGORIES</h6>
           {% for field in dataset_fields %}
             {% unless dataset_system_fields contains field.field_name %}
               {% assign value = page[field[field_name]] %}
