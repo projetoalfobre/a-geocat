@@ -1,6 +1,6 @@
 ---
 name: Prehistory
-logo: "/img/era/prehistory.svg"
+logo: "/img/era/prehistory1.svg"
 logo_credit: 
 featured: true
 ---
