@@ -2,7 +2,7 @@
 layout: default
 ---
 {% include breadcrumbs.html parent="Categories" %}
-{% assign datasets = site.datasets | where: "category", page.name %}
+{% assign datasets = site.datasets | where: "category", page.name  |  sort: "date" | reverse %}
 {% assign datasets_count = datasets | size %}
 
 <div class="container">
