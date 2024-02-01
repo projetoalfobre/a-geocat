@@ -6,6 +6,12 @@ hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
 url: https://projetoalfobre.github.io/a-geocat/
 
+# jekyll-feed
+feed:
+  posts_limit: 5
+  collections:
+    - datasets
+  
 # Site theme
 jkan_theme: Default
 
