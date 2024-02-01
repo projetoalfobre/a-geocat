@@ -1,7 +1,9 @@
 ---
 schema: default
 title: Roman road system in Portugal
-region: Portugal
+region: 
+  - Portugal
+  - Spain
 notes: Road network used in the Roman period. Dataset includes roads/ways but also information about milestones, bridges, vici, villae, etc.
 doiurl: https://doi.org/10.5281/zenodo.10552607
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10552607.svg
