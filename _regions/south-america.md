@@ -1,5 +1,5 @@
 ---
 title: South America
-description: 
+description: Datasets located in South America.
 logo: img/regions/south_america.svg
 ---
