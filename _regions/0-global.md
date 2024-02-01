@@ -1,5 +1,5 @@
 ---
 title: Global
-description: Texto descritivo do Departamento de Investigação B
+description: 
 logo: img/regions/global.svg
 ---
