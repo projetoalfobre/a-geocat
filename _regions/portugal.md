@@ -1,5 +1,5 @@
 ---
 title: Portugal
-description: Datasets related to Portugal or its districts, municipalities and civil parishes
+description: Datasets located in Portugal.
 logo: img/regions/portugal.svg
 ---
