@@ -32,12 +32,7 @@ layout: default
                           {{ region.description }}
                         </div>
                         <div class="view-code-link post-date">
-       <h5>Additional Info</h5>
-        
-          {% if page.license and page.license != empty %}
-            {% assign license = site.data.licenses.items | where:"url",page.license | first %}
-            <span style="text-transform: uppercase;">License:</span> <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}">{{ license.name }}</a>
-          {% endif %}
+       <h5>Categories</h5>
           {% for field in dataset_fields %}
             {% unless dataset_system_fields contains field.field_name %}
               {% assign value = page[field[field_name]] %}
@@ -45,7 +40,6 @@ layout: default
                 {% if field.display_template %}
                   {% include {{ field.display_template }} field=field value=value %}
                 {% else %}
-                  <span style="text-transform: uppercase;">{{ field.label }}:</span> {{ value }}
                 {% endif %}
               {% endif %}
             {% endunless %}
