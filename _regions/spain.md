@@ -1,5 +1,5 @@
 ---
 title: Spain
-description: 
+description: Datasets located in Spain.
 logo: img/regions/spain.svg
 ---
