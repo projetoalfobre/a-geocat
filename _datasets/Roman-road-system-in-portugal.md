@@ -13,6 +13,9 @@ license: 'https://creativecommons.org/licenses/by/4.0/'
 category:
   - Ancient
   - Routes
+tag:
+  - teste
+  - outra
 maintainer: nelson gonçalves (aka nafergo)
 maintainer_email: nafergo@gmail.com
 date: 22-01-2024
