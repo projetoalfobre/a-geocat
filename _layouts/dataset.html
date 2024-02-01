@@ -17,9 +17,9 @@ layout: default
         <div class="col-md-3" property="dct:publisher" resource="{{ region_url }}">
           <div class="card mb-3">
                         <div class="card-header">
-                          <h6 style="word-wrap: break-word">Region: 
+                          <h6 style="word-wrap: break-word">This dataset belongs to the  
                             <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
-                              <span property="foaf:name">{{ region.title }}</span>
+                              <span property="foaf:name">{{ region.title }} region</span>
                             </a>
                           </h6>
                             </div>            
@@ -38,7 +38,7 @@ layout: default
               {% assign value = page[field[field_name]] %}
               {% if value %}
                 {% if field.display_template %}
-                  {% include {{ field.display_template }} field=field value=value %}
+                  {% include {{ field.display_template }} value=value %}
                 {% else %}
                 {% endif %}
               {% endif %}
