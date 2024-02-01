@@ -1,5 +1,5 @@
 ---
 title: Portugal
-description: Texto descritivo do Departamento de Investigação B
+description: 
 logo: img/regions/portugal.svg
 ---
