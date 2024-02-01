@@ -1,28 +1,36 @@
 ---
 schema: default
 title: Castles in Portugal
-region: Portugal
-notes: Roman road system in present-day Portugal
-doiurl: https://doi.org/10.5281/zenodo.10535242
-doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
+region: Iberia
+notes: Georeferenced toponym list from project Littera, a reseach projet developed by Instituto de Estudos Medievais of the Faculdade de Ciências Sociais e Humanas of Universidade Nova de Lisboa.
+doiurl: https://doi.org/10.5281/zenodo.10547240
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547240.svg
 resources:
-  - name: https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg
-    url: 'https://doi.org/10.5281/zenodo.10535242'
-    format: jpg
-  - name: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10535242.svg)
-    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
-    format: shp
-  - name: Air Monitoring Stations GeoService
-    url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
+  - name: mapa_das_cantigas_medievais_galego_portuguesas.gpkg
+    url: 'https://doi.org/10.5281/zenodo.10547240'
     format: gpkg
-license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
+  - name: mapa_das_cantigas_medievais_galego_portuguesas_templos_cristaos.geojson
+    url: 'https://doi.org/10.5281/zenodo.10547240'
+    format: geojson
+  - name: mapa_das_cantigas_medievais_galego_portuguesas_localizacoes.geojson
+    url: 'https://doi.org/10.5281/zenodo.10547240'
+    format: geojson
+  - name: mapa_das_cantigas_medievais_galego_portuguesas_rios_e_mares.geojson
+    url: 'https://doi.org/10.5281/zenodo.10547240'
+    format: geojson
+  - name: mapa_das_cantigas_medievais_galego_portuguesas_lugares_urbanos.geojson
+    url: 'https://doi.org/10.5281/zenodo.10547240'
+    format: geojson
+  - name: mapa_das_cantigas_medievais_galego_portuguesas_regioes.geojson
+    url: 'https://doi.org/10.5281/zenodo.10547240'
+    format: geojson
+license: 'http://creativecommons.org/licenses/by/4.0'
 category:
-  - Economy
-  - Archaeology
+  - Arts
+  - Medieval
 maintainer: nelson gonçalves (aka nafergo)
 maintainer_email: nafergo@gmail.com
 date: 11-01-2024
-published: true
 ---
 
 
