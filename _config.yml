@@ -11,6 +11,7 @@ feed:
   posts_limit: 5
   collections:
     - datasets
+  excerpt_only: true
   
 # Site theme
 jkan_theme: Default
