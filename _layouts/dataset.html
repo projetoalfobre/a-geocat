@@ -19,8 +19,8 @@ layout: default
                         <div class="card-header">
                           <h6 style="word-wrap: break-word">This dataset belongs to the  
                             <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
-                              <span property="foaf:name">{{ region.title }} region</span>
-                            </a>
+                              <span property="foaf:name">{{ region.title }} </span>
+                            </a>region.
                           </h6>
                             </div>            
             <div class="card-img-top">
@@ -32,7 +32,7 @@ layout: default
                           {{ region.description }}
                         </div>
                         <div class="view-code-link post-date">
-       <h5>Categories</h5>
+       <h6>This dataset belongs to the following categories:</h6>
           {% for field in dataset_fields %}
             {% unless dataset_system_fields contains field.field_name %}
               {% assign value = page[field[field_name]] %}
