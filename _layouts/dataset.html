@@ -16,17 +16,24 @@ layout: default
         {% if region %}
         <div class="col-md-3" property="dct:publisher" resource="{{ region_url }}">
           <div class="card mb-3">
+                        <div class="card-header">
+                          <h6 style="word-wrap: break-word">Region: 
+                            <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
+                              <span property="foaf:name">{{ region.title }}</span>
+                            </a>
+                          </h6>
+                            </div>            
             <div class="card-img-top">
               {% if region.logo and region.logo != empty %}
               <a href="{{ region_url }}"><img src="{{ region.logo | relative_url }}" alt="{{ region.title }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
               {% endif %}
                         </div>
                         <div class="card-header">
-                          <h5 style="word-wrap: break-word">Region: 
+                          <h6 style="word-wrap: break-word">Region: 
                             <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
                               <span property="foaf:name">{{ region.title }}</span>
                             </a>
-                          </h5>
+                          </h6>
                             </div>
                             <div class="card-body">
                           {{ region.description }}
@@ -36,7 +43,7 @@ layout: default
         <ul>
           {% if page.license and page.license != empty %}
             {% assign license = site.data.licenses.items | where:"url",page.license | first %}
-            <li>License: <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}">{{ license.name }}</a></li>
+            <li><span class="post-date" style="text-transform: uppercase;">License:</span> <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}">{{ license.name }}</a></li>
           {% endif %}
           {% for field in dataset_fields %}
             {% unless dataset_system_fields contains field.field_name %}
@@ -45,7 +52,7 @@ layout: default
                 {% if field.display_template %}
                   {% include {{ field.display_template }} field=field value=value %}
                 {% else %}
-                  <li>{{ field.label }}: {{ value }}</li>
+                  <li><span class="post-date" style="text-transform: uppercase;">{{ field.label }}:</span> {{ value }}</li>
                 {% endif %}
               {% endif %}
             {% endunless %}
