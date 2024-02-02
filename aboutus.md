@@ -11,33 +11,47 @@ permalink: /aboutus/
   </div>
 </div>
 
+
+
+
+<div class="row">
+ <div class="col" style="text-align:right; padding-top:3em;">
+ 
+<img class="float-right d-none d-sm-block img-flui" style="width:80%" src="{{ site.baseurl }}/img/logo_alfobre.png">
+
+
+ </div>
+  <div class="col-sm-8">
+
 <h2 >About us</h2>
-A-GeoCat (Alfobre GeoData Catalog) is a geospatial open data catalog developed and maintained by [Alfobre](http://alfobre.com).
+<p>A-GeoCat (Alfobre GeoData Catalog) is a open geospatial data catalog developed and maintained by <a href="http://alfobre.com" target="_blank">Alfobre</a>.</p>
 
-Our datasets are licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>.
+<p>It's open data because our datasets are licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>.</p>
 
-[Alfobre](http://alfobre.com) (portuguese for seedbed) is a collective devoted to the creation and development of projects, strategies and products in the Heritage field.
+<p><a href="http://alfobre.com" target="_blank">Alfobre</a> is portuguese for seedbed. It's also a collective devoted to the creation and development of projects, strategies and products in the Heritage field.</p>
 
+<p>A-GeoCat is a modified version of the awesome <a href="https://jkan.io/" target="_blank">JKAN</a>, a lightweight, backend-free open data portal, powered by Jekyll. If you're interested in checking or using our version, please visit the <a href="https://github.com/projetoalfobre/a-geocat" target="_blank">GitHub repository</a>. JKAN is licensed under the MIT License (MIT) and so is A-GeoCat.</p>
+ 
 <br /><br />
 <h2 >Licenses and copyright</h2>
-Unless otherwise noted, the datasets are available under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>. This means that you are free to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes, as long as you give credit to the creator(s).
-<br />
+<p>Unless otherwise noted, the datasets are available under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>. This means that you are free to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes, as long as you give credit to the creator(s).</p>
 
-**PLEASE NOTE** Some datasets are a derivative work, this means that they are build upon data originally created or made available by others. This CC license applies only to our original contributions and does not supersede any rights retained by the authors of the original data.
-<br />
 
-#### Attribution text
-Please check for the attribution text in each dataset page. 
-<br />
+<p><strong>PLEASE NOTE</strong> Some datasets are a derivative work, this means that they are build upon data originally created or made available by others. This CC license applies only to our original contributions and does not supersede any rights retained by the authors of the original data.</p>
 
-The attribution text must be easily readable and understandable but feel free to adapt. For example, you might use several datasets and prefer to credit like "Datasets by (...)" or you might prefer to use the URLs as links like [A-GeoCat](https://projetoalfobre.github.io/a-geocat/), [Alfobre](https://www.alfobre.com) or Creative Commons [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0).
-<br />
 
-When applicable, derivative work, please also credit original data sources by adding "This work is based on... "
+<h4> Attribution text</h4>
+<p>Please check for the attribution text in each dataset page. </p>
 
+<p>The attribution text must be easily readable and understandable but feel free to adapt. For example, you might use several datasets and prefer to credit like "Datasets by (...)" or you might prefer to use the URLs as links like <a href="https://projetoalfobre.github.io/a-geocat/" target="_blank">A-GeoCat</a>, <a href="https://www.alfobre.com" target="_blank">Alfobre</a> or <a href="http://creativecommons.org/licenses/by/4.0" target="_blank">Attribution 4.0 International</a>.</p>
+
+<p>When applicable, derivative work, please also credit original data sources by adding "This work is based on... "</p>
 
 <br /><br />
-
 <h2 >Copyright infringement</h2>
-If you believe that copyrighted material has been inappropriately added to these datasets or this site, please contact the dataset maintainer or send an email to projeto.alfobre@gmail.com
+<p>If you believe that copyrighted material has been inappropriately added to these datasets or this site, please contact the dataset maintainer or send an email to projeto.alfobre@gmail.com</p>
 
+</div>
+
+
+ </div>
