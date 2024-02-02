@@ -15,53 +15,77 @@ layout: default
     <div class="row">
         {% if region %}
         <div class="col-md-3" property="dct:publisher" resource="{{ region_url }}">
+
           <div class="card mb-3">
-            <div class="card-img-top">
+            <div class="card-img-top ">
               {% if region.logo and region.logo != empty %}
               <a href="{{ region_url }}"><img src="{{ region.logo | relative_url }}" alt="{{ region.title }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
               {% endif %}
-                        </div>
-                        <div class="card-header">
+            </div>
+            <div class="card-body">
                           <h6 style="word-wrap: break-word">REGION</h6>
                             <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
                               <span property="foaf:name">{{ region.title }} </span>
-                            </a>                          
-                         </div>                        
-                        <div class="view-code-link">
-       <h6>CATEGORIES</h6>
-          {% for field in dataset_fields %}
-            {% unless dataset_system_fields contains field.field_name %}
-              {% assign value = page[field[field_name]] %}
-              {% if value %}
-                {% if field.display_template %}
-                  {% include {{ field.display_template }} value=value %}
-                {% else %}
-                {% endif %}
-              {% endif %}
-            {% endunless %}
-          {% endfor %}
-        
+                            </a>
+            </div>
+            <div class="card-body">
+                            <h6>CATEGORIES</h6>
+                            {% for field in dataset_fields %}
+                              {% unless dataset_system_fields contains field.field_name %}
+                                {% assign value = page[field[field_name]] %}
+                                {% if value %}
+                                  {% if field.display_template %}
+                                    {% include {{ field.display_template }} value=value %}
+                                  {% else %}
+                                  {% endif %}
+                                {% endif %}
+                              {% endunless %}
+                            {% endfor %}        
+              </div>                                        
+            </div>
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6>ADDITIONAL INFO</h6>
                           <a href="{{site.github.repository_url}}/blob/main/{{page.path}}?plain=1"  target="_blank"></a>
-                        </div>
-                      </div>
-          </div>
+                          
+                          <p style="text-align: justify; overflow-wrap: break-word;"><a href="{{ page.doiurl }}" target="_blank"><img class="img-fluid" src="{{ page.doiimg }}"></a></p>
+
+
+<p class="post-date" style="overflow-wrap: break-word;">
+<span class="post-date-label">Last modified</span><br/>  {{ page.date | date: "%b %d, %Y" }}</p>
+
+{% if page.license and page.license != empty %}
+{% assign license = site.data.licenses.items | where:"url",page.license | first %}
+<p class="post-date" style="overflow-wrap: break-word;">
+<span class="post-date-label">License</span><br/> <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}"> {{ license.name }} </a></p>
+{% endif %}
+
+<p class="post-date" style="overflow-wrap: break-word;">
+  <span class="post-date-label">Maintainer</span><br/>  {{ page.maintainer }} </p>
+  
+<p class="post-date" style="overflow-wrap: break-word;">
+  <span class="post-date-label">Maintainer Email</span><br/> {{ page.maintainer_email }} </p>
+  
+  
+                       </div>
+            </div>
+        </div>
       <div class="col">
       {% else %}
-      <div class="col">
+      <div class="col"> 
       {% endif %}
        <h1>
           <span property="dct:title">{{ page.title }}</span>
            <a href="{{ "/editor" | relative_url }}/#/collections/datasets/entries/{{ page.slug }}" class="pull-right" data-hook="edit-dataset-btn"></a> 
         </h1>
-        <p><span class="post-date">Last modified: {{ page.date | date: "%b %d, %Y" }}</span></p>
-        <p style="text-align: justify; overflow-wrap: break-word;"><a href="{{ page.doiurl }}"><img src="{{ page.doiimg }}"></a></p>
+        <br>
         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{ page.notes }}</p>
 <br>
-        <h2>Files</h2>
+        <h3>Dataset</h3>
         <ul class="files-link" >
           {% for resource in page.resources %}
           <li data-hook="resource-item" property='dcat:distribution' typeof='dcat:Distribution'>
-            <i class="fa fa-file-archive-o" aria-hidden="true"></i> <a href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name }}</span></a>
+            <i class="fa fa-download" aria-hidden="true"></i> <a href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name }}</span></a>
             {% if resource.format %}<span class="badge bg-secondary {{ resource.format }}" property='dcat:mediaType'>{{ resource.format }}</span>{% endif %}
             <a href="#" class="show-resource-details" data-hook="show-resource-details">(Details)</a>
             {% if resource.description %}<div class="resource-description">{{ resource.description }}</div>{% endif %}
@@ -91,36 +115,6 @@ layout: default
 </div>
 <br>
 
-        <h3>Additional Info</h3>
-        <table class="table table-striped dataset-details">
-          {% if page.license and page.license != empty %}
-            {% assign license = site.data.licenses.items | where:"url",page.license | first %}
-            <tr>
-              <th class="additional-info-label">License</th>
-              <td>
-                <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}">
-                  {{ license.name }}
-                </a>
-              </td>
-            </tr>
-          {% endif %}
-          {% for field in dataset_fields %}
-            {% unless dataset_system_fields contains field.field_name %}
-              {% assign value = page[field[field_name]] %}
-              {% if value %}
-                {% if field.display_template %}
-                  {% include {{ field.display_template }} field=field value=value %}
-                {% else %}
-                  <tr>
-                    <th class="additional-info-label">{{ field.label }}</th>
-                    <td>{{ value }}</td>
-                  </tr>
-                {% endif %}
-              {% endif %}
-            {% endunless %}
-          {% endfor %}
-
-        </table>
         
       </div>
     </div>

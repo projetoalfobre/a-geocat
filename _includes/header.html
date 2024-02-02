@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm mb-4 navbar-light bg-light" data-component="navigation">
   <div class="container">
-  <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/geocat.svg" style="width: 5em;" > {{ site.title }}</a>
+  <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/geocat.svg" style="width: 2em;" > {{ site.title }}</a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -8,9 +8,9 @@
       <ul class="navbar-nav" style="margin-left: auto;">
         {% for link in site.navigation %}
           {% if page.url contains link.url %}
-          <li class="nav-item"><a class="nav-link active bg-primary text-white" href="{{ site.baseurl }}{{ link.url }}" aria-current="page">{{ link.title }}</a></li>
+          <li class="nav-item"><a class="text-nowrap nav-link active bg-primary text-white" href="{{ site.baseurl }}{{ link.url }}" aria-current="page">{{ link.title }}</a></li>
           {% else %}
-          <li class="nav-item"><a class="nav-link text-primary" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          <li class="nav-item"><a class="text-nowrap nav-link text-primary" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

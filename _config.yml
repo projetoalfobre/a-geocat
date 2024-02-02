@@ -14,7 +14,7 @@ feed:
   excerpt_only: true
   
 # Site theme
-jkan_theme: Default
+jkan_theme: Default 
 
 # Dataset schema
 schema: geocat

@@ -24,8 +24,8 @@ dataset_fields:
     label: Maintainer Email
     datajson: contactPoint.hasEmail
   - field_name: date
-    label: Last Modified
-    datajson: last.modified
+    label: Date
+    datajson: date
 
 resource_fields:
   - field_name: name

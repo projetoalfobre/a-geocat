@@ -12,7 +12,7 @@ resources:
   - name: Rock_Art_of_the_Mediterranean_Basin_on_the_Iberian_Peninsula.csv
     url: 'https://doi.org/10.5281/zenodo.10547222'
     format: csv
-license: 'http://creativecommons.org/licenses/by/4.0'
+license: 'https://creativecommons.org/licenses/by/4.0/'
 category:
   - Archaeology
   - 'Arts and Culture'
