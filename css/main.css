@@ -171,6 +171,13 @@ min-height: 40px;
 .csv {text-transform: uppercase; background-color: forestgreen!important}
 .json {text-transform: uppercase; background-color: lightgreen!important}
 .geojson {text-transform: uppercase; background-color: blueviolet!important}
+.file-geojson:before {  content: '\f00c';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1em;
+  color: #3c763d;
+}
+
 .html {}
 .kml {}
 .kmz {}
