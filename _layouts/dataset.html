@@ -13,7 +13,7 @@ layout: default
   <div class="container">
   <div data-component="dataset-display" typeof="dcat:Dataset" resource="{{ page.url }}">
     <div class="row">
-        {% if region %}
+<!--        {% if region %}
         <div class="col-md-3" property="dct:publisher" resource="{{ region_url }}">
 
           <div class="card mb-3">
@@ -21,14 +21,16 @@ layout: default
               {% if region.logo and region.logo != empty %}
               <a href="{{ region_url }}"><img src="{{ region.logo | relative_url }}" alt="{{ region.title }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
               {% endif %}
+              
             </div>
+-->
+    <div class="col-md-3" property="dct:publisher" resource="">
+          <div class="card mb-3">
+            <div class="card-img-top ">
+              <img src="{{ site.baseurl }}/img/categories/type-{{ page.type }}.svg" alt="{{ page.type }} logo" class="img-thumbnail rounded mx-auto d-block">           
+            </div>
+
             <div class="card-body">
-
-              
-              <img src="{{ site.baseurl }}/img/categories/type-{{ page.type }}.svg" alt="{{ page.type }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
-              
-
-
               
                           <h6 style="word-wrap: break-word">REGION</h6>
                             <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
