@@ -1,12 +1,14 @@
 ---
 schema: default
 title: Saint James' Way to Santiago de Compostela
+type: data
 region: Iberia
 notes: The Way of St. James or St. James' Way (Caminho de Santiago, Camino de Santiago, Chemin de St-Jacques, Jakobsweg) is the pilgrimage route to the Cathedral of Santiago de Compostela in Galicia in northwestern Spain.
 doiurl: https://doi.org/10.5281/zenodo.10547237
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547237.svg
 resources:
   - name: caminos_santiago.gpkg
+    description: file with data from all the listed sources 
     url: 'https://doi.org/10.5281/zenodo.10547237'
     format: gpkg
 license: 'https://creativecommons.org/licenses/by/4.0/'
