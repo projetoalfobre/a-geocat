@@ -1,16 +1,18 @@
 ---
 schema: default
 title: Rock Art of the Mediterranean Basin on the Iberian Peninsula
+type: data
 region: Spain
 notes: List of Rock Art Sites of the Mediterranean Basin on the Iberian Peninsula from UNESCO World Heritage website.
 doiurl: https://doi.org/10.5281/zenodo.10547222
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547222.svg
 resources:
   - name: Rock Art of the Mediterranean Basin on the Iberian Peninsula
-    description: lulu
+    description: 
     url: 'https://doi.org/10.5281/zenodo.10547222'
     format: gpkg
   - name: Rock Art of the Mediterranean Basin on the Iberian Peninsula
+    description: 
     url: 'https://doi.org/10.5281/zenodo.10547222'
     format: csv
 license: 'https://creativecommons.org/licenses/by/4.0/'
