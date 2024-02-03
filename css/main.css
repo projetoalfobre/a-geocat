@@ -168,8 +168,8 @@ min-height: 40px;
 .files-link{list-style-type: none;}
 
 .api {}
-.csv {text-transform: uppercase; background-color: green!important}
-.json {text-transform: uppercase; background-color: rgb(1, 175, 255)!important}
+.csv {text-transform: uppercase; background-color: forestgreen!important}
+.json {text-transform: uppercase; background-color: lightgreen!important}
 .geojson {text-transform: uppercase; background-color: blueviolet!important}
 .html {}
 .kml {}
@@ -177,8 +177,8 @@ min-height: 40px;
 .shp {}
 .xml {}
 .gpkg {text-transform: uppercase; background-color: orangered!important}
-.wfs {text-transform: uppercase; background-color: rgba(255, 251, 0, 0.822)!important}
-.wms {text-transform: uppercase; background-color: rgb(255, 56, 165)!important}
+.wfs {text-transform: uppercase; background-color: gold!important}
+.wms {text-transform: uppercase; background-color: violet!important}
 .webmap {}
 .geotiff {text-transform: uppercase; background-color: orange!important}
 .gml {}
