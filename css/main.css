@@ -182,7 +182,7 @@ min-height: 40px;
 .webmap {}
 .geotiff {text-transform: uppercase; background-color: orange!important}
 .gml {}
-.jpg {}
+.jpg {text-transform: uppercase; background-color: deeppink!important}
 
 th, .additional-info-label {
   font-weight: 600;
