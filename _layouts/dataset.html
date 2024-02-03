@@ -51,22 +51,17 @@ layout: default
                           <p style="text-align: justify; overflow-wrap: break-word;"><a href="{{ page.doiurl }}" target="_blank"><img class="img-fluid" src="{{ page.doiimg }}"></a></p>
 
 
-<p class="post-date" style="overflow-wrap: break-word;">
-<span class="post-date-label"> <i class="fa fa-calendar" aria-hidden="true" title="Last modified"></i> Last Modified</span><br/>
-   <i class="fa fa-calendar" aria-hidden="true" title="Last modified"></i> 
-  {{ page.date | date: "%b %d, %Y" }}</p>
+<p class="post-date" style="overflow-wrap: break-word;"><span class="post-date-label"><i class="fa fa-calendar" aria-hidden="true" title="Last modified"></i> Last Modified</span><br/> {{ page.date | date: "%b %d, %Y" }} </p>
 
 {% if page.license and page.license != empty %}
 {% assign license = site.data.licenses.items | where:"url",page.license | first %}
 <p class="post-date" style="overflow-wrap: break-word;">
-<span class="post-date-label">License</span><br/><i class="fa fa-balance-scale" aria-hidden="true" title="License"></i> <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}"> {{ license.name }} </a></p>
+<span class="post-date-label"><i class="fa fa-balance-scale" aria-hidden="true" title="License"></i> License</span><br/> <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}"> {{ license.name }} </a></p>
 {% endif %}
 
-<p class="post-date" style="overflow-wrap: break-word;">
-  <span class="post-date-label">Maintainer</span><br/><i class="fa fa-user" aria-hidden="true" title="Maintainer"></i>  {{ page.maintainer }} </p>
+<p class="post-date" style="overflow-wrap: break-word;"><span class="post-date-label"><i class="fa fa-user" aria-hidden="true" title="Maintainer"></i> Maintainer</span><br/> {{ page.maintainer }} </p>
   
-<p class="post-date" style="overflow-wrap: break-word;">
-  <span class="post-date-label">Maintainer Email</span><br/><i class="fa fa-envelope-o" aria-hidden="true" title="Maintainer Email"></i> {{ page.maintainer_email }} </p>
+<p class="post-date" style="overflow-wrap: break-word;"><span class="post-date-label"><i class="fa fa-envelope-o" aria-hidden="true" title="Maintainer Email"></i> Maintainer Email</span><br/> {{ page.maintainer_email }} </p>
   
   
                        </div>
