@@ -23,6 +23,14 @@ layout: default
               {% endif %}
             </div>
             <div class="card-body">
+
+              {% if page.type and page.type = "data" %}
+              <img src="{{ site.baseurl }}/img/categories/type-data.svg" alt="{{ page.type }} logo" class="img-thumbnail rounded mx-auto d-block"></a>
+              {% endif %}
+
+
+
+              
                           <h6 style="word-wrap: break-word">REGION</h6>
                             <a href="{{ region_url }}" about="{{ region_url }}" property="foaf:homepage">
                               <span property="foaf:name">{{ region.title }} </span>
