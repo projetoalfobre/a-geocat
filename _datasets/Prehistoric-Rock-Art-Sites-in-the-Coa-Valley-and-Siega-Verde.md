@@ -11,7 +11,7 @@ resources:
     url: 'https://doi.org/10.5281/zenodo.10547153'
     format: gpkg
   - name: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
-    description lili
+    description: lili
     url: 'https://doi.org/10.5281/zenodo.10547153'
     format: csv
 license: 'http://creativecommons.org/licenses/by/4.0'
