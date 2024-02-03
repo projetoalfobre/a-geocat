@@ -1,6 +1,6 @@
 ---
 ---
-[{% for dataset in site.datasets reversed %}
+[{% for dataset in site.datasets %}
   {
     "title": {{ dataset.title | jsonify }},
     "region": {{ dataset.region | jsonify }}{% if dataset.notes != "" %},
