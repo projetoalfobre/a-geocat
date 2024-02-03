@@ -1,6 +1,7 @@
 ---
 schema: default
 title: Georeferenced toponym list from medieval Galician-Portuguese songbooks
+type: data
 region: Iberia
 notes: Georeferenced toponym list from project Littera, a reseach projet developed by Instituto de Estudos Medievais of the Faculdade de Ciências Sociais e Humanas of Universidade Nova de Lisboa.
 doiurl: https://doi.org/10.5281/zenodo.10547240
