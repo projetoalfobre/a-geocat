@@ -52,16 +52,18 @@ layout: default
 
 
 <p class="post-date" style="overflow-wrap: break-word;">
-<span class="post-date-label">Last modified</span><br/>  {{ page.date | date: "%b %d, %Y" }}</p>
+<span class="post-date-label"> <i class="fa fa-calendar-days" aria-hidden="true" title="Last modified"></i> Last Modified</span><br/>
+   <i class="fa fa-calendar-days" aria-hidden="true" title="Last modified"></i> 
+  {{ page.date | date: "%b %d, %Y" }}</p>
 
 {% if page.license and page.license != empty %}
 {% assign license = site.data.licenses.items | where:"url",page.license | first %}
 <p class="post-date" style="overflow-wrap: break-word;">
-<span class="post-date-label">License</span><br/> <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}"> {{ license.name }} </a></p>
+<span class="post-date-label">License</span><br/><i class="fa fa-scale-balanced" aria-hidden="true" title="Last modified"></i> <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}"> {{ license.name }} </a></p>
 {% endif %}
 
 <p class="post-date" style="overflow-wrap: break-word;">
-  <span class="post-date-label">Maintainer</span><br/>  {{ page.maintainer }} </p>
+  <span class="post-date-label">Maintainer</span><br/><i class="fa fa-user" aria-hidden="true" title="Last modified"></i>  {{ page.maintainer }} </p>
   
 <p class="post-date" style="overflow-wrap: break-word;">
   <span class="post-date-label">Maintainer Email</span><br/> {{ page.maintainer_email }} </p>
@@ -85,7 +87,7 @@ layout: default
         <ul class="files-link" >
           {% for resource in page.resources %}
           <li data-hook="resource-item" property='dcat:distribution' typeof='dcat:Distribution'>
-            <i class="fa fa-download" aria-hidden="true"></i> <a href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name }}</span></a>
+            <i class="fa fa-download" aria-hidden="true" title="Download file"></i> <a href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name }}</span></a>
             {% if resource.format %}<span class="badge bg-secondary {{ resource.format }}" property='dcat:mediaType'>{{ resource.format }}</span>{% endif %}
             <a href="#" class="show-resource-details" data-hook="show-resource-details">(Details)</a>
             {% if resource.description %}<div class="resource-description">{{ resource.description }}</div>{% endif %}
