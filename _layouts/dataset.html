@@ -87,11 +87,11 @@ layout: default
         <br>
         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{ page.notes }}</p>
 <br>
-        <h3>Dataset</h3>
+        <h3>Files</h3>
         <ul class="files-link" >
           {% for resource in page.resources %}
           <li data-hook="resource-item" property='dcat:distribution' typeof='dcat:Distribution'>
-            <i class="fa fa-download" aria-hidden="true" title="Download file"></i> <a class="file-{{ resource.format }}" href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name }}</span></a>
+            <a class="file-{{ resource.format }}" href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name }}</span></a>
             {% if resource.format %}<span class="badge bg-secondary {{ resource.format }}" property='dcat:mediaType'>{{ resource.format }}</span>{% endif %}
             <a href="#" class="show-resource-details" data-hook="show-resource-details">(Details)</a>
             {% if resource.description %}<div class="resource-description">{{ resource.description }}</div>{% endif %}
