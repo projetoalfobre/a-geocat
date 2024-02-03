@@ -15,7 +15,7 @@ resources:
     description: lili
     url: 'https://doi.org/10.5281/zenodo.10547153'
     format: csv
-license: 'https://creativecommons.org/licenses/by/4.0'
+license: 'https://creativecommons.org/licenses/by/4.0/'
 category:
   - Archaeology
   - 'Arts and Culture'
