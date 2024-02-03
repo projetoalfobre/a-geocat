@@ -105,7 +105,7 @@ dataset {
   padding-bottom: 1em;
   font-size: 0.8em;
 }
-
+/*
 html, body {
   background-color: #f8f8f8;
   height: 100%;
@@ -120,7 +120,7 @@ body {
 .content {
   flex: 1 0 auto;
 }
-
+*/
 .nav-item{
 text-transform: uppercase;
 font-weight: bold;
