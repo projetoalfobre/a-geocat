@@ -6,10 +6,12 @@ notes: List of Prehistoric Rock Art Sites in the Côa Valley and Siega Verde fro
 doiurl: https://doi.org/10.5281/zenodo.10547153
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547153.svg
 resources:
-  - name: Prehistoric_Rock_Art_Sites_in_the_Coa_Valley_and_Siega_Verde.gpkg
+  - name: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
+    description: ll
     url: 'https://doi.org/10.5281/zenodo.10547153'
     format: gpkg
-  - name: Prehistoric_Rock_Art_Sites_in_the_Coa_Valley_and_Siega_Verde.csv
+  - name: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
+    description lili
     url: 'https://doi.org/10.5281/zenodo.10547153'
     format: csv
 license: 'http://creativecommons.org/licenses/by/4.0'
