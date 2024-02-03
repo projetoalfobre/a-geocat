@@ -8,21 +8,27 @@ doiurl: https://doi.org/10.5281/zenodo.10547240
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547240.svg
 resources:
   - name: mapa das cantigas medievais galego portuguesas
+    description: file with all the layers
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: gpkg
   - name: mapa das cantigas medievais galego portuguesas - templos cristaos
+    description: file with christian temples names layer 
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
   - name: mapa das cantigas medievais galego portuguesas - localizacoes
+    description: file with christian temples names layer 
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
   - name: mapa das cantigas medievais galego portuguesas - rios e mares
+    description: file with rivers and seas layer 
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
   - name: mapa das cantigas medievais galego portuguesas - lugares urbanos
+    description: file with urban sites names layer 
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
   - name: mapa das cantigas medievais galego portuguesas - regioes
+    description: file with region names layer 
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
 license: 'https://creativecommons.org/licenses/by/4.0'
