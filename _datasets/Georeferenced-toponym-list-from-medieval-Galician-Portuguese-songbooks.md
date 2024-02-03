@@ -9,19 +9,19 @@ resources:
   - name: mapa das cantigas medievais galego portuguesas
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: gpkg
-  - name: mapa das cantigas medievais galego portuguesas: templos cristaos
+  - name: mapa das cantigas medievais galego portuguesas - templos cristaos
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa das cantigas medievais galego portuguesas: localizacoes
+  - name: mapa das cantigas medievais galego portuguesas - localizacoes
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa das cantigas medievais galego portuguesas: rios e mares
+  - name: mapa das cantigas medievais galego portuguesas - rios e mares
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa das cantigas medievais galego portuguesas: lugares urbanos
+  - name: mapa das cantigas medievais galego portuguesas - lugares urbanos
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa das cantigas medievais galego portuguesas: regioes
+  - name: mapa das cantigas medievais galego portuguesas - regioes
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
 license: 'https://creativecommons.org/licenses/by/4.0'
