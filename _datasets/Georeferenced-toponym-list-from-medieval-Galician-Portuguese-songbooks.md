@@ -6,25 +6,25 @@ notes: Georeferenced toponym list from project Littera, a reseach projet develop
 doiurl: https://doi.org/10.5281/zenodo.10547240
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547240.svg
 resources:
-  - name: mapa_das_cantigas_medievais_galego_portuguesas.gpkg
+  - name: mapa das cantigas medievais galego portuguesas
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: gpkg
-  - name: mapa_das_cantigas_medievais_galego_portuguesas_templos_cristaos.geojson
+  - name: mapa das cantigas medievais galego portuguesas: templos cristaos
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa_das_cantigas_medievais_galego_portuguesas_localizacoes.geojson
+  - name: mapa das cantigas medievais galego portuguesas: localizacoes
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa_das_cantigas_medievais_galego_portuguesas_rios_e_mares.geojson
+  - name: mapa das cantigas medievais galego portuguesas: rios e mares
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa_das_cantigas_medievais_galego_portuguesas_lugares_urbanos.geojson
+  - name: mapa das cantigas medievais galego portuguesas: lugares urbanos
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-  - name: mapa_das_cantigas_medievais_galego_portuguesas_regioes.geojson
+  - name: mapa das cantigas medievais galego portuguesas: regioes
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-license: 'http://creativecommons.org/licenses/by/4.0'
+license: 'https://creativecommons.org/licenses/by/4.0'
 category:
   - 'Arts and Culture'
   - Medieval
