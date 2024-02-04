@@ -18,7 +18,7 @@ category:
 tag:
   - teste
   - outra
-maintainer: nelson gonçalves (aka nafergo)
+maintainer: Nelson Gonçalves (nafergo)
 maintainer_email: nafergo@gmail.com
 date: 22-01-2024
 ---

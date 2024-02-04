@@ -20,7 +20,7 @@ category:
   - Archaeology
   - 'Arts and Culture'
   - Prehistory
-maintainer: nelson gonçalves (aka nafergo)
+maintainer: Nelson Gonçalves (nafergo)
 maintainer_email: nafergo@gmail.com
 date: 21-01-2024
 ---

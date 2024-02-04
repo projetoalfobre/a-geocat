@@ -1,7 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 width="800px" height="800px" viewBox="0 0 260 188" xml:space="preserve">
-<path d="M134.3,109.2L202,83.8V146c0,13.4-32.2,24.3-72,24.3S58,159.4,58,146V83.8l67.9,25.4l4.2,1.6L134.3,109.2z M130.1,98L258,50
-	L130.1,2L2,50l20,7.5v81.8c-4.7,2.2-8,7.1-8,12.7v34h28v-34c0-5.7-3.3-10.6-8.1-12.8V61.9L130.1,98z"/>
+
+<svg
+   fill="#000000"
+   version="1.1"
+   id="Layer_1"
+   width="800px"
+   height="800px"
+   viewBox="0 0 260 188"
+   xml:space="preserve"
+   sodipodi:docname="education.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1044" /><sodipodi:namedview
+   id="namedview1042"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="0.53125"
+   inkscape:cx="-173.17647"
+   inkscape:cy="371.76471"
+   inkscape:window-width="1920"
+   inkscape:window-height="1016"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<path
+   d="m 133.43266,106.13403 54.04432,-20.276603 v 49.653723 c 0,10.69711 -25.70498,19.39849 -57.47697,19.39849 -31.772004,0 -57.476994,-8.70138 -57.476994,-19.39849 V 85.857427 l 54.203994,20.276603 3.35282,1.27727 z M 130.07983,97.193166 232.1813,58.875177 130.07983,20.557189 27.818696,58.875177 43.784526,64.862363 V 130.1626 c -3.75197,1.75624 -6.38633,5.66787 -6.38633,10.1383 v 27.14191 h 22.35216 V 140.3009 c 0,-4.55026 -2.63436,-8.46189 -6.46616,-10.21813 V 68.374845 Z"
+   id="path1039"
+   style="stroke-width:1" />
 </svg>

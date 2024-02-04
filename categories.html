@@ -4,6 +4,12 @@ layout: default
 permalink: /categories/
 ---
 {% include breadcrumbs.html %}
+<div class="categories-cover container d-flex flex-row p-5 mb-4 rounded-3 justify-content-between">
+  <div class="col-lg-6 justify-content-center">
+    <h1 class="display-5 text-white" style="font-weight: 500;">Categories</h1>
+   
+  </div>
+</div>
 
 <div class="card-grid">
   {% for category in site.dataset_categories %}

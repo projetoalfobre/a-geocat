@@ -3,11 +3,12 @@ layout: default
 title: About us
 permalink: /aboutus/
 ---
+{% include breadcrumbs.html %}
 
 <div class="aboutus-cover container d-flex flex-row p-5 mb-4 rounded-3 justify-content-between">
   <div class="col-lg-6 justify-content-center">
-    <h1 class="display-5 text-white" style="font-weight: 500;">About us</h1>
-    <p class="col-md-8 fs-4 mb-4 text-white">{{ site.description }}</p>
+    <h1 class="display-5 text-white" style="font-weight: 500;">Alfobre Geodata Catalog</h1>
+    
   </div>
 </div>
 

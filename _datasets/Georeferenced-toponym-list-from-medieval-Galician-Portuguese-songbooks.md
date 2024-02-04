@@ -31,11 +31,11 @@ resources:
     description: file with region names layer 
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: geojson
-license: 'https://creativecommons.org/licenses/by/4.0'
+license: 'https://creativecommons.org/licenses/by/4.0/'
 category:
   - 'Arts and Culture'
   - Medieval
-maintainer: nelson gonçalves (aka nafergo)
+maintainer: Nelson Gonçalves (nafergo)
 maintainer_email: nafergo@gmail.com
 date: 21-01-2024
 ---

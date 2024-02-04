@@ -162,37 +162,41 @@ min-height: 40px;
 
 .hero-cover{background-size: cover;background-image: url("../img/hero-cover.jpg")!important;min-height: 350px;}
 .aboutus-cover{background-size: cover;background-image: url("../img/aboutus-cover.jpg")!important;min-height: 350px;    background-position: center; }
+.categories-cover{background-size: cover;background-image: url("../img/categories-cover.jpg")!important;min-height: 350px;    background-position: center; }
+.regions-cover{background-size: cover;background-image: url("../img/regions-cover.jpg")!important;min-height: 350px;    background-position: center; }
+
+
 
 .post-date{font-size: 0.8em;}
 
 .files-link{list-style-type: none;}
 
 .api {}
-.metadata {text-transform: uppercase; background-color: navajowhite!important}
-.file-metadata:before {  content: '\f0f6';  font-family: 'FontAwesome'; float: left; margin-left: -1em; color: black;}
-.csv {text-transform: uppercase; background-color: blue!important}
-.file-csv:before {  content: '\f019';  font-family: 'FontAwesome'; float: left; margin-left: -1em; color: black;}
-.geojson {text-transform: uppercase; background-color: gold!important}
-.file-geojson:before {  content: '\f019';  font-family: 'FontAwesome'; float: left; margin-left: -1em; color: black;}
-.gpkg {text-transform: uppercase; background-color: orangered!important}
-.file-gpkg:before {  content: '\f019';  font-family: 'FontAwesome'; float: left; margin-left: -1em;color: black;}
-.json {text-transform: uppercase; background-color: aqua!important}
+.metadata {margin-left: 1em; text-transform: uppercase; background-color: navajowhite!important}
+.file-metadata:before {margin-left: -1.5em; content: '\f0f6';  font-family: 'FontAwesome'; float: left; color: black;}
+.csv {margin-left: 1em; text-transform: uppercase; background-color: rgb(53, 39, 255)!important}
+.file-csv:before {margin-left: -1.5em; content: '\f019';  font-family: 'FontAwesome'; float: left; color: black;}
+.geojson {margin-left: 1em; text-transform: uppercase; background-color: rgb(218, 185, 0)!important}
+.file-geojson:before {margin-left: -1.5em; content: '\f019';  font-family: 'FontAwesome'; float: left; color: black;}
+.gpkg {margin-left: 1em; text-transform: uppercase; background-color: orangered!important}
+.file-gpkg:before {margin-left: -1.5em; content: '\f019';  font-family: 'FontAwesome'; float: left; color: black;}
+.json {margin-left: 1em; text-transform: uppercase; background-color: aqua!important}
 .html {}
 .kml {}
 .kmz {}
 .shp {}
 .xml {}
-.wfs {text-transform: uppercase; background-color: green!important}
-.file-wfs:before {  content: '\f0c2';  font-family: 'FontAwesome'; float: left; margin-left: -1em;color: black;}
-.wms {text-transform: uppercase; background-color: limegreen!important}
-.file-wms:before {  content: '\f0c2';  font-family: 'FontAwesome'; float: left; margin-left: -1em;color: black;}
-.webmap  {text-transform: uppercase; background-color: palegreen!important}
-.file-webmap:before {  content: '\f278';  font-family: 'FontAwesome'; float: left; margin-left: -1em; color: black;}
+.wfs {margin-left: 1em; text-transform: uppercase; background-color: green!important}
+.file-wfs:before {margin-left: -1.5em; content: '\f0c2';  font-family: 'FontAwesome'; float: left; color: black;}
+.wms {margin-left: 1em; text-transform: uppercase; background-color: limegreen!important}
+.file-wms:before {margin-left: -1.5em; content: '\f0c2';  font-family: 'FontAwesome'; float: left; color: black;}
+.webmap  {margin-left: 1em; text-transform: uppercase; background-color: palegreen!important}
+.file-webmap:before {margin-left: -1.5em; content: '\f278';  font-family: 'FontAwesome'; float: left; color: black;}
 .gml {}
-.geotiff {text-transform: uppercase; background-color: violet!important}
-.file-geotiff:before {  content: '\f03e';  font-family: 'FontAwesome'; float: left; margin-left: -1em; color: black;}
-.jpg {text-transform: uppercase; background-color: purple!important}
-.file-jpg:before {  content: '\f03e';  font-family: 'FontAwesome'; float: left; margin-left: -1em; color: black;}
+.geotiff {margin-left: 1em; text-transform: uppercase; background-color: violet!important}
+.file-geotiff:before {margin-left: -1.5em; content: '\f03e';  font-family: 'FontAwesome'; float: left; color: black;}
+.jpg {margin-left: 1em; text-transform: uppercase; background-color: purple!important}
+.file-jpg:before {margin-left: -1.5em; content: '\f03e';  font-family: 'FontAwesome'; float: left; color: black;}
 
 th, .additional-info-label {
   font-weight: 600;
@@ -238,3 +242,9 @@ font-size: .8em;
 
 .navbar{min-height: 66px;}
 .logo-img{height: 40px;}
+
+
+.imagefix{
+padding: 0rem !important;
+border: 0px !important;
+}
