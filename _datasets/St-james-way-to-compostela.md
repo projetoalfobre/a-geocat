@@ -8,7 +8,7 @@ doiurl: https://doi.org/10.5281/zenodo.10547237
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547237.svg
 resources:
   - name: caminos_santiago.gpkg
-    description: file with data from all the listed sources 
+    description: file with multiple layers, includes data from all the listed sources 
     url: 'https://doi.org/10.5281/zenodo.10547237'
     format: gpkg
 license: 'https://creativecommons.org/licenses/by/4.0/'
