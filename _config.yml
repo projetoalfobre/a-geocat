@@ -21,7 +21,7 @@ schema: geocat
 
 # Nav bar
 navigation:
-  - title: Data
+  - title: Datasets
     url: /datasets/
   - title: Categories
     url: /categories/
