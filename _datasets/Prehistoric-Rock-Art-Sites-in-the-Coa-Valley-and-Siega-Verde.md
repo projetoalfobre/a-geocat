@@ -1,6 +1,6 @@
 ---
 schema: default
-title: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
+title: UNESCO World Heritage - Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
 type: data
 region: Iberia
 notes: List of Prehistoric Rock Art Sites in the Côa Valley and Siega Verde from UNESCO World Heritage website.
@@ -8,11 +8,11 @@ doiurl: https://doi.org/10.5281/zenodo.10547153
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547153.svg
 resources:
   - name: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
-    description: ll
+    description: Georeferenced list of UNESCO World Heritage - Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
     url: 'https://doi.org/10.5281/zenodo.10547153'
     format: gpkg
   - name: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
-    description: lili
+    description: text file with web scrapping result, data extracted data from website
     url: 'https://doi.org/10.5281/zenodo.10547153'
     format: csv
 license: 'https://creativecommons.org/licenses/by/4.0/'
@@ -30,7 +30,7 @@ date: 21-01-2024
 
 
 ### Original sources
-* https://whc.unesco.org/en/list/866
+* [Prehistoric Rock Art Sites in the Côa Valley and Siega Verde](https://whc.unesco.org/en/list/866)
 
 Original data by [UNESCO’s World Heritage Centre](https://whc.unesco.org/) / [UNESCO - World Heritage Online Map Platform](https://whc.unesco.org/en/list/). 
 
@@ -39,5 +39,5 @@ Original data by [UNESCO’s World Heritage Centre](https://whc.unesco.org/) / [
 
 
 ### Attribution text
-*{{ page.title | strip_html }}* by Nelson Gonçalves (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at A-GeoCat (https://projetoalfobre.github.io/a-geocat/). This work is based on data by [UNESCO’s World Heritage Centre](https://whc.unesco.org/)
+*{{ page.title | strip_html }}* by Nelson Gonçalves (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at A-GeoCat (https://projetoalfobre.github.io/a-geocat/). This work is based on [Prehistoric Rock Art Sites in the Côa Valley and Siega Verde](https://whc.unesco.org/en/list/866) data by [UNESCO’s World Heritage Centre](https://whc.unesco.org/)
 
