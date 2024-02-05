@@ -8,7 +8,7 @@ doiurl: https://doi.org/10.5281/zenodo.10552607
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10552607.svg
 resources:
   - name: vias_romanas.gpkg
-    description: file includes several layers: dd
+    description: file includes several layers (roads)
     url: 'https://doi.org/10.5281/zenodo.10552607'
     format: gpkg
 license: 'https://creativecommons.org/licenses/by/4.0/'
