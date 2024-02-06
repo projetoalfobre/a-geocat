@@ -25,13 +25,14 @@ permalink: /aboutus/
   <div class="col-sm-8">
 
 <h2 >About us</h2>
-<p>A-GeoCat (Alfobre GeoData Catalog) is a open geospatial data catalog developed and maintained by <a href="http://alfobre.com" target="_blank">Alfobre</a>.</p>
+<p>A-GeoCat (Alfobre GeoData Catalog) is a open geospatial data catalog developed and maintained by the <a href="http://alfobre.com" target="_blank">Alfobre</a> team.</p>
 
-<p>It's open data because our datasets are licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>.</p>
+<p>Alfobre is portuguese for seedbed. It's also a collective devoted to the creation and development of projects, strategies and products in the Heritage field.</p>
 
-<p><a href="http://alfobre.com" target="_blank">Alfobre</a> is portuguese for seedbed. It's also a collective devoted to the creation and development of projects, strategies and products in the Heritage field.</p>
+<p>It's an open data catalog because our datasets are licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>.</p>
 
-<p>A-GeoCat is a modified version of the awesome <a href="https://jkan.io/" target="_blank">JKAN</a>, a lightweight, backend-free open data portal, powered by Jekyll. If you're interested in checking or using our version, please visit the <a href="https://github.com/projetoalfobre/a-geocat" target="_blank">GitHub repository</a>. JKAN is licensed under the MIT License (MIT) and so is A-GeoCat.</p>
+
+<p>his website is powered by Jekyll and a modified version of the awesome <a href="https://jkan.io/" target="_blank">JKAN</a>, a lightweight, backend-free open data portal. If you're interested in checking or using our version, please visit the <a href="https://github.com/projetoalfobre/a-geocat" target="_blank">GitHub repository</a>. JKAN is licensed under the MIT License (MIT) and so is A-GeoCat.</p>
  
 <br /><br />
 <h2 >Licenses and copyright</h2>
@@ -42,9 +43,9 @@ permalink: /aboutus/
 
 
 <h4> Attribution text</h4>
-<p>Please check for the attribution text in each dataset page. </p>
+<p>Please check for the suggested attribution text in each dataset page. </p>
 
-<p>The attribution text must be easily readable and understandable but feel free to adapt. For example, you might use several datasets and prefer to credit like "Datasets by (...)" or you might prefer to use the URLs as links like <a href="https://projetoalfobre.github.io/a-geocat/" target="_blank">A-GeoCat</a>, <a href="https://www.alfobre.com" target="_blank">Alfobre</a> or <a href="http://creativecommons.org/licenses/by/4.0" target="_blank">Attribution 4.0 International</a>.</p>
+<p>As a guideline, the attribution text must be easily readable and understandable but feel free to adapt. For example, you might use several datasets and prefer to credit like "Datasets by (...)" or you might prefer to use the URLs as links like <a href="https://projetoalfobre.github.io/a-geocat/" target="_blank">A-GeoCat</a>, <a href="https://www.alfobre.com" target="_blank">Alfobre</a> or <a href="http://creativecommons.org/licenses/by/4.0" target="_blank">Attribution 4.0 International</a>.</p>
 
 <p>When applicable, derivative work, please also credit original data sources by adding "This work is based on... "</p>
 

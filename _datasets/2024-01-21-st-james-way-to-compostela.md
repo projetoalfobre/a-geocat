@@ -17,9 +17,10 @@ category:
   - Medieval
   - Modern
   - Contemporary
-maintainer: Nelson Gonçalves (nafergo)
+maintainer: Nelson Gonçalves
 maintainer_email: nafergo@gmail.com
-date: 21-01-2024
+author: Nelson Gonçalves (Alfobre.com)
+date: 23-01-2024
 ---
 
 
@@ -55,5 +56,7 @@ Dataset includes several pilgrimage routes:
 
 
 ### Attribution text
-*{{ page.title | strip_html }}* by Nelson Gonçalves (Alfobre.com), available under a Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0) at A-GeoCat (https://projetoalfobre.github.io/a-geocat/). This work is based on data by [Turismo de Galicia](https://www.turismo.gal/) shared under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/) & by [VagaMundos.pt](https://www.vagamundos.pt/) 
+<span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="{{site.url}}{{page.url}}">{{page.title}}</a> © {{page.date | date: '%Y '}} by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://alfobre.com">{{page.author }}</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> at <a href="{{site.url}}">{{site.title}}</a>. 
+</span> This work is based on data by [Turismo de Galicia](https://www.turismo.gal/) shared under [Creative Commons BY 3.0 ES - Atribución 3.0 España](https://creativecommons.org/licenses/by/3.0/es/) & by [VagaMundos.pt](https://www.vagamundos.pt/).
 
+{{page.title}} © {{page.date | date: '%Y '}} by {{page.author }} is licensed under Creative Commons Attribution 4.0 International <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"> at {{site.title}}. This work is based on data by Turismo de Galicia & by VagaMundos.pt.

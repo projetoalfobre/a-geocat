@@ -10,7 +10,7 @@ layout: default
 
 {% assign region = site.regions | where:"title",page.region | first %}
 {% capture region_url %}{{ site.baseurl }}{{ region.url }}{% endcapture %}
-  <div class="container">
+  <div class="container" style="padding-left: 0;">
   <div data-component="dataset-display" typeof="dcat:Dataset" resource="{{ page.url }}">
     <div class="row">
 <!--        {% if region %}
@@ -24,9 +24,9 @@ layout: default
               
             </div>
 -->
-    <div class="col-md-3" property="dct:publisher" resource="">
-          <div class="card mb-3">
-            <div class="card-img-top ">
+    <div class="col-sm-4" property="dct:publisher" resource="">
+          <div class="ard mb-3">
+            <div class="ard-img-top">
               <img src="{{ site.baseurl }}/img/categories/type-{{ page.type }}.svg" alt="{{ page.type }} logo" class="img-thumbnail rounded mx-auto d-block">           
             </div>
 
@@ -52,7 +52,7 @@ layout: default
                             {% endfor %}        
               </div>                                        
             </div>
-            <div class="card mb-3">
+            <div class="car">
               <div class="card-body">
                 <h6>ADDITIONAL INFO</h6>
                           <a href="{{site.github.repository_url}}/blob/main/{{page.path}}?plain=1"  target="_blank"></a>
