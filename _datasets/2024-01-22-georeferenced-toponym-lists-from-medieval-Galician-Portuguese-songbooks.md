@@ -37,7 +37,7 @@ category:
   - Medieval
 maintainer: Nelson Gonçalves
 maintainer_email: nafergo@gmail.com
-author: Nelson Gonçalves (Alfobre.com)
+author: Nelson Gonçalves
 date: 23-01-2024
 ---
 
