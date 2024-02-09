@@ -4,7 +4,7 @@ description: Alfobre Geodata Catalog
 logo: /img/geocat.svg
 hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
-url: https://projetoalfobre.github.io/a-geocat
+url: https://a-geocat.alfobre.com
 
 # jekyll-feed
 feed:
