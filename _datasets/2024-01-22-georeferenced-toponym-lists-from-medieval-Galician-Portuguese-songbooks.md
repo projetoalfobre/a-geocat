@@ -29,9 +29,6 @@ These are georeferenced toponym lists originally created by projet [Littera](htt
 
 No date and copyright info available for the map but according to [Project Littera - Presentation](https://cantigas.fcsh.unl.pt/apresentacao.asp), the project is from 2011.
 
-Dataset includes several geojson files (original downloads from  [Mapa das Cantigas Medievais Galego-Portuguesas(Map of Cantigas)](http://u.osmfr.org/m/551707/),) and a GeoPackage with all layers.
-
-
 <br />
 
 
