@@ -7,30 +7,10 @@ notes: Georeferenced toponym lists from project Littera, a reseach projet develo
 doiurl: https://doi.org/10.5281/zenodo.10547240
 doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547240.svg
 resources:
-  - name: mapa das cantigas medievais galego portuguesas (medieval Galician-Portuguese songbooks map)
+  - name: Georeferenced toponym lists from medieval Galician-Portuguese songbooks
     description: file with all the layers
     url: 'https://doi.org/10.5281/zenodo.10547240'
     format: gpkg
-  - name: templos_cristaos
-    description: layer with names of Christian temples mentioned in songbooks
-    url: 'https://doi.org/10.5281/zenodo.10547240'
-    format: geojson
-  - name: localizacoes
-    description: layer with names of locations (towns, villages, etc.) mentioned in songbooks
-    url: 'https://doi.org/10.5281/zenodo.10547240'
-    format: geojson
-  - name: rios_e_mares
-    description: layer with names of rivers and seas mentioned in songbooks
-    url: 'https://doi.org/10.5281/zenodo.10547240'
-    format: geojson
-  - name: lugares_urbanos
-    description: layer with names of urban sites (locations in a town) mentioned in songbooks
-    url: 'https://doi.org/10.5281/zenodo.10547240'
-    format: geojson
-  - name: regioes
-    description: layer with region/area names mentioned in songbooks
-    url: 'https://doi.org/10.5281/zenodo.10547240'
-    format: geojson
 license: 'https://creativecommons.org/licenses/by/4.0/'
 category:
   - 'Arts and Culture'
@@ -38,7 +18,7 @@ category:
 maintainer: Nelson Gonçalves
 maintainer_email: nafergo@gmail.com
 author: Nelson Gonçalves
-date: 23-01-2024
+date: 09-02-2024
 ---
 
 <br>

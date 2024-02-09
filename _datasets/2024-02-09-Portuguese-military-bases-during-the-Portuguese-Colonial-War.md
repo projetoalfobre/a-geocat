@@ -24,7 +24,7 @@ published: true
 <br/>
 
 ### Notes
-Locations of portuguese military bases in Guinea-Bissau, Angola, Mozambique during colonial war as published by official military reports.
+Locations of portuguese military bases in Guinea-Bissau, Angola, Mozambique during colonial war as published by official military reports. 
 
 
 ### Original sources
