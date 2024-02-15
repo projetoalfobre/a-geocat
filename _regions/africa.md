@@ -1,5 +1,5 @@
 ---
 title: Africa
-description: Datasets located in Africa. <br><br> Datasets are ordered by the last modified date.
+description: Datasets located in Africa.
 logo: img/regions/africa.svg
 ---

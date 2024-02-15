@@ -1,5 +1,5 @@
 ---
 title: Spain
-description: Datasets located in Spain. <br><br> Datasets are ordered by the last modified date.
+description: Datasets located in Spain (mainland). 
 logo: img/regions/spain.svg
 ---

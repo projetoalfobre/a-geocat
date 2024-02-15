@@ -9,8 +9,16 @@ layout: default
     <div class="row">
       {% if page.logo and page.logo != empty %}
       <div class="col-sm-3" style = "float: left;">
-        <a href="{{ page.logo | relative_url }}" class="card-grid-item"><img class="img-thumbnail rounded mx-auto d-block" src="{{ page.logo | relative_url }}" alt="{{ page.title }} logo"></a>
-       <div class="card-header post-date"><br><p> {{ page.description }} </p></div>  
+
+        <div class="dataset-region-container">
+          <iframe class="dataset-region-iframe" src="{{ site.baseurl }}/maps-leaflet/{{ page.title }}.html" title="Dataset region"></iframe> 
+        </div>
+
+
+
+
+
+        <div class="card-header post-date"><br><p> {{ page.description }} </p></div>  
       </div>
       <div class="col-sm-9" style = "float: right;" >
       {% else %}
