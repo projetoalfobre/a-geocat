@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About us
+title: About
 permalink: /aboutus/
 ---
 {% include breadcrumbs.html %}
