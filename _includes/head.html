@@ -1,13 +1,17 @@
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JY311MJ5YD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-JY311MJ5YD');
-</script>
-  
+	<script src="{{site.baseurl}}/js/glowCookies.js"></script>
+
+	<script>
+		glowCookies.start('en', {
+			style: 3,
+			analytics: 'G-JY311MJ5YD',
+			policyLink: '/privacy/',
+			hideAfterClick: 'true',
+			acceptBtnBackground: '#4caae1',
+			bannerDescription: 'A-GeoCat website uses cookies to help us analyze web traffic. This happens only if you click on the "Accept cookies" button.</br>'
+		});
+	</script>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,6 +56,10 @@
     <!-- Twittercard -->
     {% include addons/twittercard.html %}
   {% endif %}
+
+	
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/glowCookies.css">
+
 
   <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
