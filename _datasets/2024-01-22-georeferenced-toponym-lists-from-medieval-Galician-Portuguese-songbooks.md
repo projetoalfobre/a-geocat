@@ -25,6 +25,8 @@ date: 27-02-2024
 
 
 ### Notes
+The project website provides a list of toponyms, the places referred in the songs. For each place is provided a location (map) and the id of the songs referring the place. Map data (locations) is downloadable but doesn't include the identification of the songs referring the location. This file provides a list of the places referred in the songs, including locations and the id of the songs referring the place.
+
 These are georeferenced toponym lists originally created by projet [Littera](https://cantigas.fcsh.unl.pt/) database. According to the project's website, the database includes "all the 'cantigas' (songs) contained in the medieval Galician-Portuguese 'Cancioneiros' (songbooks), the manuscripts' images and also the music (either medieval or the contemporary versions or original compositions which take the texts of medieval songs as a starting point).The DB also includes brief information about all the authors included in it, of the characters and places mentioned in the songs, as well as the "Arte de Trovar", the little poetic treaty on troubadours’ art that opens the “Cancioneiro” of the Portugal National Library."
 
 No date and copyright info available for the map but according to [Project Littera - Presentation](https://cantigas.fcsh.unl.pt/apresentacao.asp), the project is from 2011.
@@ -35,6 +37,7 @@ No date and copyright info available for the map but according to [Project Litte
 ### Original sources
 Original dataset by [Mapa das Cantigas Medievais Galego-Portuguesas(Map of Cantigas)](http://u.osmfr.org/m/551707/) and [Project Littera](https://cantigas.fcsh.unl.pt/), a reseach projet developed by Instituto de Estudos Medievais of the Faculdade de Ciências Sociais e Humanas of Universidade Nova de Lisboa.
 
+Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas Medievais Galego Portuguesas [base de dados online]. Lisboa: Instituto de Estudos Medievais, FCSH/NOVA. [Consulta em 27-02-2024] Disponível em: [<http://cantigas.fcsh.unl.pt>](https://cantigas.fcsh.unl.pt/).
 
 <br />
 
