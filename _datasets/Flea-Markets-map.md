@@ -10,7 +10,7 @@ resources:
   - name: Mapa das Velharias (e antiguidades)
     description: Map
     url: 'https://a-mapoteca.alfobre.com/mapa-das-velharias/'
-    format: map
+    format: csv
 license: 'https://creativecommons.org/licenses/by/4.0/'
 category:
   - 'Arts and Culture'
