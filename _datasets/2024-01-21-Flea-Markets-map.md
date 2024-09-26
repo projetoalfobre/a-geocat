@@ -1,6 +1,6 @@
 ---
 schema: default
-title: UNESCO World Heritage - Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
+title: Prehistoric Rock Art Sites in the Côa Valley and Siega Verde
 type: data
 region: Iberia
 notes: List of Prehistoric Rock Art Sites in the Côa Valley and Siega Verde from UNESCO World Heritage website.
@@ -23,7 +23,7 @@ category:
 maintainer: Nelson Gonçalves
 maintainer_email: nafergo@gmail.com
 author: Nelson Gonçalves
-date: 09-02-2024
+date: 09-09-2024
 published: false
 ---
 
