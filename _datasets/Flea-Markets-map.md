@@ -4,8 +4,8 @@ title: Portuguese Flea Markets (and antiques)
 type: map
 region: Portugal
 notes: A webmap featuring antique fairs and flea markets in Portugal.
-doiurl: 
-doiimg: 
+doiurl: https://doi.org/10.5281/zenodo.10547237
+doiimg: https://zenodo.org/badge/DOI/10.5281/zenodo.10547237.svg
 resources:
   - name: Mapa das Velharias (e antiguidades)
     description: Map
