@@ -10,15 +10,9 @@ layout: default
       {% if page.logo and page.logo != empty %}
       <div class="col-sm-3" style = "float: left;">
 
-        <div class="dataset-region-container">
-          <iframe class="dataset-region-iframe" src="{{ site.baseurl }}/maps-leaflet/{{ page.title }}.html" title="Dataset region"></iframe> 
-        </div>
+      <div class="dataset-region-container"><iframe class="dataset-region-iframe" src="{{ site.baseurl }}/maps-leaflet/{{ page.title }}.html" title="Dataset region"></iframe> </div>
 
-
-
-
-
-        <div class="card-header post-date"><br><p> {{ page.description }} </p></div>  
+      <div class="card-header post-date"><br><p> {{ page.description }} </p></div>  
       </div>
       <div class="col-sm-9" style = "float: right;" >
       {% else %}

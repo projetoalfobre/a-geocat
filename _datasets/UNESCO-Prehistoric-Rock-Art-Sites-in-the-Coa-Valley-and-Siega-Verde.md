@@ -26,7 +26,7 @@ author: Nelson Gonçalves
 date: 09-02-2024
 ---
 
-<br />
+<br /> 
 
 ### Original sources
 [Prehistoric Rock Art Sites in the Côa Valley and Siega Verde](https://whc.unesco.org/en/list/866)
